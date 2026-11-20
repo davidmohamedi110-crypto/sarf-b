@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="hawza" data-font="nazanin">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کارگاه نهم صرف عملی: فعل مضاعف و احکام ادغام — بستۀ المپیادی و پژوهشی (رمزینۀ ۳)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style id="dynamic-page-style">
+@page { size: 165mm 235mm; margin: 13mm 13mm 14mm 13mm; }
+</style>
+<style>
+/* ==========================================================================
+   1. DESIGN TOKENS & 4 THEMES (HAWZA, SEPIA, LAPIS, NIGHT)
+   ========================================================================== */
+:root {
+  --bg: #F6F4EF;
+  --surface: #FFFFFF;
+  --surface-alt: #F2F7F8;
+  --surface-warm: #FAF6EE;
+  --surface-quote: #F3EAD9;
+  --primary: #164E59;
+  --primary-mid: #236B78;
+  --primary-soft: #E6F0F2;
+  --accent: #B38728;
+  --accent-soft: #EFE3C4;
+  --ink: #1C2729;
+  --ink-muted: #516468;
+  --border: #C4D4D8;
+  --border-strong: #164E59;
+  --crimson: #8C1D1D;
+  --crimson-soft: #FCECEC;
+  --emerald: #1B6B50;
+  --emerald-soft: #E6F4EE;
+  --amber: #9E6808;
+  --amber-soft: #FDF3DF;
+  --shadow: 0 4px 18px rgba(22, 78, 89, 0.08);
+  --shadow-lg: 0 12px 32px rgba(22, 78, 89, 0.14);
+  --radius: 14px;
+  --radius-sm: 9px;
+  --base-size: 17px;
+  --base-lh: 1.85;
+  --font-main: 'B Nazanin', 'Amiri', 'Vazirmatn', Tahoma, serif;
+  --font-title: 'B Titr', 'Vazirmatn', 'B Nazanin', serif;
+  --font-ar: 'Traditional Arabic', 'B Nazanin', 'Amiri', serif;
+}
+
+[data-theme="sepia"] {
+  --bg: #F3ECE0;
+  --surface: #FBF7F0;
+  --surface-alt: #F2E9DA;
+  --surface-warm: #EFE4D1;
+  --surface-quote: #E8D9BF;
+  --primary: #5B3E22;
+  --primary-mid: #785432;
+  --primary-soft: #ECE0CE;
+  --accent: #A67526;
+  --accent-soft: #EBD8B4;
+  --ink: #2C2118;
+  --ink-muted: #655240;
+  --border: #D5C3AA;
+  --border-strong: #5B3E22;
+  --crimson: #8F2222;
+  --crimson-soft: #F8E5E2;
+  --emerald: #266044;
+  --emerald-soft: #E4EFE8;
+  --amber: #8E5B08;
+  --amber-soft: #F7EAD0;
+}
+
+[data-theme="lapis"] {
+  --bg: #F1F4F9;
+  --surface: #FFFFFF;
+  --surface-alt: #EEF3FA;
+  --surface-warm: #F8F5EE;
+  --surface-quote: #EBF0F8;
+  --primary: #1B3B6F;
+  --primary-mid: #2C5492;
+  --primary-soft: #E5EDF8;
+  --accent: #B0862B;
+  --accent-soft: #EFE3C4;
+  --ink: #192436;
+  --ink-muted: #4F5F78;
+  --border: #C4D0E2;
+  --border-strong: #1B3B6F;
+  --crimson: #941E2B;
+  --crimson-soft: #FCEBED;
+  --emerald: #19694F;
+  --emerald-soft: #E5F3EE;
+  --amber: #99640A;
+  --amber-soft: #FCF2DE;
+}
+
+[data-theme="night"] {
+  --bg: #0F171C;
+  --surface: #17232A;
+  --surface-alt: #1E2E37;
+  --surface-warm: #212B2D;
+  --surface-quote: #1E2B32;
+  --primary: #5CBAC9;
+  --primary-mid: #4099A8;
+  --primary-soft: #1D353E;
+  --accent: #DFB457;
+  --accent-soft: #362E1C;
+  --ink: #E8F0F2;
+  --ink-muted: #9CB2B8;
+  --border: #2C414C;
+  --border-strong: #5CBAC9;
+  --crimson: #F28B8B;
+  --crimson-soft: #3B1E22;
+  --emerald: #67D3AB;
+  --emerald-soft: #18362C;
+  --amber: #F0BE63;
+  --amber-soft: #3A2E17;
+  --shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 14px 36px rgba(0, 0, 0, 0.5);
+}
+
+[data-font="nazanin"] { --font-main: 'B Nazanin', 'Amiri', 'Vazirmatn', Tahoma, serif; }
+[data-font="mitra"]   { --font-main: 'B Mitra', 'Vazirmatn', 'Noto Naskh Arabic', Tahoma, sans-serif; }
+[data-font="vazir"]   { --font-main: 'Vazirmatn', 'B Mitra', 'Segoe UI', Tahoma, sans-serif; }
+[data-font="naskh"]   { --font-main: 'Traditional Arabic', 'Amiri', 'B Nazanin', serif; }
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: var(--base-size);
+  line-height: var(--base-lh);
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+/* ==========================================================================
+   2. HEADER, ISLAMIC BAND & STICKY NAVIGATION
+   ========================================================================== */
+.islamic-strip {
+  width: 100%;
+  height: 12px;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-mid) 50%, var(--primary) 100%);
+  border-bottom: 3px solid var(--accent);
+  position: relative;
+}
+.site-header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-mid) 100%);
+  color: #FFFFFF;
+  padding: 20px 18px 18px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 4px solid var(--accent);
+}
+[data-theme="night"] .site-header {
+  background: linear-gradient(135deg, #132C35 0%, #1B3D48 100%);
+}
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  background-image: radial-gradient(circle at 20px 20px, #DFB457 2px, transparent 2px);
+  background-size: 36px 36px;
+  pointer-events: none;
+}
+.header-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.brand-col { flex: 1 1 540px; }
+.brand-sup {
+  font-size: 0.86em;
+  color: #F0D696;
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.brand-title {
+  font-family: var(--font-title);
+  font-size: 1.55em;
+  margin: 0 0 6px;
+  line-height: 1.45;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.brand-sub {
+  font-size: 0.92em;
+  color: rgba(255,255,255,0.9);
+  margin: 0;
+}
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.hdr-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.32);
+  background: rgba(255,255,255,0.13);
+  color: #FFFFFF;
+  font-family: var(--font-main);
+  font-size: 0.92em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+}
+.hdr-btn:hover { background: rgba(255,255,255,0.24); transform: translateY(-1px); }
+.hdr-btn.gold {
+  background: var(--accent);
+  border-color: #E8C97E;
+  color: #FFFFFF;
+}
+.hdr-btn.gold:hover { filter: brightness(1.08); }
+
+/* Sticky Navigation Tabs */
+.nav-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.nav-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  overflow-x: auto;
+  gap: 4px;
+  padding: 6px 12px;
+  scrollbar-width: thin;
+}
+.nav-tab {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--ink-muted);
+  font-family: var(--font-main);
+  font-size: 0.96em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.nav-tab:hover { background: var(--surface-alt); color: var(--primary); }
+.nav-tab.active {
+  background: var(--primary);
+  color: #FFFFFF;
+  box-shadow: 0 3px 10px rgba(22, 78, 89, 0.22);
+}
+[data-theme="night"] .nav-tab.active { color: #0F171C; }
+.nav-badge {
+  font-size: 0.78em;
+  padding: 1px 7px;
+  border-radius: 99px;
+  background: rgba(179, 135, 40, 0.16);
+  color: var(--accent);
+}
+.nav-tab.active .nav-badge {
+  background: rgba(255,255,255,0.22);
+  color: #FFFFFF;
+}
+[data-theme="night"] .nav-tab.active .nav-badge { color: #0F171C; background: rgba(0,0,0,0.2); }
+
+/* ==========================================================================
+   3. MAIN CONTAINER, CARDS & UTILITIES
+   ========================================================================== */
+.main-wrap {
+  max-width: 1120px;
+  margin: 22px auto 48px;
+  padding: 0 14px;
+}
+.module-panel { display: none; animation: fadeIn 0.24s ease; }
+.module-panel.active { display: block; }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 18px;
+}
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid var(--primary-soft);
+}
+.section-title {
+  font-family: var(--font-title);
+  font-size: 1.18em;
+  color: var(--primary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.orn { color: var(--accent); font-weight: 700; }
+
+/* Arabic text styling */
+.ar {
+  font-family: var(--font-ar);
+  font-size: 1.15em;
+  line-height: 2.05;
+}
+.ar-target {
+  color: var(--crimson);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Badges & Pills */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 0.82em;
+  font-weight: 700;
+}
+.pill-wajib   { background: var(--emerald-soft); color: var(--emerald); border: 1px solid var(--emerald); }
+.pill-jaiz    { background: var(--amber-soft); color: var(--amber); border: 1px solid var(--amber); }
+.pill-mumtani { background: var(--crimson-soft); color: var(--crimson); border: 1px solid var(--crimson); }
+.pill-info    { background: var(--primary-soft); color: var(--primary); border: 1px solid var(--border); }
+.pill-extra   { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 15px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 0.94em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.btn:hover { border-color: var(--primary); color: var(--primary); background: var(--primary-soft); }
+.btn-primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #FFFFFF;
+}
+[data-theme="night"] .btn-primary { color: #0F171C; }
+.btn-primary:hover { filter: brightness(1.08); color: #FFFFFF; background: var(--primary); }
+[data-theme="night"] .btn-primary:hover { color: #0F171C; }
+.btn-gold {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #FFFFFF;
+}
+.btn-gold:hover { filter: brightness(1.08); color: #FFFFFF; background: var(--accent); }
+.btn-sm { padding: 5px 11px; font-size: 0.86em; }
+.btn-icon {
+  padding: 6px 9px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-muted);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-main);
+  font-size: 0.84em;
+  transition: all 0.18s;
+}
+.btn-icon:hover { border-color: var(--accent); color: var(--accent); }
+.btn-icon.bookmarked { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 700; }
+
+/* Filter Bar */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 14px;
+  align-items: center;
+}
+.filter-chip {
+  padding: 6px 13px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-muted);
+  font-family: var(--font-main);
+  font-size: 0.88em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+.filter-chip:hover { border-color: var(--primary); color: var(--primary); }
+.filter-chip.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #FFFFFF;
+}
+[data-theme="night"] .filter-chip.active { color: #0F171C; }
+
+/* ==========================================================================
+   4. MODULE 1: KPI DASHBOARD, RULE EXPLORER & 14-SIGHA CONJUGATION LAB
+   ========================================================================== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.kpi-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-right: 5px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 15px 16px;
+  box-shadow: var(--shadow);
+}
+.kpi-card.gold { border-right-color: var(--accent); }
+.kpi-card.emerald { border-right-color: var(--emerald); }
+.kpi-card.crimson { border-right-color: var(--crimson); }
+.kpi-label { font-size: 0.88em; color: var(--ink-muted); margin-bottom: 4px; }
+.kpi-val { font-family: var(--font-title); font-size: 1.45em; color: var(--primary); }
+.kpi-bar {
+  height: 7px;
+  background: var(--surface-alt);
+  border-radius: 99px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.kpi-bar > span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  border-radius: 99px;
+  transition: width 0.35s ease;
+}
+
+/* Interactive Conjugation Lab */
+.lab-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+  background: var(--surface-warm);
+  border: 1px solid var(--border);
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  align-items: center;
+}
+.lab-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.lab-group label { font-weight: 700; color: var(--primary); font-size: 0.92em; }
+.lab-select {
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 0.94em;
+  font-weight: 700;
+}
+.sigha-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.sigha-tile {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.sigha-tile:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.sigha-tile.st-wajib   { border-top: 4px solid var(--emerald); }
+.sigha-tile.st-jaiz    { border-top: 4px solid var(--amber); }
+.sigha-tile.st-mumtani { border-top: 4px solid var(--crimson); }
+.sigha-tile.selected   { outline: 2.5px solid var(--primary); background: var(--primary-soft); }
+.sigha-num  { font-size: 0.8em; color: var(--ink-muted); margin-bottom: 3px; }
+.sigha-form { font-family: var(--font-ar); font-size: 1.18em; font-weight: 700; color: var(--ink); line-height: 1.7; }
+.sigha-inspector {
+  background: var(--surface-warm);
+  border: 1.5px solid var(--accent);
+  border-right: 6px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+}
+
+/* Rules Grid */
+.rules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 14px;
+}
+.rule-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: box-shadow 0.2s;
+}
+.rule-card:hover { box-shadow: var(--shadow); }
+.rule-formula {
+  background: var(--surface-alt);
+  border-right: 3px solid var(--accent);
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.94em;
+}
+.rule-example {
+  background: var(--surface-warm);
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 0.92em;
+  color: var(--ink);
+}
+
+/* ==========================================================================
+   5. MODULE 2: OLYMPIAD MCQ EXAM ENGINE
+   ========================================================================== */
+.exam-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--surface-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 15px;
+  margin-bottom: 16px;
+}
+.mode-switch {
+  display: inline-flex;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 3px;
+  gap: 4px;
+}
+.mode-btn {
+  padding: 6px 13px;
+  border: none;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--ink-muted);
+  font-family: var(--font-main);
+  font-size: 0.9em;
+  font-weight: 700;
+  cursor: pointer;
+}
+.mode-btn.active { background: var(--primary); color: #FFFFFF; }
+[data-theme="night"] .mode-btn.active { color: #0F171C; }
+
+.timer-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 9px;
+  background: var(--surface);
+  border: 1.5px solid var(--accent);
+  font-weight: 700;
+  color: var(--primary);
+}
+.mcq-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow);
+}
+.mcq-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.mcq-q {
+  font-weight: 700;
+  font-size: 1.05em;
+  color: var(--ink);
+  margin: 0 0 13px;
+}
+.mcq-opts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 9px;
+}
+.mcq-opt {
+  text-align: right;
+  padding: 10px 13px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 0.98em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  transition: all 0.16s ease;
+}
+.mcq-opt:hover { border-color: var(--primary); background: var(--primary-soft); }
+.mcq-opt.selected { border-color: var(--primary); background: var(--primary-soft); font-weight: 700; }
+.mcq-opt.correct { border-color: var(--emerald); background: var(--emerald-soft); color: var(--emerald); font-weight: 700; }
+.mcq-opt.wrong   { border-color: var(--crimson); background: var(--crimson-soft); color: var(--crimson); font-weight: 700; }
+.opt-letter {
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85em;
+  font-weight: 700;
+  color: var(--primary);
+}
+.mcq-exp {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--surface-warm);
+  border-right: 4px solid var(--accent);
+  font-size: 0.95em;
+  display: none;
+}
+.mcq-exp.show { display: block; }
+
+/* Report Card (کارنامه) */
+.report-card {
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-warm) 100%);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 18px;
+  display: none;
+}
+.report-card.show { display: block; }
+.report-grid {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+@media (max-width: 680px) { .report-grid { grid-template-columns: 1fr; text-align: center; } }
+.ring-wrap { position: relative; width: 150px; height: 150px; margin: 0 auto; }
+.ring-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.topic-bar-row { margin-bottom: 9px; }
+.topic-bar-head { display: flex; justify-content: space-between; font-size: 0.9em; font-weight: 700; margin-bottom: 3px; }
+.topic-bar-track { height: 10px; background: var(--surface-alt); border-radius: 99px; overflow: hidden; border: 1px solid var(--border); }
+.topic-bar-fill { height: 100%; background: linear-gradient(90deg, var(--primary), var(--emerald)); border-radius: 99px; }
+
+/* ==========================================================================
+   6. MODULE 3: DESCRIPTIVE & ERROR-SPOTTING WORKSHOP
+   ========================================================================== */
+.desc-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow);
+}
+.desc-card.mastered { border-right: 5px solid var(--emerald); }
+.scratchpad {
+  width: 100%;
+  min-height: 62px;
+  margin: 10px 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--border);
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 0.95em;
+  resize: vertical;
+}
+.scratchpad:focus { outline: none; border-color: var(--primary); border-style: solid; background: var(--surface); }
+.hint-box {
+  display: none;
+  margin-top: 10px;
+  padding: 10px 13px;
+  border-radius: var(--radius-sm);
+  background: var(--amber-soft);
+  border-right: 4px solid var(--amber);
+  font-size: 0.93em;
+}
+.hint-box.show { display: block; }
+.ans-box {
+  display: none;
+  margin-top: 10px;
+  padding: 13px 15px;
+  border-radius: var(--radius-sm);
+  background: var(--emerald-soft);
+  border-right: 4px solid var(--emerald);
+  font-size: 0.96em;
+}
+.ans-box.show { display: block; }
+
+/* ==========================================================================
+   7. MODULE 4: RESEARCH LIBRARY
+   ========================================================================== */
+.search-input {
+  width: 100%;
+  max-width: 380px;
+  padding: 8px 14px;
+  border-radius: 99px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 0.95em;
+}
+.search-input:focus { outline: none; border-color: var(--primary); }
+.res-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow);
+}
+.res-head {
+  background: var(--primary);
+  color: #FFFFFF;
+  padding: 13px 18px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+[data-theme="night"] .res-head { background: #1B3B46; color: #E8F0F2; }
+.res-body { padding: 18px; }
+.res-quote {
+  background: var(--surface-quote);
+  border-right: 5px solid var(--accent);
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  font-family: var(--font-ar);
+  font-size: 1.14em;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 2.05;
+}
+.res-sources {
+  background: var(--surface-warm);
+  border-right: 4px solid var(--primary-mid);
+  padding: 11px 14px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-size: 0.92em;
+}
+.res-sources ul { margin: 5px 0 0; padding-right: 18px; }
+
+/* ==========================================================================
+   8. SETTINGS DRAWER (APPEARANCE & PERSONALIZATION)
+   ========================================================================== */
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 28, 0.45);
+  z-index: 90;
+  display: none;
+}
+.drawer-backdrop.open { display: block; }
+.settings-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: min(350px, 92vw);
+  height: 100vh;
+  background: var(--surface);
+  border-right: 2px solid var(--accent);
+  z-index: 100;
+  padding: 20px 18px;
+  overflow-y: auto;
+  box-shadow: var(--shadow-lg);
+  transform: translateX(-105%);
+  transition: transform 0.25s ease;
+}
+.settings-drawer.open { transform: translateX(0); }
+.setting-block { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.setting-title { font-weight: 700; color: var(--primary); margin-bottom: 10px; font-size: 0.98em; }
+.theme-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.theme-opt {
+  padding: 9px 10px;
+  border-radius: 9px;
+  border: 1.5px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 0.88em;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.theme-opt.active { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.swatch { width: 16px; height: 16px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.2); flex: 0 0 16px; }
+
+/* ==========================================================================
+   9. MODULE 5: PRINT ENGINE & @MEDIA PRINT
+   ========================================================================== */
+.print-config-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 16px;
+}
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--surface-alt);
+  margin-bottom: 7px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.check-row input { width: 17px; height: 17px; accent-color: var(--primary); cursor: pointer; }
+
+#print-root { display: none; }
+
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #111111 !important;
+    font-family: 'B Nazanin', 'Amiri', serif !important;
+    font-size: 11pt !important;
+    line-height: 1.55 !important;
+  }
+  .islamic-strip, .site-header, .nav-wrap, .main-wrap, .settings-drawer, .drawer-backdrop {
+    display: none !important;
+  }
+  #print-root {
+    display: block !important;
+    width: 100%;
+    color: #111111;
+  }
+  .p-banner {
+    border: 1.5pt solid #164E59;
+    border-bottom: 3pt solid #B38728;
+    background: #F4F8F9 !important;
+    padding: 8pt 12pt;
+    text-align: center;
+    margin-bottom: 10pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .p-banner h1 { font-family: 'B Titr', 'B Nazanin', serif; font-size: 13.5pt; color: #164E59; margin: 2pt 0; }
+  .p-banner p { font-size: 9.5pt; color: #444; margin: 0; }
+  .p-sec-head {
+    background: #164E59 !important;
+    color: #FFFFFF !important;
+    font-family: 'B Titr', 'B Nazanin', serif;
+    font-size: 10.5pt;
+    padding: 4pt 10pt;
+    margin: 12pt 0 7pt;
+    border-bottom: 2pt solid #B38728;
+    break-after: avoid;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .p-item {
+    border: 0.6pt solid #B8CCD0;
+    border-radius: 4pt;
+    padding: 6pt 9pt;
+    margin-bottom: 7pt;
+    break-inside: avoid;
+  }
+  .p-q { font-weight: 700; margin-bottom: 4pt; color: #164E59; }
+  .p-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 3pt 10pt; font-size: 10.5pt; margin-bottom: 4pt; }
+  .p-ans {
+    background: #FAF6EE !important;
+    border-right: 2.5pt solid #B38728;
+    padding: 4pt 7pt;
+    margin-top: 4pt;
+    font-size: 10pt;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .p-lines { border-bottom: 0.5pt dotted #888; height: 16pt; margin-top: 2pt; }
+  .p-quote {
+    background: #F3EAD9 !important;
+    border-right: 3pt solid #B38728;
+    padding: 5pt 8pt;
+    margin: 4pt 0;
+    font-weight: 700;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .p-table { width: 100%; border-collapse: collapse; margin: 6pt 0 10pt; font-size: 10pt; }
+  .p-table th { background: #164E59 !important; color: #FFF !important; padding: 4pt; border: 0.5pt solid #164E59; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .p-table td { padding: 4pt 6pt; border: 0.5pt solid #B8CCD0; vertical-align: top; }
+}
+</style>
+</head>
+<body>
+
+<div class="islamic-strip"></div>
+
+<!-- ====================================================================== -->
+<!-- HEADER                                                                 -->
+<!-- ====================================================================== -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand-col">
+      <div class="brand-sup">
+        <span>نظام جامع آموزش حوزۀ علمیۀ خراسان</span>
+        <span>❖</span>
+        <span>ادبیات عرب ۱ (صرف) – بخش ب: کارگاه صرف عملی</span>
+      </div>
+      <h1 class="brand-title">کارگاه نهم: فعل مضاعف، تقسیمات و احکام ادغام</h1>
+      <p class="brand-sub">رمزینۀ سوم: سامانۀ تعاملی بستۀ المپیادی، کارگاه خطایابی و کتابخانۀ پژوهش‌های تکمیلی (هم‌راستا با دروس ۲۱، ۲۲ و ۲۳ «صرف الف»)</p>
+    </div>
+    <div class="header-actions">
+      <button class="hdr-btn" onclick="openDrawer()" aria-label="تنظیمات نمایش">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c.26.6.85 1 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span>تنظیمات رنگ و قلم</span>
+      </button>
+      <button class="hdr-btn gold" onclick="switchTab('print')">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        <span>خروجی چاپی / PDF</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ====================================================================== -->
+<!-- STICKY NAVIGATION                                                      -->
+<!-- ====================================================================== -->
+<nav class="nav-wrap" aria-label="بخش‌های سامانه">
+  <div class="nav-inner">
+    <button class="nav-tab active" data-tab="dashboard" onclick="switchTab('dashboard')">
+      <span>◈ داشبورد و مرور تعاملی</span>
+    </button>
+    <button class="nav-tab" data-tab="exam" onclick="switchTab('exam')">
+      <span>◆ آزمون المپیادی</span>
+      <span class="nav-badge" id="nav-badge-exam">۲۵</span>
+    </button>
+    <button class="nav-tab" data-tab="workshop" onclick="switchTab('workshop')">
+      <span>❖ کارگاه تشریحی و خطایابی</span>
+      <span class="nav-badge" id="nav-badge-desc">۲۸</span>
+    </button>
+    <button class="nav-tab" data-tab="research" onclick="switchTab('research')">
+      <span>◈ کتابخانۀ پژوهش و متون مرجع</span>
+      <span class="nav-badge">۶</span>
+    </button>
+    <button class="nav-tab" data-tab="print" onclick="switchTab('print')">
+      <span>◆ خروجی PDF و پشتیبان‌گیری</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ====================================================================== -->
+<!-- MAIN WORKSPACE                                                         -->
+<!-- ====================================================================== -->
+<main class="main-wrap">
+
+  <!-- ==================== MODULE 1: DASHBOARD & INTERACTIVE LAB ==================== -->
+  <section id="panel-dashboard" class="module-panel active">
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">پیشرفت آزمون المپیادی (چهارگزینه‌ای)</div>
+        <div class="kpi-val" id="kpi-exam-txt">۰ از ۲۵</div>
+        <div class="kpi-bar"><span id="kpi-exam-bar" style="width:0%"></span></div>
+      </div>
+      <div class="kpi-card emerald">
+        <div class="kpi-label">تسلّط بر کارگاه تشریحی و مثال‌آوری</div>
+        <div class="kpi-val" id="kpi-desc-txt">۰ از ۲۸</div>
+        <div class="kpi-bar"><span id="kpi-desc-bar" style="width:0%"></span></div>
+      </div>
+      <div class="kpi-card gold">
+        <div class="kpi-label">نشان‌شده‌ها و یادداشت‌های پژوهشی</div>
+        <div class="kpi-val" id="kpi-bm-txt">۰ مورد</div>
+        <div class="kpi-bar"><span id="kpi-bm-bar" style="width:0%"></span></div>
+      </div>
+      <div class="kpi-card crimson">
+        <div class="kpi-label">پوشش دروس «صرف الف»</div>
+        <div class="kpi-val">دروس ۲۱ تا ۲۳</div>
+        <div style="font-size:0.84em;color:var(--ink-muted);margin-top:4px;">۷ قاعدۀ ادغام + ۴ مانع + نون تأکید</div>
+      </div>
+    </div>
+
+    <!-- Interactive 14-Sigha Verb Conjugation Inspector -->
+    <div class="card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">❖</span> کاوشگر تعاملی صیغه‌های چهارده‌گانۀ فعل مضاعف</h2>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;font-size:0.84em;">
+          <span class="pill pill-wajib">ادغام واجب</span>
+          <span class="pill pill-jaiz">ادغام جایز (صیغ خمسه)</span>
+          <span class="pill pill-mumtani">ادغام ممتنع (وجوب فکّ)</span>
+        </div>
+      </div>
+      <div class="lab-controls">
+        <div class="lab-group">
+          <label for="lab-verb">انتخاب فعل (ابواب سَنَضَدَد):</label>
+          <select id="lab-verb" class="lab-select" onchange="onVerbChange()"></select>
+        </div>
+        <div class="lab-group">
+          <label for="lab-tense">قالب و زمان فعل:</label>
+          <select id="lab-tense" class="lab-select" onchange="renderVerbLab()"></select>
+        </div>
+      </div>
+      <div id="sigha-grid" class="sigha-grid"></div>
+      <div id="sigha-inspector" class="sigha-inspector"></div>
+    </div>
+
+    <!-- Interactive Rule Explorer -->
+    <div class="card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">◈</span> مرور سریع و دسته‌بندی‌شدۀ قواعد (منطبق بر «صرف الف»)</h2>
+        <input type="text" id="rule-search" class="search-input" placeholder="جستجو در قواعد و مثال‌ها (مثلاً: سَنَضَدَد، نون تأکید)..." oninput="renderRules()">
+      </div>
+      <div class="filter-bar" id="rule-filters">
+        <button class="filter-chip active" data-cat="all" onclick="setRuleCat('all', this)">همۀ قواعد (۱۳)</button>
+        <button class="filter-chip" data-cat="l21" onclick="setRuleCat('l21', this)">درس ۲۱ (مضاعف و ابواب)</button>
+        <button class="filter-chip" data-cat="l22" onclick="setRuleCat('l22', this)">درس ۲۲ (تقسیمات و وزن)</button>
+        <button class="filter-chip" data-cat="wajib" onclick="setRuleCat('wajib', this)">واجب (ق ۱ تا ۴)</button>
+        <button class="filter-chip" data-cat="jaiz" onclick="setRuleCat('jaiz', this)">جایز (ق ۵ تا ۷)</button>
+        <button class="filter-chip" data-cat="mumtani" onclick="setRuleCat('mumtani', this)">ممتنع و نون تأکید</button>
+        <button class="filter-chip" data-cat="extra" onclick="setRuleCat('extra', this)">نکات تکمیلی المپیادی</button>
+      </div>
+      <div id="rules-grid" class="rules-grid"></div>
+    </div>
+  </section>
+
+  <!-- ==================== MODULE 2: OLYMPIAD MCQ EXAM (25 Qs) ==================== -->
+  <section id="panel-exam" class="module-panel">
+    <div class="exam-toolbar">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;">
+        <div class="mode-switch">
+          <button class="mode-btn active" id="mode-learn" onclick="setExamMode('learn')">حالت آموزشی (تحلیل فوری)</button>
+          <button class="mode-btn" id="mode-timed" onclick="setExamMode('timed')">حالت آزمون زمان‌دار (۲۵ دقیقه)</button>
+        </div>
+        <div class="timer-box" id="timer-box" style="display:none;">
+          <span>زمان باقی‌مانده:</span>
+          <span id="timer-display" style="font-size:1.1em;min-width:52px;text-align:center;">۲۵:۰۰</span>
+          <button class="btn btn-sm" id="timer-toggle-btn" onclick="toggleTimer()">شروع</button>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <button class="btn btn-primary" id="btn-submit-exam" onclick="submitExam()">ثبت نهایی و صدور کارنامه</button>
+        <button class="btn" onclick="resetExam()">شروع مجدد آزمون</button>
+      </div>
+    </div>
+
+    <!-- Analytical Report Card -->
+    <div id="exam-report" class="report-card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">❖</span> کارنامۀ جامع تحلیلی آزمون المپیادی</h2>
+        <button class="btn btn-sm" onclick="filterExamWrong()">بررسی فقط پاسخ‌های غلط و بی‌پاسخ</button>
+      </div>
+      <div class="report-grid">
+        <div class="ring-wrap">
+          <svg width="150" height="150" viewBox="0 0 150 150">
+            <circle cx="75" cy="75" r="62" fill="none" stroke="var(--border)" stroke-width="12"/>
+            <circle id="score-ring" cx="75" cy="75" r="62" fill="none" stroke="var(--emerald)" stroke-width="12"
+                    stroke-linecap="round" stroke-dasharray="389.56" stroke-dashoffset="389.56"
+                    transform="rotate(-90 75 75)" style="transition:stroke-dashoffset 0.6s ease;"/>
+          </svg>
+          <div class="ring-center">
+            <div id="report-pct" style="font-family:var(--font-title);font-size:1.6em;color:var(--primary);">۰٪</div>
+            <div id="report-grade" style="font-size:0.84em;color:var(--ink-muted);font-weight:700;">—</div>
+          </div>
+        </div>
+        <div>
+          <div id="report-summary" style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px;"></div>
+          <div id="report-topics"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-bar" id="exam-filters">
+      <button class="filter-chip active" data-cat="all" onclick="setExamCat('all', this)">همۀ پرسش‌ها (۲۵)</button>
+      <button class="filter-chip" data-cat="mudaaf" onclick="setExamCat('mudaaf', this)">مضاعف و ابواب (۵)</button>
+      <button class="filter-chip" data-cat="wazn" onclick="setExamCat('wazn', this)">تقسیمات و وزن (۵)</button>
+      <button class="filter-chip" data-cat="wajib" onclick="setExamCat('wajib', this)">ادغام واجب (۴)</button>
+      <button class="filter-chip" data-cat="jaiz" onclick="setExamCat('jaiz', this)">ادغام جایز (۵)</button>
+      <button class="filter-chip" data-cat="mumtani" onclick="setExamCat('mumtani', this)">امتناع و نون تأکید (۶)</button>
+      <button class="filter-chip" data-cat="bookmarked" onclick="setExamCat('bookmarked', this)">نشان‌شده‌ها</button>
+    </div>
+
+    <div id="mcq-list"></div>
+  </section>
+
+  <!-- ==================== MODULE 3: DESCRIPTIVE WORKSHOP (28 CHALLENGES) ==================== -->
+  <section id="panel-workshop" class="module-panel">
+    <div class="card" style="padding:14px 18px;">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;">
+        <div>
+          <h2 class="section-title"><span class="orn">❖</span> کارگاه تشریحی، خطایابی و مثال‌آوری المپیادی</h2>
+          <p style="margin:4px 0 0;font-size:0.92em;color:var(--ink-muted);">پیش از گشودن پاسخ تشریحی، پاسخ خود را در کادر تمرین بنویسید (به‌صورت خودکار ذخیره می‌شود) یا از راهنمای گام‌به‌گام کمک بگیرید.</p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <button class="btn btn-sm" onclick="toggleAllDesc(true)">گشودن همۀ پاسخ‌ها</button>
+          <button class="btn btn-sm" onclick="toggleAllDesc(false)">بستن همۀ پاسخ‌ها</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-bar" id="desc-filters">
+      <button class="filter-chip active" data-cat="all" onclick="setDescCat('all', this)">همه (۲۸)</button>
+      <button class="filter-chip" data-cat="odd" onclick="setDescCat('odd', this)">تشخیص مورد متفاوت (۵)</button>
+      <button class="filter-chip" data-cat="sigha" onclick="setDescCat('sigha', this)">صیغه‌شناسی و صیغه‌سازی (۶)</button>
+      <button class="filter-chip" data-cat="majhul" onclick="setDescCat('majhul', this)">مجهول‌سازی و صرف انتخابی (۵)</button>
+      <button class="filter-chip" data-cat="trans" onclick="setDescCat('trans', this)">ترجمه و تعریب (۴)</button>
+      <button class="filter-chip" data-cat="examp" onclick="setDescCat('examp', this)">مثال‌آوری المپیادی (۵)</button>
+      <button class="filter-chip" data-cat="critique" onclick="setDescCat('critique', this)">نقد علمی و خطایابی (۳)</button>
+      <button class="filter-chip" data-cat="bookmarked" onclick="setDescCat('bookmarked', this)">نشان‌شده‌ها</button>
+    </div>
+
+    <div id="desc-list"></div>
+  </section>
+
+  <!-- ==================== MODULE 4: RESEARCH LIBRARY (6 DOSSIERS) ==================== -->
+  <section id="panel-research" class="module-panel">
+    <div class="card" style="padding:15px 18px;">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;">
+        <h2 class="section-title"><span class="orn">◈</span> کتابخانۀ پژوهش‌های قرآنی، فقهی و متون مرجع صرفی</h2>
+        <input type="text" id="res-search" class="search-input" placeholder="جستجو در آیات، کتب مرجع و مباحث (مثلاً: تداین، ابن‌جنّی، تَأْمَنَّا)..." oninput="renderResearch()">
+      </div>
+      <div class="filter-bar" style="margin:12px 0 0;" id="res-filters">
+        <button class="filter-chip active" data-tag="all" onclick="setResTag('all', this)">همۀ پژوهش‌ها (۶)</button>
+        <button class="filter-chip" data-tag="قرآنی و بلاغی" onclick="setResTag('قرآنی و بلاغی', this)">قرآنی و بلاغی</button>
+        <button class="filter-chip" data-tag="فقهی و تفسیری" onclick="setResTag('فقهی و تفسیری', this)">فقهی و تفسیری</button>
+        <button class="filter-chip" data-tag="بلاغی و لغوی" onclick="setResTag('بلاغی و لغوی', this)">بلاغی و لغوی</button>
+        <button class="filter-chip" data-tag="قرآنی و قرائات" onclick="setResTag('قرآنی و قرائات', this)">قرائات قرآنی</button>
+        <button class="filter-chip" data-tag="متون مرجع" onclick="setResTag('متون مرجع', this)">هم‌نشینی با متون مرجع</button>
+        <button class="filter-chip" data-tag="bookmarked" onclick="setResTag('bookmarked', this)">نشان‌شده‌ها</button>
+      </div>
+    </div>
+
+    <div id="research-list"></div>
+  </section>
+
+  <!-- ==================== MODULE 5: SMART PRINT / PDF & BACKUP ==================== -->
+  <section id="panel-print" class="module-panel">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">◆</span> موتور هوشمند خروجی چاپی و ذخیرۀ فایل PDF استاندارد</h2>
+        <span class="pill pill-info">بدون نیاز به اینترنت • سازگار با چاپ دورو</span>
+      </div>
+      <p style="margin-top:0;color:var(--ink-muted);">بخش‌های دلخواه، نوع نسخه (جامع، خام امتحانی یا کلید استاد) و قطع کاغذ را انتخاب کرده و دکمۀ <b>«چاپ / ذخیرۀ PDF»</b> را بزنید؛ سپس در پنجرۀ چاپ مرورگر، مقصد را روی <b>Save as PDF</b> قرار دهید.</p>
+
+      <div class="print-config-grid">
+        <div class="card" style="margin:0;box-shadow:none;background:var(--surface-warm);">
+          <div class="setting-title">۱. انتخاب بخش‌های موجود در خروجی</div>
+          <label class="check-row"><input type="checkbox" id="pr-rules" checked> جدول مرور سریع قواعد (دروس ۲۱ تا ۲۳)</label>
+          <label class="check-row"><input type="checkbox" id="pr-mcqs" checked> آزمون چهارگزینه‌ای المپیادی (۲۵ پرسش)</label>
+          <label class="check-row"><input type="checkbox" id="pr-desc" checked> کارگاه تشریحی، خطایابی و مثال‌آوری (۲۸ تمرین)</label>
+          <label class="check-row"><input type="checkbox" id="pr-res" checked> کتابخانۀ پژوهش‌های قرآنی، فقهی و متون مرجع (۶ پژوهش)</label>
+          <label class="check-row"><input type="checkbox" id="pr-notes"> درج یادداشت‌های شخصی من در کنار پژوهش‌ها</label>
+        </div>
+
+        <div class="card" style="margin:0;box-shadow:none;background:var(--surface-warm);">
+          <div class="setting-title">۲. الگوی نمایش پاسخ‌نامه و قطع کاغذ</div>
+          <label class="check-row"><input type="radio" name="pr-mode" value="full" checked> نسخۀ جامع آموزشی (سؤالات + پاسخ‌نامۀ تشریحی کامل)</label>
+          <label class="check-row"><input type="radio" name="pr-mode" value="exam"> نسخۀ خام امتحانی (فقط سؤالات و جای نگارش بدون کلید)</label>
+          <label class="check-row"><input type="radio" name="pr-mode" value="key"> نسخۀ کلید اختصاصی استاد (فقط پاسخ‌نامه‌ها و مستندات)</label>
+          <div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--border);">
+            <div class="setting-title" style="margin-bottom:6px;">قطع صفحۀ چاپ / PDF:</div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+              <label class="check-row" style="flex:1;margin:0;"><input type="radio" name="pr-size" value="vaziri" checked> وزیری (۱۶٫۵×۲۳٫۵)</label>
+              <label class="check-row" style="flex:1;margin:0;"><input type="radio" name="pr-size" value="a4"> A4 (۲۱×۲۹٫۷)</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;">
+        <button class="btn btn-gold" style="padding:11px 22px;font-size:1.02em;" onclick="triggerSmartPrint()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          <span>آماده‌سازی و چاپ / ذخیرۀ PDF</span>
+        </button>
+        <button class="btn" onclick="exportUserData()">پشتیبان‌گیری از کارنامه و یادداشت‌ها (JSON)</button>
+        <label class="btn" style="cursor:pointer;">
+          <span>بازیابی فایل پشتیبان</span>
+          <input type="file" accept=".json" style="display:none;" onchange="importUserData(event)">
+        </label>
+        <button class="btn" style="color:var(--crimson);border-color:var(--crimson);" onclick="clearAllProgress()">پاک‌سازی کامل پیشرفت و یادداشت‌ها</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ====================================================================== -->
+<!-- APPEARANCE & PERSONALIZATION DRAWER                                    -->
+<!-- ====================================================================== -->
+<div id="drawer-backdrop" class="drawer-backdrop" onclick="closeDrawer()"></div>
+<aside id="settings-drawer" class="settings-drawer" aria-label="تنظیمات شخصی‌سازی مطالعه">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--primary-soft);">
+    <h3 class="section-title" style="font-size:1.05em;"><span class="orn">❖</span> تنظیمات نمایش و مطالعه</h3>
+    <button class="btn btn-sm" onclick="closeDrawer()">بستن</button>
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">انتخاب تم رنگی:</div>
+    <div class="theme-grid">
+      <button class="theme-opt active" data-t="hawza" onclick="setTheme('hawza')">
+        <span class="swatch" style="background:linear-gradient(135deg,#164E59 50%,#B38728 50%);"></span>حوزوی (فیروزه‌ای)
+      </button>
+      <button class="theme-opt" data-t="sepia" onclick="setTheme('sepia')">
+        <span class="swatch" style="background:linear-gradient(135deg,#F3ECE0 50%,#5B3E22 50%);"></span>کاغذیِ گرم (سپیا)
+      </button>
+      <button class="theme-opt" data-t="lapis" onclick="setTheme('lapis')">
+        <span class="swatch" style="background:linear-gradient(135deg,#1B3B6F 50%,#B0862B 50%);"></span>لاجوردی کلاسیک
+      </button>
+      <button class="theme-opt" data-t="night" onclick="setTheme('night')">
+        <span class="swatch" style="background:linear-gradient(135deg,#0F171C 50%,#5CBAC9 50%);"></span>حالت شبِ آرام
+      </button>
+    </div>
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">انتخاب قلم (فونت) مطالعه:</div>
+    <div class="theme-grid">
+      <button class="theme-opt active" data-f="nazanin" onclick="setFont('nazanin')">نازنین حوزوی</button>
+      <button class="theme-opt" data-f="mitra" onclick="setFont('mitra')">میترا درسی</button>
+      <button class="theme-opt" data-f="vazir" onclick="setFont('vazir')">وزیرمتن نوین</button>
+      <button class="theme-opt" data-f="naskh" onclick="setFont('naskh')">نسخ قرآنی</button>
+    </div>
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">اندازۀ قلم: <span id="size-val">۱۷</span> پیکسل</div>
+    <input type="range" id="size-slider" min="14" max="22" step="1" value="17" style="width:100%;accent-color:var(--primary);" oninput="setFontSize(this.value)">
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">فاصلۀ خطوط: <span id="lh-val">۱٫۸۵</span></div>
+    <input type="range" id="lh-slider" min="1.55" max="2.25" step="0.05" value="1.85" style="width:100%;accent-color:var(--primary);" oninput="setLineHeight(this.value)">
+  </div>
+
+  <button class="btn" style="width:100%;" onclick="resetAppearance()">بازگردانی به تنظیمات پیش‌فرض</button>
+</aside>
+
+<!-- ====================================================================== -->
+<!-- DEDICATED PRINT OUTPUT CONTAINER (POPULATED RIGHT BEFORE window.print) -->
+<!-- ====================================================================== -->
+<div id="print-root"></div>
+
+<script>
+// ============================================================================
+// EMBEDDED DATA PAYLOAD (100% OFFLINE)
+// ============================================================================
+const DATA = {"rules": [{"id": "r1", "cat": "l21", "badge": "درس ۲۱", "type": "info", "title": "مرتبۀ پایداری حروف در علم صرف", "formula": "صحیح (نَصَرَ) ← مضاعف (مَدَّ) ← مهموز (أَكَلَ) ← معتلّ (قَالَ)", "desc": "ترتیب مباحث در علم صرف بر پایۀ ثبات حروف اصلی است؛ مضاعف پس از صحیح قرار دارد زیرا تغییرات ساختی آن نسبت به مهموز و معتلّ اندک‌تر است (مراح الأرواح، ص ۱۷ و ۱۵۹).", "example": "مقایسه: «شَكَّ» (مضاعف) از «وَقَفَ» (معتلّ مثال) پایدارتر و به صحیح نزدیک‌تر است."}, {"id": "r2", "cat": "l21", "badge": "درس ۲۱", "type": "info", "title": "مضاعف ثلاثی، رباعی و موارد غیرمضاعف", "formula": "ثلاثی: عین = لام (مَدَّ، فَرَّ)  |  رباعی: فاء = لام۱ و عین = لام۲ (وَسْوَسَ)", "desc": "در ثلاثی تنها هم‌جنسی عین و لام مضاعفِ ادغام‌پذیر است؛ هم‌جنسی فاء و عین (دَدَن، بَبْر) یا فاء و لام (سَلِسَ، قَلَق) مضاعفِ در معرض ادغام نیستند. کلمات خماسی نیز به مضاعف تقسیم نمی‌شوند.", "example": "قرآنی: ﴿فَوَسْوَسَ لَهُمَا الشَّيْطَانُ﴾، ﴿وَزُلْزِلُوا زِلْزَالاً﴾، ﴿وَاللَّيْلِ إِذَا عَسْعَسَ﴾."}, {"id": "r3", "cat": "l21", "badge": "درس ۲۱", "type": "info", "title": "ابواب ثلاثی مجرّد مضاعف (رمز سَنَضَدَد) و تغییرات سه‌گانه", "formula": "سَمِعَ (مَسَّ يَمَسُّ) | نَصَرَ (مَدَّ يَمُدُّ) | ضَرَبَ (فَرَّ يَفِرُّ)", "desc": "فعل مضاعف ثلاثی مجرّد فقط از این سه باب می‌آید. برای دفع ثقل تلفظ، سه تغییر در مضاعف رخ می‌دهد: ۱) ادغام (رایج‌ترین)؛ ۲) حذف در ماضی مکسورالعین از صیغۀ ۶ به بعد؛ ۳) ابدال مماثل دوم به یاء در برخی ابواب.", "example": "حذف: ظَلِلْتُمْ / ظَلْتُمْ / ظِلْتُمْ (واقعه/۶۵) | ابدال: دَسَّسَ ← دَسَّاهَا (شمس/۱۰)؛ دَلَّلَ ← دَلَّاهُمَا (اعراف/۲۲)."}, {"id": "r4", "cat": "l22", "badge": "درس ۲۲", "type": "info", "title": "تقسیمات ادغام: صغیر و کبیر؛ متماثلین و متقاربین", "formula": "صغیر: ساکن + متحرک | کبیر: متحرک + متحرک (نقل یا حذف حرکت اول)", "desc": "متماثلین برای همۀ حروف جاری است جز «الف» (حرکت نمی‌پذیرد) و «همزه» (ابدال می‌شود). در متقاربین (قرابت مخرج یا صفت)، ابتدا حرف اول همسانِ حرف دوم شده و سپس ادغام می‌گردد.", "example": "صغیر متماثل: اِضْرِبْ بِعَصَاكَ | کبیر متماثل: مَنَاسِكَكُمْ ← مَنَاسِكُّمْ | متقارب: قَدْ تَبَيَّنَ، إِذْ ظَلَمُوا، مَنْ يَغْفِرُ."}, {"id": "r5", "cat": "l22", "badge": "درس ۲۲", "type": "info", "title": "قواعد چهارگانۀ وزن کلمات دارای حرف مشدّد", "formula": "دو اصلی: فَعَلَ | دو زائد: إِفْعِوَّال | زائد تکراری: فَعَّلَ | زائد هم‌جنس غیرتکراری: فَعِيل/فَيْعِل", "desc": "۱) هر دو اصلی ← بدون تشدید با حرکات قبل از ادغام؛ ۲) هر دو زائد ← زائد مشدّد در وزن؛ ۳-الف) تکرار اصلی (مانند تفعیل) ← مشدّد؛ ۳-ب) زائدِ غیرتکراری که صرفاً به سبب ادغام مشدّد شده ← بدون تشدید.", "example": "فَرَّتْ ← فَعَلَتْ | إِجْلِوَّاذ ← إِفْعِوَّال | عَلَّمَ ← فَعَّلَ | وَفِيٌّ (وَفِييٌ) ← فَعِيل؛ سَيِّد (سَيْوِد) ← فَيْعِل."}, {"id": "r6", "cat": "wajib", "badge": "واجب – ق۱", "type": "wajib", "title": "قاعدۀ ۱: ادغام متماثل صغیر (در یک یا دو کلمه)", "formula": "[حرف ساکن] + [حرف متحرک هم‌جنس] ⇐ ادغام واجب", "desc": "دو حرف متماثل که اولی ساکن و دومی متحرک است ادغام می‌شوند؛ در یک کلمه لفظی و کتبی و در دو کلمه لفظی است. تبصرۀ صرف الف: اگر اولی حرف مدّ در پایان کلمه باشد ادغام نمی‌شود، به جز «فِي».", "example": "سَكَنْتُ ← سَكَتُّ | قَدْ دَخَلُوا ← قَدَّخَلُوا | استثنای مدّ: قَالُوا وَجَدْنَا (ممتنع) اما فِي يَوْمٍ (واجب در صرف الف)."}, {"id": "r7", "cat": "wajib", "badge": "واجب – ق۲", "type": "wajib", "title": "قاعدۀ ۲: ادغام متماثل کبیر در یک کلمه (سه حالت تسکین)", "formula": "ماقبل متحرک (حذف) | ماقبل ساکن صحیح (نقل) | ماقبل مدّ (حذف)", "desc": "هرگاه دو متماثل متحرک در یک کلمه باشند ادغام واجب است: اگر ماقبل اولی متحرک یا حرف مدّ باشد حرکتش حذف می‌شود، و اگر ماقبل ساکن حرکت‌پذیر باشد حرکت اول به آن منتقل می‌گردد.", "example": "مَدَدَ ← مَدْدَ ← مَدَّ (حذف) | يَمْدُدُ ← يَمُدْدُ ← يَمُدُّ (نقل) | مَادَدَ ← مَادْدَ ← مَادَّ (حذف)."}, {"id": "r8", "cat": "wajib", "badge": "واجب – ق۳ و ۴", "type": "wajib", "title": "قاعدۀ ۳ (لام تعریف) و قاعدۀ ۴ (نون ساکن و تنوین)", "formula": "الْ + حروف شمسی (ق۳)  |  نْ یا تنوین + يَرْمَلُون (ق۴)", "desc": "ق۳: لامِ «ال» پیش از حروف شمسی در آن ادغام لفظی می‌شود. ق۴: نون ساکن یا تنوین پیش از شش حرف «يَرْمَلُون» ادغام می‌گردد (در موارد پیوسته مانند مِنْ مَا ← مِمَّا کتبی نیز هست).", "example": "﴿وَالشَّمْسِ وَضُحَاهَا﴾ | ﴿هُدًى مِنْ رَبِّهِمْ﴾ | ﴿جَنَّاتٍ مِنْ نَخِيلٍ﴾ | ﴿فَلْيَنْظُرِ الْإِنْسَانُ مِمَّ خُلِقَ﴾."}, {"id": "r9", "cat": "jaiz", "badge": "جایز – ق۵", "type": "jaiz", "title": "قاعدۀ ۵: متماثلین در صیغ خمسۀ مضارع مجزوم و امر", "formula": "صیغ ۱، ۴، ۷، ۱۳، ۱۴ | مضموم‌العین: ۳ حرکت + فک | غیرمضموم: فتح و کسر + فک", "desc": "در پنج صیغۀ بدون ضمیر بارز از مضارع مجزوم و امر، هم ادغام و هم فکّ ادغام جایز است. هنگام ادغام برای رفع التقای ساکنین به لام‌الفعل حرکت عارضی داده می‌شود (در تمام مجهول‌ها چون عین‌الفعل مفتوح است، ضمّه ممتنع است).", "example": "لِيَمْدُدْ ← لِيَمُدَّ / دِّ / دُّ / لِيَمْدُدْ | لِيَفْرِرْ ← لِيَفِرَّ / رِّ / لِيَفْرِرْ | لِيُمَدَّ / لِيُمَدِّ / لِيُمْدَدْ."}, {"id": "r10", "cat": "jaiz", "badge": "جایز – ق۶ و ۷", "type": "jaiz", "title": "قاعدۀ ۶ (متماثل کبیر دو کلمه و متقارب مزید) و قاعدۀ ۷ (متقارب صغیر دو کلمه)", "formula": "ق۶: متماثل کبیر دو کلمه + متقارب تفعّل/تفاعل/افتعال | ق۷: متقارب صغیر دو کلمه", "desc": "ق۶: ادغام دو متماثل متحرک در دو کلمه جایز است؛ همچنین ادغام متقارب در یک کلمه در سه باب تفعّل، تفاعل و افتعال جایز است. ق۷: ادغام دو متقارب صغیر در دو کلمه (خارج از موارد ق۳ و ۴) جایز است.", "example": "ق۶: جَعَلَ لَكُمْ، تَأْمُرُونَنِي ← تَأْمُرُونِّي؛ يَخْتَصِمُونَ ← يَخِصِّمُونَ | ق۷: قُلْ رَبِّي، قَدْ تَبَيَّنَ."}, {"id": "r11", "cat": "mumtani", "badge": "ممتنع – ۴ مانع", "type": "mumtani", "title": "موانع چهارگانۀ ادغام در «صرف الف» (وجوب فکّ)", "formula": "۱. ضمیر رفع متحرک | ۲. اسم ثلاثی متحرک‌العین | ۳. اول کلمه | ۴. متقارب یک کلمه", "desc": "۱) اتصال حرف دومِ ساکن به ضمیر رفع متحرک (ماضی ص۶–۱۴؛ مضارع و امر ص۶ و ۱۲)؛ ۲) اسم ثلاثی مجرّد متحرک‌العین؛ ۳) وقوع متماثل در اول کلمه (جز تفعّل و تفاعل)؛ ۴) متقارب در یک کلمه (جز سه باب مزید).", "example": "۱. فَرَرْتُ، يَفْرِرْنَ | ۲. سُرُرٌ، غُرَرٌ، دُرَرٌ | ۳. دَدَن | ۴. دُنْيَا."}, {"id": "r12", "cat": "mumtani", "badge": "درس ۲۳ – تأکید", "type": "wajib", "title": "الحاق نون تأکید (ثقیله و خفیفه) به فعل مضاعف", "formula": "صیغ خمسۀ مجزوم و امر + نون تأکید ⇐ وجوب ادغام + فتحۀ الزامی + حذف همزۀ وصل امر", "desc": "با پیوستن نون تأکید به صیغ خمسۀ مجزوم و امر، حرف ماقبل نون مبنی بر فتح لازم می‌شود؛ لذا حکم ادغام از جواز (ق۵) به وجوب (ق۲) تغییر می‌کند و در امر مفرد مذکّر همزۀ وصل حذف می‌گردد. در صیغۀ ۶ و ۱۲ (مؤنّث جمع) فکّ ادغام همچنان واجب است.", "example": "لِيَمْدُدْ ← لِيَمُدَّنَّ / لِيَمُدَّنْ | اُمْدُدْ ← مُدَّنَّ / مُدَّنْ | اُمْدُدْنَ ← اُمْدُدْنَانِّ (فکّ واجب)."}, {"id": "r13", "cat": "extra", "badge": "نکتۀ المپیادی", "type": "extra", "title": "موانع تکمیلی و ظرایف المپیادی (فراتر از متن پایه)", "formula": "ملحقات (جَلْبَبَ، سُؤْدَدٌ) | تعجب أَفْعِلْ بِهِ (أَعْزِزْ بِزَيْدٍ) | حرکت عارضی (اُمْدُدِ الْقَوْمَ)", "desc": "در کتب مفصّل صرفی، ادغام در کلمات ملحق به رباعی، صیغۀ تعجب «أَفْعِلْ بِهِ»، موارد خوف اشتباه (قُوْوِلَ)، شواذ سماعی (مِنَنِهِ)، عارضی بودن حرکت حرف دوم (اُمْدُدِ الْقَوْمَ) و توقیفی بودن قرائت قرآن (بَلْ رَانَ، مَنْ رَاقٍ) نیز از موانع ادغام است.", "example": "تقدّم ق۱ بر ق۲ در «مَنَنْنَا ← مَنَنَّا» (ادغام نون دوم ساکن در نونِ نَا، بی‌نیاز از تغییر)."}], "sighaNames": ["۱. مفرد مذکّر غایب", "۲. مثنای مذکّر غایب", "۳. جمع مذکّر غایب", "۴. مفرد مؤنّث غایب", "۵. مثنای مؤنّث غایب", "۶. جمع مؤنّث غایب", "۷. مفرد مذکّر مخاطب", "۸. مثنای مذکّر مخاطب", "۹. جمع مذکّر مخاطب", "۱۰. مفرد مؤنّث مخاطب", "۱۱. مثنای مؤنّث مخاطب", "۱۲. جمع مؤنّث مخاطب", "۱۳. متکلّم وحده", "۱۴. متکلّم مع‌الغیر"], "verbLab": {"madda": {"label": "مَدَّ يَمُدُّ (باب نَصَرَ – مضموم‌العین)", "root": "م د د", "bab": "نَصَرَ يَنْصُرُ", "tenses": {"mazi_m": [["مَدَّ", "مَدَدَ", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مَدَّا", "مَدَدَا", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مَدُّوا", "مَدَدُوا", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مَدَّتْ", "مَدَدَتْ", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مَدَّتَا", "مَدَدَتَا", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مَدَدْنَ", "مَدَدْنَ", "mumtani", "ممتنع (اتصال دال دوم ساکن به ضمیر رفع متحرک)"], ["مَدَدْتَ", "مَدَدْتَ", "mumtani", "ممتنع (اتصال به ضمیر رفع متحرک؛ در دْتَ ادغام متقارب ق۷ جایز است)"], ["مَدَدْتُمَا", "مَدَدْتُمَا", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مَدَدْتُمْ", "مَدَدْتُمْ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مَدَدْتِ", "مَدَدْتِ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مَدَدْتُمَا", "مَدَدْتُمَا", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مَدَدْتُنَّ", "مَدَدْتُنَّ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مَدَدْتُ", "مَدَدْتُ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مَدَدْنَا", "مَدَدْنَا", "mumtani", "ممتنع (ضمیر رفع متحرک)"]], "mazi_j": [["مُدَّ", "مُدِدَ", "wajib", "ق۲ (واجب – تسکین به حذف کسره)"], ["مُدَّا", "مُدِدَا", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مُدُّوا", "مُدِدُوا", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مُدَّتْ", "مُدِدَتْ", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مُدَّتَا", "مُدِدَتَا", "wajib", "ق۲ (واجب – تسکین به حذف)"], ["مُدِدْنَ", "مُدِدْنَ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْتَ", "مُدِدْتَ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْتُمَا", "مُدِدْتُمَا", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْتُمْ", "مُدِدْتُمْ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْتِ", "مُدِدْتِ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْتُمَا", "مُدِدْتُمَا", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْتُنَّ", "مُدِدْتُنَّ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْتُ", "مُدِدْتُ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["مُدِدْنَا", "مُدِدْنَا", "mumtani", "ممتنع (ضمیر رفع متحرک)"]], "moz_m": [["يَمُدُّ", "يَمْدُدُ", "wajib", "ق۲ (واجب – تسکین به نقل ضمّه به میم)"], ["يَمُدَّانِ", "يَمْدُدَانِ", "wajib", "ق۲ (واجب – نقل)"], ["يَمُدُّونَ", "يَمْدُدُونَ", "wajib", "ق۲ (واجب – نقل)"], ["تَمُدُّ", "تَمْدُدُ", "wajib", "ق۲ (واجب – نقل)"], ["تَمُدَّانِ", "تَمْدُدَانِ", "wajib", "ق۲ (واجب – نقل)"], ["يَمْدُدْنَ", "يَمْدُدْنَ", "mumtani", "ممتنع (اتصال به نون نسوه / ضمیر رفع متحرک)"], ["تَمُدُّ", "تَمْدُدُ", "wajib", "ق۲ (واجب – نقل)"], ["تَمُدَّانِ", "تَمْدُدَانِ", "wajib", "ق۲ (واجب – نقل)"], ["تَمُدُّونَ", "تَمْدُدُونَ", "wajib", "ق۲ (واجب – نقل)"], ["تَمُدِّينَ", "تَمْدُدِينَ", "wajib", "ق۲ (واجب – نقل)"], ["تَمُدَّانِ", "تَمْدُدَانِ", "wajib", "ق۲ (واجب – نقل)"], ["تَمْدُدْنَ", "تَمْدُدْنَ", "mumtani", "ممتنع (نون نسوه / ضمیر رفع متحرک)"], ["أَمُدُّ", "أَمْدُدُ", "wajib", "ق۲ (واجب – نقل)"], ["نَمُدُّ", "نَمْدُدُ", "wajib", "ق۲ (واجب – نقل)"]], "moz_mjz": [["لَمْ يَمُدَّ / دِّ / دُّ / يَمْدُدْ", "لَمْ يَمْدُدْ", "jaiz", "ق۵ (جایز در صیغ خمسه؛ مضموم‌العین = ۳ حرکت + فکّ)"], ["لَمْ يَمُدَّا", "لَمْ يَمْدُدَا", "wajib", "ق۲ (واجب – دال دوم به خاطر الف تثنیه متحرک است)"], ["لَمْ يَمُدُّوا", "لَمْ يَمْدُدُوا", "wajib", "ق۲ (واجب – واو جمع)"], ["لَمْ تَمُدَّ / دِّ / دُّ / تَمْدُدْ", "لَمْ تَمْدُدْ", "jaiz", "ق۵ (جایز در صیغ خمسه؛ ۳ حرکت + فکّ)"], ["لَمْ تَمُدَّا", "لَمْ تَمْدُدَا", "wajib", "ق۲ (واجب – الف تثنیه)"], ["لَمْ يَمْدُدْنَ", "لَمْ يَمْدُدْنَ", "mumtani", "ممتنع (ضمیر رفع متحرک / نون نسوه)"], ["لَمْ تَمُدَّ / دِّ / دُّ / تَمْدُدْ", "لَمْ تَمْدُدْ", "jaiz", "ق۵ (جایز در صیغ خمسه؛ ۳ حرکت + فکّ)"], ["لَمْ تَمُدَّا", "لَمْ تَمْدُدَا", "wajib", "ق۲ (واجب)"], ["لَمْ تَمُدُّوا", "لَمْ تَمْدُدُوا", "wajib", "ق۲ (واجب)"], ["لَمْ تَمُدِّي", "لَمْ تَمْدُدِي", "wajib", "ق۲ (واجب – یاء مخاطبه)"], ["لَمْ تَمُدَّا", "لَمْ تَمْدُدَا", "wajib", "ق۲ (واجب)"], ["لَمْ تَمْدُدْنَ", "لَمْ تَمْدُدْنَ", "mumtani", "ممتنع (نون نسوه)"], ["لَمْ أَمُدَّ / دِّ / دُّ / أَمْدُدْ", "لَمْ أَمْدُدْ", "jaiz", "ق۵ (جایز در صیغ خمسه؛ ۳ حرکت + فکّ)"], ["لَمْ نَمُدَّ / دِّ / دُّ / نَمْدُدْ", "لَمْ نَمْدُدْ", "jaiz", "ق۵ (جایز در صیغ خمسه؛ ۳ حرکت + فکّ)"]], "amr_m": [["لِيَمُدَّ / دِّ / دُّ / لِيَمْدُدْ", "لِيَمْدُدْ", "jaiz", "ق۵ (جایز؛ مضموم‌العین = ۳ حرکت + فکّ)"], ["لِيَمُدَّا", "لِيَمْدُدَا", "wajib", "ق۲ (واجب)"], ["لِيَمُدُّوا", "لِيَمْدُدُوا", "wajib", "ق۲ (واجب)"], ["لِتَمُدَّ / دِّ / دُّ / لِتَمْدُدْ", "لِتَمْدُدْ", "jaiz", "ق۵ (جایز؛ ۳ حرکت + فکّ)"], ["لِتَمُدَّا", "لِتَمْدُدَا", "wajib", "ق۲ (واجب)"], ["لِيَمْدُدْنَ", "لِيَمْدُدْنَ", "mumtani", "ممتنع (نون نسوه)"], ["مُدَّ / مُدِّ / مُدُّ / اُمْدُدْ", "اُمْدُدْ", "jaiz", "ق۵ (جایز؛ در ادغام همزۀ وصل حذف، در فکّ همزه باقی است)"], ["مُدَّا", "اُمْدُدَا", "wajib", "ق۲ (واجب؛ حذف همزۀ وصل به سبب حرکت میم)"], ["مُدُّوا", "اُمْدُدُوا", "wajib", "ق۲ (واجب؛ حذف همزۀ وصل)"], ["مُدِّي", "اُمْدُدِي", "wajib", "ق۲ (واجب؛ حذف همزۀ وصل)"], ["مُدَّا", "اُمْدُدَا", "wajib", "ق۲ (واجب؛ حذف همزۀ وصل)"], ["اُمْدُدْنَ", "اُمْدُدْنَ", "mumtani", "ممتنع (نون نسوه؛ همزۀ وصل همیشه باقی است)"], ["لِأَمُدَّ / دِّ / دُّ / لِأَمْدُدْ", "لِأَمْدُدْ", "jaiz", "ق۵ (جایز؛ ۳ حرکت + فکّ)"], ["لِنَمُدَّ / دِّ / دُّ / لِنَمْدُدْ", "لِنَمْدُدْ", "jaiz", "ق۵ (جایز؛ ۳ حرکت + فکّ)"]], "amr_j": [["لِيُمَدَّ / لِيُمَدِّ / لِيُمْدَدْ", "لِيُمْدَدْ", "jaiz", "ق۵ (جایز؛ در تمام مجهول‌ها عین مفتوح است ← فقط فتح و کسر + فکّ؛ ضمّه ممتنع!)"], ["لِيُمَدَّا", "لِيُمْدَدَا", "wajib", "ق۲ (واجب – نقل فتحه)"], ["لِيُمَدُّوا", "لِيُمْدَدُوا", "wajib", "ق۲ (واجب)"], ["لِتُمَدَّ / لِتُمَدِّ / لِتُمْدَدْ", "لِتُمْدَدْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لِتُمَدَّا", "لِتُمْدَدَا", "wajib", "ق۲ (واجب)"], ["لِيُمْدَدْنَ", "لِيُمْدَدْنَ", "mumtani", "ممتنع (نون نسوه)"], ["لِتُمَدَّ / لِتُمَدِّ / لِتُمْدَدْ", "لِتُمْدَدْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لِتُمَدَّا", "لِتُمْدَدَا", "wajib", "ق۲ (واجب)"], ["لِتُمَدُّوا", "لِتُمْدَدُوا", "wajib", "ق۲ (واجب)"], ["لِتُمَدِّي", "لِتُمْدَدِي", "wajib", "ق۲ (واجب)"], ["لِتُمَدَّا", "لِتُمْدَدَا", "wajib", "ق۲ (واجب)"], ["لِتُمْدَدْنَ", "لِتُمْدَدْنَ", "mumtani", "ممتنع (نون نسوه)"], ["لِأُمَدَّ / لِأُمَدِّ / لِأُمْدَدْ", "لِأُمْدَدْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لِنُمَدَّ / لِنُمَدِّ / لِنُمْدَدْ", "لِنُمْدَدْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"]], "amr_tawkid": [["لِيَمُدَّنَّ", "لِيَمْدُدْ + نَّ", "wajib", "تغییر حکم از ق۵ به وجوب (ق۲) + فتحۀ الزامی به سبب نون تأکید"], ["لِيَمُدَّانِّ", "لِيَمْدُدَا + نِّ", "wajib", "واجب (الف تثنیه + نون تأکید مکسور)"], ["لِيَمُدُّنَّ", "لِيَمْدُدُوا + نَّ", "wajib", "واجب (حذف واو جمع برای رفع التقای ساکنین)"], ["لِتَمُدَّنَّ", "لِتَمْدُدْ + نَّ", "wajib", "وجوب ادغام + فتحۀ الزامی"], ["لِتَمُدَّانِّ", "لِتَمْدُدَا + نِّ", "wajib", "واجب"], ["لِيَمْدُدْنَانِّ", "لِيَمْدُدْنَ + ا + نِّ", "mumtani", "ممتنع (نون نسوه + الف فاصل + نون تأکید مکسور ← فکّ واجب!)"], ["مُدَّنَّ", "اُمْدُدْ + نَّ", "wajib", "وجوب ادغام + فتحۀ الزامی + حذف همزۀ وصل!"], ["مُدَّانِّ", "اُمْدُدَا + نِّ", "wajib", "واجب + حذف همزۀ وصل"], ["مُدُّنَّ", "اُمْدُدُوا + نَّ", "wajib", "واجب + حذف واو جمع و همزۀ وصل"], ["مُدِّنَّ", "اُمْدُدِي + نَّ", "wajib", "واجب + حذف یاء مخاطبه و همزۀ وصل"], ["مُدَّانِّ", "اُمْدُدَا + نِّ", "wajib", "واجب"], ["اُمْدُدْنَانِّ", "اُمْدُدْنَ + ا + نِّ", "mumtani", "ممتنع (نون نسوه ← فکّ واجب و بقای همزۀ وصل!)"], ["لِأَمُدَّنَّ", "لِأَمْدُدْ + نَّ", "wajib", "وجوب ادغام + فتحۀ الزامی"], ["لِنَمُدَّنَّ", "لِنَمْدُدْ + نَّ", "wajib", "وجوب ادغام + فتحۀ الزامی"]]}}, "farra": {"label": "فَرَّ يَفِرُّ (باب ضَرَبَ – مکسورالعین)", "root": "ف ر ر", "bab": "ضَرَبَ يَضْرِبُ", "tenses": {"mazi_m": [["فَرَّ", "فَرَرَ", "wajib", "ق۲ (واجب – حذف فتحه)"], ["فَرَّا", "فَرَرَا", "wajib", "ق۲ (واجب)"], ["فَرُّوا", "فَرَرُوا", "wajib", "ق۲ (واجب)"], ["فَرَّتْ", "فَرَرَتْ", "wajib", "ق۲ (واجب)"], ["فَرَّتَا", "فَرَرَتَا", "wajib", "ق۲ (واجب)"], ["فَرَرْنَ", "فَرَرْنَ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["فَرَرْتَ", "فَرَرْتَ", "mumtani", "ممتنع (ضمیر رفع متحرک)"], ["فَرَرْتُمَا", "فَرَرْتُمَا", "mumtani", "ممتنع"], ["فَرَرْتُمْ", "فَرَرْتُمْ", "mumtani", "ممتنع (آیۀ: إِنْ فَرَرْتُمْ مِنَ الْمَوْتِ)"], ["فَرَرْتِ", "فَرَرْتِ", "mumtani", "ممتنع"], ["فَرَرْتُمَا", "فَرَرْتُمَا", "mumtani", "ممتنع"], ["فَرَرْتُنَّ", "فَرَرْتُنَّ", "mumtani", "ممتنع"], ["فَرَرْتُ", "فَرَرْتُ", "mumtani", "ممتنع (آیۀ: فَفَرَرْتُ مِنْكُمْ)"], ["فَرَرْنَا", "فَرَرْنَا", "mumtani", "ممتنع"]], "moz_mjz": [["لَمْ يَفِرَّ / لَمْ يَفِرِّ / لَمْ يَفْرِرْ", "لَمْ يَفْرِرْ", "jaiz", "ق۵ (جایز؛ مکسورالعین ← فقط فتح و کسر + فکّ؛ ضمّه ممتنع!)"], ["لَمْ يَفِرَّا", "لَمْ يَفْرِرَا", "wajib", "ق۲ (واجب – نقل کسره)"], ["لَمْ يَفِرُّوا", "لَمْ يَفْرِرُوا", "wajib", "ق۲ (واجب)"], ["لَمْ تَفِرَّ / لَمْ تَفِرِّ / لَمْ تَفْرِرْ", "لَمْ تَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لَمْ تَفِرَّا", "لَمْ تَفْرِرَا", "wajib", "ق۲ (واجب)"], ["لَمْ يَفْرِرْنَ", "لَمْ يَفْرِرْنَ", "mumtani", "ممتنع (نون نسوه)"], ["لَمْ تَفِرَّ / لَمْ تَفِرِّ / لَمْ تَفْرِرْ", "لَمْ تَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لَمْ تَفِرَّا", "لَمْ تَفْرِرَا", "wajib", "ق۲ (واجب)"], ["لَمْ تَفِرُّوا", "لَمْ تَفْرِرُوا", "wajib", "ق۲ (واجب)"], ["لَمْ تَفِرِّي", "لَمْ تَفْرِرِي", "wajib", "ق۲ (واجب)"], ["لَمْ تَفِرَّا", "لَمْ تَفْرِرَا", "wajib", "ق۲ (واجب)"], ["لَمْ تَفْرِرْنَ", "لَمْ تَفْرِرْنَ", "mumtani", "ممتنع (نون نسوه)"], ["لَمْ أَفِرَّ / لَمْ أَفِرِّ / لَمْ أَفْرِرْ", "لَمْ أَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لَمْ نَفِرَّ / لَمْ نَفِرِّ / لَمْ نَفْرِرْ", "لَمْ نَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"]], "amr_m": [["لِيَفِرَّ / لِيَفِرِّ / لِيَفْرِرْ", "لِيَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لِيَفِرَّا", "لِيَفْرِرَا", "wajib", "ق۲ (واجب)"], ["لِيَفِرُّوا", "لِيَفْرِرُوا", "wajib", "ق۲ (واجب)"], ["لِتَفِرَّ / لِتَفِرِّ / لِتَفْرِرْ", "لِتَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لِتَفِرَّا", "لِتَفْرِرَا", "wajib", "ق۲ (واجب)"], ["لِيَفْرِرْنَ", "لِيَفْرِرْنَ", "mumtani", "ممتنع (نون نسوه)"], ["فِرَّ / فِرِّ / اِفْرِرْ", "اِفْرِرْ", "jaiz", "ق۵ (جایز؛ فتح و کسر با حذف همزه، یا فکّ با بقای همزۀ وصل)"], ["فِرَّا", "اِفْرِرَا", "wajib", "ق۲ (واجب)"], ["فِرُّوا", "اِفْرِرُوا", "wajib", "ق۲ (واجب؛ آیۀ: فَفِرُّوا إِلَى اللَّهِ)"], ["فِرِّي", "اِفْرِرِي", "wajib", "ق۲ (واجب)"], ["فِرَّا", "اِفْرِرَا", "wajib", "ق۲ (واجب)"], ["اِفْرِرْنَ", "اِفْرِرْنَ", "mumtani", "ممتنع (نون نسوه؛ همزۀ وصل مکسور باقی است)"], ["لِأَفِرَّ / لِأَفِرِّ / لِأَفْرِرْ", "لِأَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لِنَفِرَّ / لِنَفِرِّ / لِنَفْرِرْ", "لِنَفْرِرْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"]]}}, "massa": {"label": "مَسَّ يَمَسُّ / ظَلَّ يَظَلُّ (باب سَمِعَ – مفتوح‌العین مضارع)", "root": "م س س", "bab": "سَمِعَ يَسْمَعُ", "tenses": {"mazi_m": [["مَسَّ", "مَسِسَ", "wajib", "ق۲ (واجب – حذف کسرۀ عین‌الفعل)"], ["مَسَّا", "مَسِسَا", "wajib", "ق۲ (واجب)"], ["مَسُّوا", "مَسِسُوا", "wajib", "ق۲ (واجب)"], ["مَسَّتْ", "مَسِسَتْ", "wajib", "ق۲ (واجب؛ آیۀ: مَسَّتْهُمُ الْبَأْسَاءُ)"], ["مَسَّتَا", "مَسِسَتَا", "wajib", "ق۲ (واجب)"], ["مَسِسْنَ / مَسْنَ / مِسْنَ", "مَسِسْنَ", "mumtani", "ممتنع (ضمیر رفع متحرک) + جواز ۳ وجه حذف در باب سَمِعَ!"], ["مَسِسْتَ / مَسْتَ / مِسْتَ", "مَسِسْتَ", "mumtani", "ممتنع + جواز حذف عین‌الفعل (مانند ظَلِلْتَ / ظَلْتَ / ظِلْتَ)"], ["مَسِسْتُمَا / مَسْتُمَا / مِسْتُمَا", "مَسِسْتُمَا", "mumtani", "ممتنع + جواز ۳ وجه حذف"], ["مَسِسْتُمْ / مَسْتُمْ / مِسْتُمْ", "مَسِسْتُمْ", "mumtani", "ممتنع + جواز ۳ وجه حذف (آیۀ: فَظَلْتُمْ تَفَكَّهُونَ)"], ["مَسِسْتِ / مَسْتِ / مِسْتِ", "مَسِسْتِ", "mumtani", "ممتنع + جواز ۳ وجه حذف"], ["مَسِسْتُمَا / مَسْتُمَا / مِسْتُمَا", "مَسِسْتُمَا", "mumtani", "ممتنع + جواز ۳ وجه حذف"], ["مَسِسْتُنَّ / مَسْتُنَّ / مِسْتُنَّ", "مَسِسْتُنَّ", "mumtani", "ممتنع + جواز ۳ وجه حذف"], ["مَسِسْتُ / مَسْتُ / مِسْتُ", "مَسِسْتُ", "mumtani", "ممتنع + جواز ۳ وجه حذف"], ["مَسِسْنَا / مَسْنَا / مِسْنَا", "مَسِسْنَا", "mumtani", "ممتنع + جواز ۳ وجه حذف"]], "moz_mjz": [["لَمْ يَمَسَّ / لَمْ يَمَسِّ / لَمْ يَمْسَسْ", "لَمْ يَمْسَسْ", "jaiz", "ق۵ (جایز؛ مفتوح‌العین ← فقط فتح و کسر + فکّ؛ ضمّه ممتنع!)"], ["لَمْ يَمَسَّا", "لَمْ يَمْسَسَا", "wajib", "ق۲ (واجب – نقل فتحه)"], ["لَمْ يَمَسُّوا", "لَمْ يَمْسَسُوا", "wajib", "ق۲ (واجب)"], ["لَمْ تَمَسَّ / لَمْ تَمَسِّ / لَمْ تَمْسَسْ", "لَمْ تَمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر + فکّ)"], ["لَمْ تَمَسَّا", "لَمْ تَمْسَسَا", "wajib", "ق۲ (واجب)"], ["لَمْ يَمْسَسْنَ", "لَمْ يَمْسَسْنَ", "mumtani", "ممتنع (نون نسوه)"], ["لَمْ تَمَسَّ / لَمْ تَمَسِّ / لَمْ تَمْسَسْ", "لَمْ تَمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر + فکّ)"], ["لَمْ تَمَسَّا", "لَمْ تَمْسَسَا", "wajib", "ق۲ (واجب)"], ["لَمْ تَمَسُّوا", "لَمْ تَمْسَسُوا", "wajib", "ق۲ (واجب)"], ["لَمْ تَمَسِّي", "لَمْ تَمْسَسِي", "wajib", "ق۲ (واجب)"], ["لَمْ تَمَسَّا", "لَمْ تَمْسَسَا", "wajib", "ق۲ (واجب)"], ["لَمْ تَمْسَسْنَ", "لَمْ تَمْسَسْنَ", "mumtani", "ممتنع (نون نسوه)"], ["لَمْ أَمَسَّ / لَمْ أَمَسِّ / لَمْ أَمْسَسْ", "لَمْ أَمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر + فکّ)"], ["لَمْ نَمَسَّ / لَمْ نَمَسِّ / لَمْ نَمْسَسْ", "لَمْ نَمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر + فکّ)"]], "amr_m": [["لِيَمَسَّ / لِيَمَسِّ / لِيَمْسَسْ", "لِيَمْسَسْ", "jaiz", "ق۵ (جایز؛ فقط فتح و کسر + فکّ)"], ["لِيَمَسَّا", "لِيَمْسَسَا", "wajib", "ق۲ (واجب)"], ["لِيَمَسُّوا", "لِيَمْسَسُوا", "wajib", "ق۲ (واجب)"], ["لِتَمَسَّ / لِتَمَسِّ / لِتَمْسَسْ", "لِتَمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر + فکّ)"], ["لِتَمَسَّا", "لِتَمْسَسَا", "wajib", "ق۲ (واجب)"], ["لِيَمْسَسْنَ", "لِيَمْسَسْنَ", "mumtani", "ممتنع (نون نسوه)"], ["مَسَّ / مَسِّ / اِمْسَسْ", "اِمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر با حذف همزۀ وصل، یا فکّ با همزۀ مکسور)"], ["مَسَّا", "اِمْسَسَا", "wajib", "ق۲ (واجب)"], ["مَسُّوا", "اِمْسَسُوا", "wajib", "ق۲ (واجب)"], ["مَسِّي", "اِمْسَسِي", "wajib", "ق۲ (واجب)"], ["مَسَّا", "اِمْسَسَا", "wajib", "ق۲ (واجب)"], ["اِمْسَسْنَ", "اِمْسَسْنَ", "mumtani", "ممتنع (نون نسوه؛ همزۀ وصل باقی است)"], ["لِأَمَسَّ / لِأَمَسِّ / لِأَمْسَسْ", "لِأَمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر + فکّ)"], ["لِنَمَسَّ / لِنَمَسِّ / لِنَمْسَسْ", "لِنَمْسَسْ", "jaiz", "ق۵ (جایز؛ فتح و کسر + فکّ)"]]}}}, "mcqs": [{"id": 1, "cat": "mudaaf", "catLabel": "مضاعف، ابواب و تغییرات", "level": "المپیادی", "q": "بر پایۀ تعریف مضاعف در درس ۲۱ «صرف الف»، در کدام گروه تمامی کلمات «مضاعف» (ثلاثی یا رباعیِ ادغام‌پذیر) هستند؟", "opts": ["آمَنَّا، مُعَلَّمٍ، وَجَدْتُ", "قُلَلٌ، ثَبَتَّ، حَنَّانٌ", "سَلْسَبِيلٌ، دَدَنٌ، قَلَقٌ", "سُرُورٌ، زِلْزَالٌ، حَنَّانٌ"], "ans": 3, "exp": "در گزینۀ (د)، «سُرُورٌ» (س ر ر) و «حَنَّانٌ» (ح ن ن) مضاعف ثلاثی، و «زِلْزَالٌ» (ز ل ز ل) مضاعف رباعی‌اند. اما در الف هیچ‌کدام مضاعف نیستند؛ در ب «ثَبَتَّ» (ث ب ت) سالم است؛ و در ج «سَلْسَبِيل» خماسی است (خماسی به مضاعف تقسیم نمی‌شود)، «دَدَن» هم‌جنسی فاء و عین و «قَلَق» هم‌جنسی فاء و لام است."}, {"id": 2, "cat": "mudaaf", "catLabel": "مضاعف، ابواب و تغییرات", "level": "المپیادی", "q": "دربارۀ نوع دو کلمۀ «إِمَامٌ» و «وَأْوَأَ» (از جهت صحیح، معتلّ، مهموز، سالم و مضاعف) کدام گزینه به ترتیب نادرست است؟", "opts": ["مهموز، معتلّ", "صحیح، مضاعف", "مضاعف، معتلّ", "سالم، مهموز"], "ans": 3, "exp": "ریشۀ «إِمَام» (أ م م) هم مهموز الفاء و هم مضاعف (و از اقسام صحیح) است؛ ریشۀ «وَأْوَأَ» (و أ و أ) مضاعف رباعی، مهموز و معتلّ است. بنابراین «إِمَام» به سبب همزه و تضعیف هرگز «سالم» نیست و گزینۀ (د) نادرست است."}, {"id": 3, "cat": "mudaaf", "catLabel": "مضاعف، ابواب و تغییرات", "level": "نکته‌سنج", "q": "با توجه به ابواب فعل مضاعف («سَنَضَدَد»)، حرکتِ «عین‌الفعل ماضی» در فعل امر «عَضِّي» (خطاب به مفرد مؤنّث) کدام است؟", "opts": ["ضمّه", "کسره", "فتحه", "فتحه یا کسره"], "ans": 1, "exp": "«عَضِّي» امر حاضر صیغۀ ۱۰ (در اصل اِعْضَضِي) است که فتحۀ عین‌الفعل آن به فاءالفعل منتقل شده است. در میان سه باب «سَنَضَدَد» (سَمِعَ، نَصَرَ، ضَرَبَ)، تنها بابی که مضارع و امرش مفتوح‌العین است، باب «سَمِعَ يَسْمَعُ» است؛ پس عین‌الفعل ماضی (عَضِضَ) حتماً «کسره» دارد."}, {"id": 4, "cat": "mudaaf", "catLabel": "مضاعف، ابواب و تغییرات", "level": "نکته‌سنج", "q": "در دو آیۀ شریفۀ ﴿وَقَدْ خَابَ مَنْ دَسَّاهَا﴾ (شمس/۱۰) و ﴿لَجَعَلْنَاهُ حُطَاماً فَظَلْتُمْ تَفَكَّهُونَ﴾ (واقعه/۶۵)، کدام دو تغییر از تغییرات سه‌گانۀ مضاعف به ترتیب رخ داده است؟", "opts": ["ادغام، حذف", "ابدال، حذف", "ابدال، ادغام", "حذف، ابدال"], "ans": 1, "exp": "در «دَسَّاهَا» (در اصل دَسَّسَهَا در باب تفعیل)، حرف مماثل دوم به یاء ابدال شده (دَسَّيَ ← دَسَّى)؛ و در «فَظَلْتُمْ» (در اصل ظَلِلْتُمْ از باب سَمِعَ)، عین‌الفعل (لام اول) حذف شده است (و سه وجه ظَلِلْتُمْ، ظَلْتُمْ و ظِلْتُمْ جایز است)."}, {"id": 5, "cat": "mudaaf", "catLabel": "مضاعف، ابواب و تغییرات", "level": "پایه", "q": "بر اساس ملاک «پایداری و ثبات حروف» در مدخل مبحث مضاعف (مراح الأرواح)، ترتیب صحیح افعال زیر از پایدارترین به ناپایدارترین کدام است؟", "opts": ["كَتَبَ ← أَخَذَ ← شَدَّ ← قَالَ", "كَتَبَ ← شَدَّ ← أَخَذَ ← قَالَ", "شَدَّ ← كَتَبَ ← أَخَذَ ← قَالَ", "كَتَبَ ← شَدَّ ← قَالَ ← أَخَذَ"], "ans": 1, "exp": "ترتیب مباحث بر اساس پایداری حروف چنین است: ۱) صحیح سالم (كَتَبَ)، ۲) مضاعف (شَدَّ)، ۳) مهموز (أَخَذَ – که به سبب اصالت همزه قوی‌تر از معتلّ است)، ۴) معتلّ (قَالَ – بیشترین تغییرات قلبی و حذفی)."}, {"id": 6, "cat": "wazn", "catLabel": "تقسیمات و وزن مشدّد", "level": "نکته‌سنج", "q": "چرا با آنکه دو فعل «شَقَّ» (شکافت) و «قَدَّمَ» (پیش فرستاد) هر دو سه حرفی با تشدید تلفظ می‌شوند، وزن اولی «فَعَلَ» (بدون تشدید) ولی وزن دومی «فَعَّلَ» (با تشدید) است؟", "opts": ["زیرا «شَقَّ» لازم و «قَدَّمَ» متعدّی است", "زیرا در «شَقَّ» هر دو قاف اصلی‌اند، اما در «قَدَّمَ» یکی از دو دال زائدِ باب تفعیل است", "زیرا در «شَقَّ» ادغام صغیر و در «قَدَّمَ» ادغام کبیر رخ داده است", "زیرا در «قَدَّمَ» هر دو دال زائدند، اما در «شَقَّ» یکی اصلی و دیگری زائد است"], "ans": 1, "exp": "طبق قواعد وزن کلمات مشدّد (درس ۲۲): اگر هر دو حرف مشدّد اصلی باشند (شَقَقَ ← شَقَّ)، در وزن بدون تشدید با حرکات پیش از ادغام می‌آیند (فَعَلَ)؛ اما اگر یکی اصلی و دیگری زائدِ تکراریِ باب تفعیل باشد (قَدَّمَ از ق د م)، معادل آن در وزن مشدّد می‌آید (فَعَّلَ)."}, {"id": 7, "cat": "wazn", "catLabel": "تقسیمات و وزن مشدّد", "level": "المپیادی", "q": "وزن صرفی چهار کلمۀ «مَدَّتْ، إِجْلِوَّاذٌ، عَلَّمَ، وَفِيٌّ» به ترتیب کدام است؟", "opts": ["فَعَّتْ – إِفْعِوَّالٌ – فَعَّلَ – فَعِيلٌ", "فَعَلَتْ – إِفْعِوَّالٌ – فَعَّلَ – فَعِيلٌ", "فَعَلَتْ – إِفْعِوَالٌ – فَعَلَ – فَعِيٌّ", "فَعَلَتْ – إِفْعِوَّالٌ – فَعَّلَ – فَعِيٌّ"], "ans": 1, "exp": "۱) مَدَّتْ (مَدَدَتْ): هر دو اصلی ← فَعَلَتْ؛ ۲) إِجْلِوَّاذ: هر دو واو زائد ← إِفْعِوَّال؛ ۳) عَلَّمَ: زائد تکراری باب تفعیل ← فَعَّلَ؛ ۴) وَفِيٌّ (وَفِييٌ): یاء زائد فَعِيل + یاء اصلی که به سبب ادغام مشدّد شده ← بدون تشدید در وزن (فَعِيلٌ)."}, {"id": 8, "cat": "wazn", "catLabel": "تقسیمات و وزن مشدّد", "level": "نکته‌سنج", "q": "چرا «الف» و «همزه» از شمول قاعدۀ ادغام متماثلین خارج شده‌اند؟", "opts": ["هر دو به دلیل مخرج حلقی قابل تلفظ مشدّد نیستند", "الف حرکت نمی‌پذیرد و همزه به سبب سنگینی معمولاً ابدال (تخفیف) می‌شود", "الف در اول کلمه نمی‌آید و همزه همیشه متحرک است", "هر دو از حروف علّه محسوب شده و فقط مشمول اعلال‌اند"], "ans": 1, "exp": "طبق نکتۀ درس ۲۲ «صرف الف»: ادغام متماثلین تقریباً برای همۀ حروف جاری است جز الف و همزه؛ الف ادغام نمی‌شود چون هرگز حرکت نمی‌پذیرد، و همزه معمولاً به سبب سنگینی دچار ابدال می‌شود."}, {"id": 9, "cat": "wazn", "catLabel": "تقسیمات و وزن مشدّد", "level": "نکته‌سنج", "q": "کدام گزینه دربارۀ تحلیل نوع ادغامِ ﴿وَإِذْ ظَلَمُوا﴾ (نساء/۶۴) و ﴿يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ﴾ (بقره/۲۵۵) به ترتیب دقیق است؟", "opts": ["صغیر متقاربین (قرابت صفتی) – کبیر متماثلین", "صغیر متماثلین – صغیر متماثلین", "کبیر متقاربین – کبیر متقاربین", "صغیر متقاربین (قرابت مخرجی) – صغیر متماثلین"], "ans": 0, "exp": "در «إِذْ ظَلَمُوا ← إِظَّلَمُوا»، ذال ساکن و ظاء متحرک بوده و قرابت آن دو (طبق تصریح درس ۲۲ صرف الف) در صفت است (صغیر متقاربین). در «يَعْلَمُ مَا»، هر دو میم متحرک و هم‌جنس‌اند (کبیر متماثلین در دو کلمه؛ جایز)."}, {"id": 10, "cat": "wazn", "catLabel": "تقسیمات و وزن مشدّد", "level": "المپیادی", "q": "وزن صرفی دو کلمۀ «أَذِلَّةٌ» (مائده/۵۴) و «سَيِّدٌ» (آل‌عمران/۳۹) و علت تفاوت تشدید در آن‌ها چیست؟", "opts": ["أَفْعِلَةٌ و فَعِيلٌ — در هر دو تشدید ناشی از ادغام دو حرف اصلی است", "أَفِعَّةٌ و فَيْعِلٌ — در اولی تشدید در وزن حفظ می‌شود", "أَفْعِلَةٌ و فَيْعِلٌ — در اولی دو حرف اصلی مدغم شده و در دومی یاء زائد با عین‌الفعل منقلب از واو ادغام شده است", "أَفْعَلَةٌ و فَعَّلٌ — در دومی تشدید ناشی از باب تفعیل است"], "ans": 2, "exp": "«أَذِلَّةٌ» در اصل «أَذْلِلَةٌ» (أَفْعِلَةٌ) از ریشۀ (ذ ل ل) بوده که دو لام اصلی با نقل کسره ادغام شده‌اند؛ و «سَيِّدٌ» در اصل «سَيْوِدٌ» (فَيْعِلٌ) بوده که واو به یاء قلب و در یاء زائد فَيْعِل ادغام شده است، لذا در هر دو، وزن بدون تشدید است."}, {"id": 11, "cat": "wajib", "catLabel": "ادغام واجب (ق ۱ تا ۴)", "level": "المپیادی", "q": "در جملۀ «زَيْدٌ يَدْعُو وُجُجاً» (وُجُج: پرندۀ تندرو)، حکم ادغام در سه موضعِ موجود به ترتیب از راست به چپ کدام است؟", "opts": ["واجب، ممتنع، ممتنع", "ممتنع، ممتنع، واجب", "واجب، واجب، ممتنع", "ممتنع، واجب، ممتنع"], "ans": 0, "exp": "۱) تنوینِ «زَيْدٌ» پیش از یاء «يَدْعُو» (یرملون) ← واجب (ق۴)؛ ۲) واو مدّی پایان «يَدْعُو» با واو «وُجُجاً» ← ممتنع (تبصرۀ ق۱: حرف مدّ آخر کلمه ادغام نمی‌شود جز «فِي»)؛ ۳) دو جیم در «وُجُجاً» ← ممتنع (مانع ۲: اسم ثلاثی مجرّد متحرک‌العین بر وزن فُعُل)."}, {"id": 12, "cat": "wajib", "catLabel": "ادغام واجب (ق ۱ تا ۴)", "level": "نکته‌سنج", "q": "بر پایۀ مبنای «صرف الف» (درس ۲۳، نکتۀ قاعدۀ ۱)، دربارۀ حکم ادغام در دو عبارت «قَالُوا وَجَدْنَا» و ﴿تَعْرُجُ الْمَلَائِكَةُ... فِي يَوْمٍ﴾ (معارج/۴) کدام گزینه صحیح است؟", "opts": ["هر دو ممتنع‌اند زیرا حرف اول در پایان کلمه مدّی است", "هر دو واجب‌اند زیرا دو متماثلِ اول ساکن و دوم متحرک‌اند", "در «قَالُوا وَجَدْنَا» ادغام جاری نمی‌شود، اما «فِي يَوْمٍ» استثناء شده و مشمول ادغام واجب است", "در «قَالُوا وَجَدْنَا» ادغام جایز و در «فِي يَوْمٍ» ممتنع است"], "ans": 2, "exp": "در درس ۲۳ کتاب «صرف الف» (ص ۱۷) تصریح شده است: اگر دو متماثل در دو کلمه باشند و اولی حرف مدّ و در پایان کلمه باشد ادغام جاری نمی‌شود، به جز «فِي» مانند «فِي يَوْمٍ». (توجّه: در برخی کتب دیگر مانند «صرف ساده»، «فِي يَوْمٍ» نیز ممتنع شمرده شده است)."}, {"id": 13, "cat": "wajib", "catLabel": "ادغام واجب (ق ۱ تا ۴)", "level": "نکته‌سنج", "q": "در کدام گزینه، در هر دو کلمه شیوۀ تسکین حرف اول در قاعدۀ ۲ (متماثل کبیر در یک کلمه) به روش «حذف حرکت» است؟", "opts": ["مَدَّ – يَمُدُّ", "مَدَّ – مَادَّ", "يَمُدُّ – مَادَّ", "يَظُنُّ – يَفِرُّ"], "ans": 1, "exp": "در «مَدَّ» (مَدَدَ) ماقبل حرف اول متحرک است و در «مَادَّ» (مَادَدَ) ماقبل حرف اول الف مدّیِ غیرحرکت‌پذیر است؛ پس در هر دو، تسکین به روش «حذف حرکت» انجام می‌شود. اما در «يَمُدُّ، يَظُنُّ، يَفِرُّ» ماقبل ساکنِ حرکت‌پذیر بوده و تسکین به روش «نقل» است."}, {"id": 14, "cat": "wajib", "catLabel": "ادغام واجب (ق ۱ تا ۴)", "level": "المپیادی", "q": "نوع و قاعدۀ ادغام در کلمۀ «وُدّاً» (در آیۀ ﴿سَيَجْعَلُ لَهُمُ الرَّحْمَنُ وُدًّا﴾ – مصدر بر وزن فُعْل) و در کلمۀ «مِمَّ» (طارق/۵) به ترتیب کدام است؟", "opts": ["قاعدۀ ۱ (متماثل صغیر واجب) – قاعدۀ ۴ (نون ساکن در یرملون واجب)", "قاعدۀ ۲ (متماثل کبیر واجب) – قاعدۀ ۱ (متماثل صغیر واجب)", "قاعدۀ ۵ (جایز) – قاعدۀ ۴ (واجب)", "قاعدۀ ۲ (کبیر واجب) – قاعدۀ ۷ (متقارب جایز)"], "ans": 0, "exp": "«وُدّاً» مصدر بر وزن «فُعْل» (در اصل وُدْدٌ با سکون ذاتی دال اول) است؛ لذا مشمول قاعدۀ ۱ (متماثل صغیر واجب) است. «مِمَّ» نیز در اصل «مِنْ مَا» بوده که نون ساکن در میم (از حروف یرملون) ادغام واجب لفظی و کتبی (قاعدۀ ۴) شده است."}, {"id": 15, "cat": "jaiz", "catLabel": "ادغام جایز (ق ۵ تا ۷)", "level": "المپیادی", "q": "در امر حاضرِ افعال مضاعف ثلاثی مجرّد (صیغه‌های ۷ تا ۱۲)، چند صیغه دارای «همزۀ وصل» است؟", "opts": ["یک صیغه", "دو صیغه", "سه صیغه", "یک صیغه و یا دو صیغه (بسته به ادغام یا فکّ صیغۀ ۷)"], "ans": 3, "exp": "در امر حاضر، صیغۀ ۱۲ (اُمْدُدْنَ) همیشه فکّ ادغام و دارای همزۀ وصل است. صیغه‌های ۸، ۹، ۱۰ و ۱۱ واجب‌الادغام و فاقد همزۀ وصل‌اند. صیغۀ ۷ (مُدَّ / اُمْدُدْ) جایز است: اگر مدغم باشد همزه ندارد (جمعاً ۱ صیغه)، و اگر فک شود همزه دارد (جمعاً ۲ صیغه)."}, {"id": 16, "cat": "jaiz", "catLabel": "ادغام جایز (ق ۵ تا ۷)", "level": "المپیادی", "q": "اگر فعل امرِ «عُزَّا» (از ریشۀ ع ز ز: عزیز شدن – لازم) را در «صیغۀ هفتم» مجهول کنیم، کدام گزینه صحیح است؟", "opts": ["لِتُعْزَزْ", "لِيُعَزُّ بِكَ", "لِيُعَزِّ بِكَ", "عُزَّ بِكَ"], "ans": 2, "exp": "چون «عَزَّ» لازم است، مجهول آن با حرف جر ساخته شده و خودِ فعل در صیغۀ ۱ مفرد مذکّر می‌ماند و صیغۀ ۷ در ضمیر مجرور (بِكَ) ظاهر می‌شود. همچنین در مضارع و امر مجهول عین‌الفعل مفتوح است (لِيُعْزَزْ)، پس در ق۵ فقط فتحه و کسره جایز است و ضمّه (لِيُعَزُّ بِكَ) غلط است؛ بنابراین «لِيُعَزِّ بِكَ» صحیح است."}, {"id": 17, "cat": "jaiz", "catLabel": "ادغام جایز (ق ۵ تا ۷)", "level": "نکته‌سنج", "q": "کدام گزینه دربارۀ تمام وجوهِ صحیح صرفیِ «لِيَغُضَّ» (مضارع مجزوم معلوم از غ ض ض، باب نون) در مقایسه با «لِيُغَضَّ» (مجهول آن) دقیق است؟", "opts": ["هر دو ۴ وجه (فتحه، کسره، ضمّه و فکّ) دارند", "معلوم ۴ وجه (۳ حرکت + فکّ) و مجهول ۳ وجه (فتحه، کسره و فکّ) دارد", "معلوم ۳ وجه و مجهول ۴ وجه دارد", "در هر دو، تنها فتحه و فکّ جایز است"], "ans": 1, "exp": "در «لِيَغْضُضْ» (معلوم باب نون) عین‌الفعل مضموم است، پس طبق قاعدۀ ۵ هر سه حرکتِ فتحه، کسره و ضمّه به همراه فکّ جایز است (۴ صورت). اما در «لِيُغْضَضْ» (مجهول) عین‌الفعل مفتوح است، لذا ضمّه ممتنع بوده و فقط فتحه، کسره و فکّ جایز است (۳ صورت)."}, {"id": 18, "cat": "jaiz", "catLabel": "ادغام جایز (ق ۵ تا ۷)", "level": "نکته‌سنج", "q": "در دو آیۀ ﴿وَمَنْ يُشَاقِقِ الرَّسُولَ﴾ (نساء/۱۱۵) و ﴿وَمَنْ يُشَاقِّ اللَّهَ﴾ (انفال/۱۳)، کدام قاعده صحت هر دو ساختار را اثبات می‌کند و چند وجه حرکتی در حالت ادغامِ آن جایز است؟", "opts": ["قاعدۀ ۵ – سه حرکت (فتحه، کسره، ضمّه)", "قاعدۀ ۵ – دو حرکت (فتحه و کسره؛ زیرا عین‌الفعل مکسور است)", "قاعدۀ ۶ – دو حرکت (فتحه و کسره)", "قاعدۀ ۲ – یک حرکت (فقط فتحه)"], "ans": 1, "exp": "«يُشَاقِقْ» صیغۀ ۱ مضارع مجزوم (از صیغ خمسه) در باب مفاعله و مکسورالعین است؛ بنابراین مشمول قاعدۀ ۵ (ادغام جایز) بوده و به دلیل مضموم نبودن عین‌الفعل، هنگام ادغام تنها دو حرکتِ فتحه و کسره (يُشَاقَّ / يُشَاقِّ) جایز است."}, {"id": 19, "cat": "jaiz", "catLabel": "ادغام جایز (ق ۵ تا ۷)", "level": "المپیادی", "q": "در کدام گزینه «ادغام متقارب در یک کلمه» بر پایۀ نکتۀ درس ۲۳ «صرف الف» جایز است؟", "opts": ["دُنْيَا – صِنْوَانٌ", "يَخْتَصِمُونَ – تَثَاقَلْتُمْ – تَذَكَّرَ", "قُلْ رَبِّي – قَدْ تَبَيَّنَ", "سُرُرٌ – غُرَرٌ – دُرَرٌ"], "ans": 1, "exp": "طبق درس ۲۳ «صرف الف»، ادغام متقاربین در یک کلمه ممتنع است (مانند دُنْيَا) به جز در سه باب مزیدِ «تفعّل، تفاعل و افتعال» مانند: تَذَكَّرَ ← اِذَّكَّرَ، تَثَاقَلْتُمْ ← اِثَّاقَلْتُمْ، يَخْتَصِمُونَ ← يَخِصِّمُونَ."}, {"id": 20, "cat": "mumtani", "catLabel": "امتناع، مجهول و نون تأکید", "level": "المپیادی", "q": "در افعال مضاعف معلوم، در مجموع سه جدولِ ماضی (۱۴ صیغه)، مضارع (۱۴ صیغه) و امر (۱۴ صیغه)، در چند صیغه ادغام متماثلین «ممتنع» است؟", "opts": ["کمتر از ۱۰ صیغه", "۱۲ صیغه", "۱۳ صیغه", "بیشتر از ۱۳ صیغه"], "ans": 2, "exp": "بر اساس نمودار درس ۲۳ «صرف الف»: در ماضی ۹ صیغه (۶ تا ۱۴)، در مضارع ۲ صیغه (۶ و ۱۲) و در امر ۲ صیغه (۶ و ۱۲) به دلیل اتصال حرف دوم ساکن به ضمیر رفع متحرک ممتنع‌اند؛ مجموع = ۹ + ۲ + ۲ = ۱۳ صیغه."}, {"id": 21, "cat": "mumtani", "catLabel": "امتناع، مجهول و نون تأکید", "level": "نکته‌سنج", "q": "در کدام مجموعه، حکم ادغام در تمامی کلمات (از جهت متماثلین) «ممتنع» است؟", "opts": ["فَرَرْتُ – سُرُرٌ – دَدَنٌ – يَمْدُدْنَ", "حَاجَجْتُمْ – تَمْنُنْ – غُرَرٌ – يَفْرِرْنَ", "مَسَسْتُمُ – مَدَدَ – سُرُرٌ – دَدَنٌ", "يَظْلَلْنَ – اُمْدُدْ – دُرَرٌ – جَعَلَ لَكُمْ"], "ans": 0, "exp": "در گزینۀ (الف)، «فَرَرْتُ» و «يَمْدُدْنَ» (مانع ۱: ضمیر رفع متحرک)، «سُرُرٌ» (مانع ۲: اسم ثلاثی متحرک‌العین) و «دَدَنٌ» (مانع ۳: متماثل در اول کلمه) همگی ممتنع‌اند. در ب «تَمْنُنْ» جایز، در ج «مَدَدَ» واجب، و در د «اُمْدُدْ» و «جَعَلَ لَكُمْ» جایزند."}, {"id": 22, "cat": "mumtani", "catLabel": "امتناع، مجهول و نون تأکید", "level": "المپیادی", "q": "هنگام الحاق نون تأکید ثقیله به دو فعل امر «اُمْدُدْ» (صیغۀ ۷) و «اُمْدُدْنَ» (صیغۀ ۱۲)، صورت صحیح و حکم ادغام در آن دو به ترتیب چیست؟", "opts": ["مُدَّنَّ (جایز) – اُمْدُدْنَانِّ (ممتنع)", "مُدَّنَّ (واجب، با فتحۀ الزامی و حذف همزۀ وصل) – اُمْدُدْنَانِّ (ممتنع، با بقای همزۀ وصل)", "اُمْدُدَنَّ (واجب) – مُدْنَانِّ (واجب)", "مُدُّنَّ (واجب) – اُمْدُدْنَنَّ (ممتنع)"], "ans": 1, "exp": "با الحاق نون تأکید به صیغ خمسه («اُمْدُدْ»)، دال دوم مبنی بر فتح لازم می‌شود و حکم ادغام از جواز به وجوب تغییر کرده، حرکت لام‌الفعل منحصر در فتحه و همزۀ وصل حذف می‌گردد (مُدَّنَّ). اما در «اُمْدُدْنَ»، نون نسوه به فعل متصل است (سکون دال دوم ضروری است) و الف فاصل میان نون نسوه و نون تأکید می‌آید (اُمْدُدْنَانِّ؛ فکّ واجب)."}, {"id": 23, "cat": "mumtani", "catLabel": "امتناع، مجهول و نون تأکید", "level": "المپیادی", "q": "اگر دو عبارت «وَهُوَ يَعُدُّهُنَّ بِيَمِينِهِ» (الکافی) و «اللَّهُمَّ إِنِّي قَدْ مَلِلْتُهُمْ وَمَلُّونِي» (نهج‌البلاغه، خطبه ۲۵) را بر اساس مفعول‌بهِ آن‌ها مجهول کنیم، چه تغییری در حکم ادغام رخ می‌دهد؟", "opts": ["در هر دو، ادغام همچنان واجب باقی می‌ماند", "در هر دو، حکم از وجوب ادغام (ق۲) به وجوب فکّ (امتناع) تغییر می‌کند: «يُعْدَدْنَ» و «مُلِلْتُ»", "اولی به جایز (ق۵) و دومی به ممتنع تبدیل می‌شود", "اولی ممتنع (يُعْدَدْنَ) و دومی واجب (مُلَّتْ) می‌شود"], "ans": 1, "exp": "در «يَعُدُّهُنَّ» مفعول‌به ضمیر «هُنَّ» است که هنگام مجهول‌سازی به صیغۀ ۶ مضارع مجهول تبدیل می‌شود (يُعْدَدْنَ ← ممتنع به سبب نون نسوه). در «مَلُّونِي» مفعول‌به یاء متکلّم است که به صیغۀ ۱۳ ماضی مجهول تبدیل می‌شود (مُلِلْتُ ← ممتنع به سبب ضمیر رفع متحرک «تُ»)."}, {"id": 24, "cat": "mumtani", "catLabel": "امتناع، مجهول و نون تأکید", "level": "المپیادی", "q": "در آیۀ ﴿قُلْ أَتُحَاجُّونَنَا فِي اللَّهِ﴾ (بقره/۱۳۹)، دو موضع ادغام (در دو جیم و در دو نون) به ترتیب چه حکمی دارند؟", "opts": ["واجب (ق۲ با تسکین حذفی) – جایز (ق۶: متماثل کبیر در دو کلمه)", "واجب (ق۲ با تسکین نقلی) – واجب (ق۱)", "جایز (ق۵) – ممتنع (ضمیر رفع متحرک)", "واجب (ق۱) – جایز (ق۷)"], "ans": 0, "exp": "در «تُحَاجِجُونَ ← تُحَاجُّونَ»، دو جیم در یک کلمه و ماقبل جیم اول الف مدّی است ← واجب (ق۲ با حذف حرکت جیم اول). در «نَ + نَا» (نون علامت رفع + ضمیر منصوب نَا)، دو نون متحرک در حکم دو کلمه‌اند ← جایز (ق۶) و در صورت ادغام به صورت «أَتُحَاجُّونَّا» درمی‌آید."}, {"id": 25, "cat": "mumtani", "catLabel": "امتناع، مجهول و نون تأکید", "level": "المپیادی", "q": "در کدام گزینه، علت عدم ادغام میان دو حرف هم‌جنس، «تقدّم قاعدۀ ۱ بر قاعدۀ ۲» است (نکتۀ تکمیلی المپیادی)؟", "opts": ["مَنَنَّا (در اصل مَنَنْنَا) – ادغام نون دوم ساکن در نونِ «نَا» بر ادغام دو نون اول مقدم شده است", "اُمْدُدِ الْقَوْمَ – کسرۀ دال دوم عارضی است", "السُّؤْدَدُ – کلمه ملحق به رباعی است", "مَسَسْتُمْ – اتصال به ضمیر رفع متحرک است"], "ans": 0, "exp": "در «مَنَنْنَا» (صیغۀ ۱۴ ماضی معلوم از م ن ن؛ صافات/۱۱۴: وَلَقَدْ مَنَنَّا عَلَى مُوسَى وَهَارُونَ)، سه نون پیاپی جمع شده‌اند: میان نون اول و دوم، ادغام ممتنع است (ضمیر رفع متحرک)، اما میان نون دومِ ساکن و نون متحرکِ ضمیر «نَا» ادغام صغیر واجب (ق۱) بی‌نیاز از تغییر جاری شده و «مَنَنَّا» ساخته می‌شود."}], "desc": [{"id": "d1", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "المپیادی", "title": "مجموعۀ ۱ (از جهت متماثل یا متقارب بودن)", "prompt": "در میان چهار موردِ <b>(اِذْتَكَرَ – قُلْ رَبِّي – اللَّوْم – قَدْ تَبَيَّنَ)</b>، کدام کلمه از لحاظ «متماثل یا متقارب بودنِ ادغام» با سه مورد دیگر تفاوت دارد؟ با استدلال دقیق بیان کنید.", "hint": "حرف اول کلمۀ «لَوْم» چیست؟ هنگام دخول «الْ» بر آن، چه دو حرفی به هم می‌رسند؟", "answer": "<b>مورد متفاوت: «اللَّوْم»</b>.<br><b>تحلیل:</b> در سه مورد «اِذْتَكَرَ» (ذال و تاء)، «قُلْ رَبِّي» (لام و راء) و «قَدْ تَبَيَّنَ» (دال و تاء)، ادغام از نوع <b>متقاربین</b> است؛ اما در «اللَّوْم»، برخورد لام تعریفِ ساکن (الْ) با لامِ فاءالفعلِ متحرک (لَوْم) از نوع <b>متماثلین</b> (ق۱) است!"}, {"id": "d2", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "المپیادی", "title": "مجموعۀ ۲ (از جهت حکم ادغام: واجب، جایز، ممتنع)", "prompt": "در میان چهار موردِ <b>(لِنَعَضَّ – جَعَلَ لَكُمْ – قُلْ رَبِّي – سُرُرٌ)</b>، کدام گزینه از جهت حکم ادغام با سه مورد دیگر متفاوت است؟", "hint": "به صیغۀ «لِنَعَضَّ» (صیغۀ ۱۴ مجزوم/امر) و وزن «سُرُرٌ» (اسم ثلاثی متحرک‌العین) دقت کنید.", "answer": "<b>مورد متفاوت: «سُرُرٌ»</b>.<br><b>تحلیل:</b> «لِنَعَضَّ» (صیغ خمسه: ق۵)، «جَعَلَ لَكُمْ» (متماثل کبیر دو کلمه: ق۶) و «قُلْ رَبِّي» (متقارب صغیر دو کلمه: ق۷) هر سه حکم <b>جایز</b> دارند؛ اما «سُرُرٌ» اسم ثلاثی مجرّد متحرک‌العین (مانع دوم امتناع) و حکم آن <b>ممتنع</b> است."}, {"id": "d3", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "نکته‌سنج", "title": "مجموعۀ ۳ (از جهت لفظی یا لفظی-کتبی بودن ادغام)", "prompt": "در میان چهار موردِ <b>(لِأُكْرِهْهُ – مَكَّنَنِي – إِنْ مَا – هَرَتْتُنَّ)</b>، کدام مورد از لحاظ «لفظی فقط یا لفظی و کتبی بودن» متفاوت است؟", "hint": "کدام‌یک در دو کلمه است که در خطّ عربی به صورت تک‌حرف مشدّد نوشته نمی‌شود؟", "answer": "<b>مورد متفاوت: «لِأُكْرِهْهُ»</b>.<br><b>تحلیل:</b> در «مَكَّنَنِي ← مَكَّنِّي» (کهف/۹۵)، «إِنْ مَا ← إِمَّا» و «هَرَتْتُنَّ ← هَرَتُّنَّ» (تاء لام‌الفعل در تاء ضمیر)، ادغام هم <b>لفظی و هم کتبی</b> است؛ اما در «لِأُكْرِهْهُ» (ادغام هاء لام‌الفعل در هاء ضمیر)، در رسم‌الخط هر دو هاء نوشته می‌شوند و ادغام فقط <b>لفظی</b> است."}, {"id": "d4", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "نکته‌سنج", "title": "مجموعۀ ۴ (از جهت شیوۀ تسکین حرف اول: نقل یا حذف)", "prompt": "در میان چهار موردِ <b>(يَوْدَدُ – يَمْدُدُ – مَادَدَ – اُمْدُدْ)</b>، کدام مورد از لحاظ شیوۀ تسکین حرف اول (نقل حرکت یا حذف حرکت) با بقیه متفاوت است؟", "hint": "به حرف ماقبلِ مدغم در هر چهار کلمه بنگرید؛ کدام‌یک حرف مدّ (غیرحرکت‌پذیر) است؟", "answer": "<b>مورد متفاوت: «مَادَدَ»</b>.<br><b>تحلیل:</b> در «يَوْدَدُ ← يَوَدُّ»، «يَمْدُدُ ← يَمُدُّ» و «اُمْدُدْ ← مُدَّ»، حرف ماقبلِ عین‌الفعل ساکنِ حرکت‌پذیر است و تسکین به روش <b>نقل حرکت</b> انجام می‌شود؛ اما در «مَادَدَ ← مَادَّ» (و همین‌طور در «تُمُودِدَ ← تُمُودَّ»)، حرف ماقبل حرف مدّ است و حرکت نمی‌پذیرد، پس تسکین به روش <b>حذف حرکت</b> است."}, {"id": "d5", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "پایه", "title": "مجموعۀ ۵ (از جهت مضاعف بودن یا نبودن)", "prompt": "در میان چهار کلمۀ <b>(أَذِلَّةٍ – تَلَوُّنٍ – التَّهْمَامِ – شِقْشِقَةٌ)</b>، کدام‌یک «غیرمضاعف» است؟ ریشۀ هر چهار کلمه را بنویسید.", "hint": "کدام‌یک دارای حرف مشدّدِ زائدِ باب تفعّل از یک ریشۀ معتلّ اجوف است؟", "answer": "<b>مورد متفاوت: «تَلَوُّنٍ»</b>.<br><b>تحلیل:</b> «أَذِلَّةٍ» (ذ ل ل: مضاعف ثلاثی)، «التَّهْمَامِ» (هـ م م: مضاعف ثلاثی با فاصلۀ الف زائد) و «شِقْشِقَةٌ» (ش ق ش ق: مضاعف رباعی) همگی مضاعف‌اند؛ اما «تَلَوُّنٍ» از ریشۀ (ل و ن) مصدر باب تفعّل و <b>معتلّ اجوف (غیرمضاعف)</b> است."}, {"id": "d6", "cat": "sigha", "catLabel": "صیغه‌شناسی و صیغه‌سازی", "level": "نکته‌سنج", "title": "صیغه‌شناسی چهار فعل گزیده از قرآن و نهج‌البلاغه", "prompt": "صیغه، زمان، معلوم/مجهول، ریشه و باب چهار فعل زیر را مانند نمونه تعیین کنید:<br>الف) <b>قُصِّيهِ</b> (قصص/۱۱) &nbsp;|&nbsp; ب) <b>يُدَعُّونَ</b> (طور/۱۳) &nbsp;|&nbsp; ج) <b>دُلَّنِي</b> (خطبۀ ۲۲۷) &nbsp;|&nbsp; د) <b>تَأْمَنَّا</b> (یوسف/۱۱)", "hint": "به ضمّ حرف مضارعه در «يُدَعُّونَ» و ادغام دو نون در «تَأْمَنَّا» دقت کنید.", "answer": "<b>الف) قُصِّيهِ:</b> صیغۀ ۱۰ امر معلوم | ریشه: (ق ص ص)، باب نون (در اصل اُقْصُصِي + هِ؛ ق۲ ادغام واجب) | معنا: او را دنبال کن.<br><b>ب) يُدَعُّونَ:</b> صیغۀ ۳ مضارع مجهول | ریشه: (د ع ع)، باب نون (در اصل يُدْعَعُونَ؛ ق۲ ادغام واجب نقلی) | معنا: رانده می‌شوند.<br><b>ج) دُلَّنِي:</b> صیغۀ ۷ امر معلوم | ریشه: (د ل ل)، باب نون (در اصل اُدْلُلْنِي؛ ق۵ جایز) + نون وقایه و یاء متکلّم | معنا: مرا راهنمایی کن.<br><b>د) تَأْمَنَّا:</b> صیغۀ ۷ مضارع معلوم | ریشه: (أ م ن)، باب سَمِعَ (در اصل تَأْمَنُنَا؛ ق۶ ادغام کبیر جایز در دو کلمه همراه با اشمام یا رَوم) | معنا: به ما امین می‌شوی / اعتماد می‌کنی."}, {"id": "d7", "cat": "sigha", "catLabel": "صیغه‌شناسی و صیغه‌سازی", "level": "المپیادی", "title": "تلاقی سه نون در ریشۀ (م ن ن)", "prompt": "از ریشۀ <b>(م ن ن)</b> باب نون، <b>صیغۀ ۶ مضارع معلوم</b> و <b>صیغۀ ۱۴ ماضی معلوم</b> (صافات/۱۱۴) را بسازید و دقیقاً تحلیل کنید کدام دو نون در یکدیگر ادغام می‌شوند.", "hint": "نخست شکل بازشدۀ هر دو صیغه را بنویسید: «يَمْنُنْنَ» و «مَنَنْنَا»؛ سپس میان دو نون اصلی و نون ضمیر بسنجید.", "answer": "<b>۱) صیغۀ ۶ مضارع معلوم: «يَمْنُنَّ»</b> (در اصل يَمْنُنْنَ)؛ ادغام دو نون اصلی به سبب اتصال به نون نسوه ممتنع است (مانع ۱)، اما نون دومِ ساکن در نونِ متحرکِ نسوه ادغام صغیر واجب (ق۱) می‌شود.<br><b>۲) صیغۀ ۱۴ ماضی معلوم: «مَنَنَّا»</b> (در اصل مَنَنْنَا؛ صافات/۱۱۴: ﴿وَلَقَدْ مَنَنَّا عَلَى مُوسَى وَهَارُونَ﴾)؛ ادغام دو نون اصلی ممتنع و ادغام نون دوم ساکن در نونِ ضمیر «نَا» واجب (ق۱) است."}, {"id": "d8", "cat": "sigha", "catLabel": "صیغه‌شناسی و صیغه‌سازی", "level": "نکته‌سنج", "title": "مقایسۀ وجوه امر متکلّم در دو باب مختلف", "prompt": "صیغۀ <b>۱۳ امر معلوم</b> از ریشۀ <b>(س د د)</b> را یک‌بار از باب «سَمِعَ» و یک‌بار از باب «نَصَرَ» با تمام وجوه جوازی و حرکت‌گذاری کامل بسازید و علت تفاوت تعداد وجوه را بنویسید.", "hint": "صیغۀ ۱۳ جزو صیغ خمسۀ قاعدۀ ۵ است؛ حرکت عین‌الفعل در باب سَمِعَ و نَصَرَ چه فرقی دارد؟", "answer": "<b>۱) از باب سَمِعَ (مفتوح‌العین):</b> «لِأَسَدَّ / لِأَسَدِّ / لِأَسْدَدْ» (۳ صورت؛ ضمّه جایز نیست چون عین‌الفعل مضموم نیست).<br><b>۲) از باب نَصَرَ (مضموم‌العین):</b> «لِأَسُدَّ / لِأَسُدِّ / لِأَسُدُّ / لِأَسْدُدْ» (۴ صورت؛ چون عین‌الفعل مضموم است هر سه حرکت و فکّ جایز است)."}, {"id": "d9", "cat": "sigha", "catLabel": "صیغه‌شناسی و صیغه‌سازی", "level": "نکته‌سنج", "title": "صیغه‌سازی امر مجهول و ماضیِ دارای حذف جوازی", "prompt": "الف) صیغۀ <b>۳ امر مجهول</b> از (ش د د، باب نون) را بسازید.<br>ب) صیغۀ <b>۷ ماضی معلوم</b> از (ظ ل ل، باب سَمِعَ؛ طه/۹۷) را با تمام وجوهِ ممکن بنویسید.", "hint": "در صیغۀ ۳ امر، واو جمع به آخر فعل می‌پیوندد؛ در صیغۀ ۷ ماضی باب سَمِعَ، تغییر دوم مضاعف (حذف) جاری است.", "answer": "<b>الف) صیغۀ ۳ امر مجهول: «لِيُشَدُّوا»</b> (در اصل لِيُشْدَدُوا ← نقل فتحه به شین و ادغام واجب ق۲؛ در اینجا فکّ جایز نیست چون جزو صیغ خمسه نیست).<br><b>ب) صیغۀ ۷ ماضی معلوم: «ظَلِلْتَ / ظَلْتَ / ظِلْتَ»</b> (سه وجه؛ وجه دوم در آیۀ ﴿الَّذِي ظَلْتَ عَلَيْهِ عَاكِفاً﴾ طه/۹۷ به کار رفته است)."}, {"id": "d10", "cat": "sigha", "catLabel": "صیغه‌شناسی و صیغه‌سازی", "level": "المپیادی", "title": "کارگاه الحاق نون تأکید ثقیله به صیغه‌های امر حاضر", "prompt": "نون تأکید ثقیله را به هر شش صیغۀ امر حاضر فعل <b>«مَدَّ يَمُدُّ»</b> ملحق کنید و در هر مورد، حکم ادغام و وضعیت «همزۀ وصل» را توضیح دهید.", "hint": "در صیغۀ ۷ حکم ادغام تغییر می‌کند؛ در صیغه‌های ۹ و ۱۰ واو و یاء حذف می‌شوند؛ و در صیغۀ ۱۲ الف فاصل می‌آید.", "answer": "• <b>ص۷: مُدَّنَّ</b> (وجوب ادغام + فتحۀ الزامی + حذف همزۀ وصل)<br>• <b>ص۸ و ۱۱: مُدَّانِّ</b> (وجوب ادغام + نون تأکید مکسور + حذف همزۀ وصل)<br>• <b>ص۹: مُدُّنَّ</b> (وجوب ادغام + حذف واو جمع و بقای ضمّه + حذف همزۀ وصل)<br>• <b>ص۱۰: مُدِّنَّ</b> (وجوب ادغام + حذف یاء مخاطبه و بقای کسره + حذف همزۀ وصل)<br>• <b>ص۱۲: اُمْدُدْنَانِّ</b> (امتناع ادغام به سبب نون نسوه + الف فاصل + نون تأکید مکسور + <b>بقای همزۀ وصل</b>)."}, {"id": "d11", "cat": "sigha", "catLabel": "صیغه‌شناسی و صیغه‌سازی", "level": "پایه", "title": "وزن‌یابی تفکیکی پنج کلمۀ مشدّد", "prompt": "وزن صرفی کلمات <b>«فَرَّتْ، عَلَّمَ، إِجْلِوَّاذٌ، وَفِيٌّ، مَعْدُودٌ»</b> را بنویسید و در چهار کلمۀ اول دلیلِ آوردن یا نیاوردن تشدید در وزن را بر پایۀ درس ۲۲ ذکر کنید.", "hint": "آیا دو حرف مشدّد هر دو اصلی‌اند، هر دو زائدند، یا یکی اصلی و دیگری زائد؟", "answer": "• <b>فَرَّتْ ← فَعَلَتْ</b> (هر دو راء اصلی‌اند ← بدون تشدید با حرکات قبل ادغام).<br>• <b>عَلَّمَ ← فَعَّلَ</b> (زائد تکراری در باب تفعیل ← مشدّد در وزن).<br>• <b>إِجْلِوَّاذ ← إِفْعِوَّال</b> (هر دو واو زائدند ← مشدّد در وزن).<br>• <b>وَفِيٌّ ← فَعِيلٌ</b> (ياء زائد فَعِيل + یاء اصلی؛ تکرار اصلی نیست ← بدون تشدید).<br>• <b>مَعْدُودٌ ← مَفْعُولٌ</b> (فکّ ادغام به سبب فاصلۀ واو مفعول میان دو دال اصلی)."}, {"id": "d12", "cat": "majhul", "catLabel": "مجهول‌سازی و صرف انتخابی", "level": "نکته‌سنج", "title": "مجهول‌سازی دو آیۀ قرآنی (تغییر حکم ادغام در امر و مضارع)", "prompt": "افعال مشخص‌شده را با توجه به مفعول‌به یا جار و مجرور آن‌ها مجهول کنید (تمام وجوه صحیح را بنویسید):<br>الف) ﴿خُذُوهُ <b>فَغُلُّوهُ</b>﴾ (حاقه/۳۰) &nbsp;&nbsp;|&nbsp;&nbsp; ب) ﴿<b>يَغْضُضْنَ</b> مِنْ أَبْصَارِهِنَّ﴾ (نور/۳۱)", "hint": "در «فَغُلُّوهُ» مفعول‌به ضمیر «هُ» (صیغۀ ۱) است؛ در «يَغْضُضْنَ مِنْ...» فعل با جار و مجرور مجهول می‌شود!", "answer": "<b>الف) فَغُلُّوهُ ← فَلْيُغَلَّ / فَلْيُغَلِّ / فَلْيُغْلَلْ:</b> مفعول‌به ضمیر مفرد مذکّر غایب است؛ پس فعل از صیغۀ ۹ امر معلوم (واجب‌الادغام) به صیغۀ ۱ امر مجهول (جایز، ق۵؛ و چون مجهول مفتوح‌العین است فقط فتحه، کسره و فکّ دارد) تبدیل می‌شود.<br><b>ب) يَغْضُضْنَ مِنْ أَبْصَارِهِنَّ ← يُغَضُّ مِنْ أَبْصَارِهِنَّ:</b> با جار و مجرور به صیغۀ ۱ مضارع مجهول می‌رود و حکم آن از امتناع (نون نسوه) به <b>وجوب ادغام (ق۲)</b> تغییر می‌کند!"}, {"id": "d13", "cat": "majhul", "catLabel": "مجهول‌سازی و صرف انتخابی", "level": "المپیادی", "title": "مجهول‌سازی با تله‌های ضمیر منفصل منصوب و یاء متکلّم", "prompt": "دو عبارت زیر را بر اساس مفعول‌به مجهول کنید:<br>الف) <b>إِيَّاكُنَّ تَصُرَّانِ</b> (ص ر ر، باب نون: بستن) &nbsp;&nbsp;|&nbsp;&nbsp; ب) <b>«اللَّهُمَّ إِنِّي قَدْ مَلِلْتُهُمْ وَمَلُّونِي»</b> (خطبۀ ۲۵)", "hint": "مفعول‌به «إِيَّاكُنَّ» معادل کدام صیغه (جمع مؤنّث مخاطب) است؟ مفعول‌بهِ «مَلُّونِي» چیست؟", "answer": "<b>الف) إِيَّاكُنَّ تَصُرَّانِ ← تُصْرَرْنَ:</b> مفعول‌به «إِيَّاكُنَّ» (جمع مؤنّث مخاطب) نائب‌فاعل شده و فعل به صیغۀ ۱۲ مضارع مجهول می‌رود؛ پس حکم از وجوب ادغام به <b>وجوب فکّ (امتناع)</b> تغییر می‌کند!<br><b>ب) مَلُّونِي ← مُلِلْتُ:</b> یاء متکلّم نائب‌فاعل شده و فعل به صیغۀ ۱۳ ماضی مجهول می‌رود (وجوب فکّ به سبب ضمیر «تُ»)."}, {"id": "d14", "cat": "majhul", "catLabel": "مجهول‌سازی و صرف انتخابی", "level": "نکته‌سنج", "title": "تبدیل افعال مجهول به معلوم در صیغۀ فاعلیِ معیّن", "prompt": "افعال مجهول زیر را در صیغۀ فاعلیِ داده‌شده به معلوم تبدیل کرده و مفعول‌به را پس از فعل ذکر کنید:<br>۱) ﴿<b>وَرُدُّوا</b> إِلَى اللَّهِ﴾ (یونس/۳۰) [صیغۀ ۱۲] &nbsp;|&nbsp; ۲) <b>«حَتَّى شُنَّتْ عَلَيْكُمُ الْغَارَاتُ»</b> (خطبۀ ۲۷) [صیغۀ ۱۴] &nbsp;|&nbsp; ۳) <b>«فَقَدْ جُدَّ بِكُمْ»</b> (خطبۀ ۶۴؛ ضاد) [صیغۀ ۶]", "hint": "در مورد ۲ (ش ن ن، ص۱۴ ماضی) تلاقی سه نون رخ می‌دهد؛ در مورد ۳ فعل لازم با «بِكُمْ» است.", "answer": "<b>۱) وَرُدُّوا [ص۱۲]: «رَدَدْتُنَّهُمْ»</b> (فکّ ادغام واجب به سبب ضمیر رفع متحرک تُنَّ).<br><b>۲) شُنَّتِ الْغَارَاتُ [ص۱۴]: «شَنَنَّا الْغَارَاتِ»</b> (در اصل شَنَنْنَا؛ فکّ دو نون اصلی و ادغام واجب نون دوم در نونِ «نَا» طبق ق۱).<br><b>۳) جُدَّ بِكُمْ [ص۶]: «جَدَدْنَ بِكُمْ»</b> (فکّ ادغام واجب به سبب نون نسوه)."}, {"id": "d15", "cat": "majhul", "catLabel": "مجهول‌سازی و صرف انتخابی", "level": "المپیادی", "title": "صرف انتخابی ۱: صیغه‌های مؤنّث امر معلوم از (ش د د، باب نون)", "prompt": "تنها <b>شش صیغۀ مؤنّثِ امر معلوم</b> (صیغه‌های ۴، ۵، ۶، ۱۰، ۱۱ و ۱۲) از ریشۀ <b>(ش د د)</b> باب نون را با اعمال تمام وجوه واجب و جایز صرف کنید.", "hint": "صیغۀ ۴ جزو صیغ خمسه (۴ صورت)، صیغه‌های ۶ و ۱۲ ممتنع، و صیغه‌های ۵، ۱۰ و ۱۱ واجب‌الادغام‌اند.", "answer": "• <b>ص۴ (مفرد مؤنّث غایب):</b> لِتَشُدَّ / لِتَشُدِّ / لِتَشُدُّ / لِتَشْدُدْ (ق۵ جایز؛ مضموم‌العین)<br>• <b>ص۵ (مثنای مؤنّث غایب):</b> لِتَشُدَّا (ق۲ واجب)<br>• <b>ص۶ (جمع مؤنّث غایب):</b> لِيَشْدُدْنَ (ممتنع – نون نسوه)<br>• <b>ص۱۰ (مفرد مؤنّث مخاطب):</b> شُدِّي (ق۲ واجب؛ حذف همزۀ وصل)<br>• <b>ص۱۱ (مثنای مؤنّث مخاطب):</b> شُدَّا (ق۲ واجب؛ حذف همزۀ وصل)<br>• <b>ص۱۲ (جمع مؤنّث مخاطب):</b> اُشْدُدْنَ (ممتنع – بقای همزۀ وصل مضموم)."}, {"id": "d16", "cat": "majhul", "catLabel": "مجهول‌سازی و صرف انتخابی", "level": "نکته‌سنج", "title": "صرف انتخابی ۲: صیغه‌های مفرد ماضی معلوم از (ظ ل ل، باب سَمِعَ)", "prompt": "تنها <b>پنج صیغۀ مفردِ ماضی معلوم</b> (صیغه‌های ۱، ۴، ۷، ۱۰ و ۱۳) از ریشۀ <b>(ظ ل ل)</b> باب سَمِعَ را همراه با تمام وجوهِ حذفِ جوازی صرف کنید.", "hint": "صیغه‌های ۱ و ۴ واجب‌الادغام‌اند؛ اما در صیغه‌های ۷، ۱۰ و ۱۳ علاوه بر فکّ ادغام، دو وجه حذف عین‌الفعل نیز جایز است.", "answer": "• <b>ص۱:</b> ظَلَّ (ق۲ واجب)<br>• <b>ص۴:</b> ظَلَّتْ (ق۲ واجب)<br>• <b>ص۷:</b> ظَلِلْتَ / ظَلْتَ / ظِلْتَ (ممتنع از ادغام + ۳ وجه حذف جوازی)<br>• <b>ص۱۰:</b> ظَلِلْتِ / ظَلْتِ / ظِلْتِ<br>• <b>ص۱۳:</b> ظَلِلْتُ / ظَلْتُ / ظِلْتُ."}, {"id": "d17", "cat": "trans", "catLabel": "ترجمه و تعریب دقیق", "level": "نکته‌سنج", "title": "تعریب صیغۀ جمع مؤنّث امر (وجوب فکّ ادغام)", "prompt": "جملۀ <b>«شما زنان آن (مذکّر) را پنهان کنید»</b> را از ریشۀ <b>(ك ن ن، باب نون)</b> به عربی برگردانید و به وضعیت همزۀ وصل و ادغام توجه کنید.", "hint": "امر حاضر جمع مؤنّث (صیغۀ ۱۲) همواره فکّ ادغام و دارای همزۀ وصل است.", "answer": "<b>پاسخ دقیق: «اُكْنُنَّهُ»؟ نه! دقت کنید: «اُكْنُنَّهُ» (در اصل اُكْنُنْنَهُ ← ادغام واجب نون دوم ساکن در نون نسوه طبق ق۱)!</b><br>توضیح: اگر از ریشۀ (ض ن ن، باب ضاد: بخیل شدن/دریغ کردن) باشد می‌شود «اِضْنِنَّ بِهِ»؛ و اگر از ریشۀ (د س س، باب نون: پنهان کردن) باشد می‌شود <b>«اُدْسُسْنَهُ»</b> (فکّ ادغام واجب دو سین + همزۀ وصل مضموم)."}, {"id": "d18", "cat": "trans", "catLabel": "ترجمه و تعریب دقیق", "level": "المپیادی", "title": "تعریب امر مجهولِ فعل لازم با حرف جر", "prompt": "جملۀ <b>«باید تو یک مرد گاز گرفته شوی»</b> را از ریشۀ <b>(ع ض ض، باب سَمِعَ، لازم با حرف جر «بِـ»)</b> با تمام وجوه صحیح به عربی برگردانید.", "hint": "مجهول فعل لازم در صیغۀ ۱ می‌ماند و صیغۀ مخاطب در ضمیر مجرور می‌آید؛ و در مجهول ضمّه ممتنع است!", "answer": "<b>پاسخ دقیق (۳ صورت صحیح): «لِيُعَضَّ بِكَ / لِيُعَضِّ بِكَ / لِيُعْضَضْ بِكَ»</b>.<br><b>تحلیل:</b> چون فعل لازم است، مجهولش در صیغۀ ۱ امر مجهول باقی می‌ماند و چون مضارع مجهول همیشه مفتوح‌العین است، در قاعدۀ ۵ فقط فتحه، کسره و فکّ جایز است."}, {"id": "d19", "cat": "trans", "catLabel": "ترجمه و تعریب دقیق", "level": "پایه", "title": "تعریب و ترجمۀ دو شاهد از نهج‌البلاغه و بحارالأنوار", "prompt": "الف) به عربی برگردانید از (غ ر ر، ن): <b>«شما مردان او (مذکّر) را فریفتید»</b> (خطبۀ ۲۹).<br>ب) به فارسی ترجمه و صیغه‌شناسی کنید: <b>«هَيْهَاتَ غُرِّي غَيْرِي»</b> (حکمت ۷۷) و <b>«لَا تَعُقِّي عَنْهُ»</b> (ع ق ق: عقیقه کردن؛ بحار).", "hint": "هنگام اتصال ضمیر «تُمْ» به ضمیر منصوب «هُ»، میم جمع اشباع می‌شود (تُمُوهُ).", "answer": "<b>الف) «غَرَرْتُمُوهُ»</b> (صیغۀ ۹ ماضی معلوم؛ فکّ ادغام واجب + اشباع میم جمع پیش از هاء: ﴿الْمَغْرُورُ وَاللَّهِ مَنْ غَرَرْتُمُوهُ﴾).<br><b>ب) «غُرِّي غَيْرِي»:</b> هیهات! غیر از مرا بفریب (صیغۀ ۱۰ امر معلوم، خطاب به دنیا). <b>«لَا تَعُقِّي عَنْهُ»:</b> برای او عقیقه نکن (صیغۀ ۱۰ نهی معلوم، خطاب به زن)."}, {"id": "d20", "cat": "trans", "catLabel": "ترجمه و تعریب دقیق", "level": "نکته‌سنج", "title": "ترجمه و تحلیل دقیقِ «لِتُحِبَّهُمَا / لِتَحُبَّهُمَا» و «فَلْيَمْدُدْ لَهُ»", "prompt": "عبارت‌های <b>«لِتَحُبَّهُمَا»</b> (ح ب ب، باب نون: دوست داشتن؛ امر مخاطب) و ﴿<b>فَلْيَمْدُدْ</b> لَهُ الرَّحْمَنُ مَدًّا﴾ (مریم/۷۵) را دقیقاً ترجمه و از جهت وجوه جوازی تحلیل کنید.", "hint": "در صیغۀ ۷ امرِ با لام (اگر مخاطب باشد برای مجهول است: لِتُحَبَّهُمَا؟ نه، امر مخاطب معلوم بدون لام است؛ پس لِتَحُبَّ صیغۀ ۴ غایب است!).", "answer": "<b>۱) «لِتَحُبَّهُمَا» (با فتح تاء):</b> صیغۀ ۴ امر معلوم (مفرد مؤنّث غایب): «باید آن یک زن آن دو نفر را دوست بدارد» (وجوه ق۵: لِتَحُبَّهُمَا / لِتَحُبِّهِمَا / لِتَحُبُّهُمَا / لِتَحْبُبْهُمَا). اما اگر <b>«لِتُحِبَّهُمَا»</b> (باب إفعال) با لام تعلیل باشد: «تا آن دو را دوست بداری».<br><b>۲) ﴿فَلْيَمْدُدْ لَهُ الرَّحْمَنُ مَدًّا﴾:</b> «پس خداوند رحمان باید (مهلتش را) برای او بکشاند»؛ صیغۀ ۱ امر معلوم (باب نون) که با فکّ ادغام (یکی از ۴ وجه ق۵) در قرآن آمده است."}, {"id": "d21", "cat": "examp", "catLabel": "مثال‌آوری المپیادی", "level": "المپیادی", "title": "مثال‌آوری ۱: تقدّم قاعدۀ ۱ بر قاعدۀ ۲ (و امتناع به سبب حرکت عارضی)", "prompt": "برای هر دو مورد زیر یک مثال دقیق با حرکت‌گذاری کامل بیاورید و وجه آن را بنویسید:<br>الف) کلمه‌ای که در آن <b>قاعدۀ ۱ بر قاعدۀ ۲ مقدّم شده باشد</b>.<br>ب) کلمه‌ای که در آن <b>ادغام کبیر به خاطر عارضی بودن حرکت مدغم‌فیه ممتنع باشد</b>.", "hint": "در الف به تلاقی سه حرف هم‌جنس (م ن ن + نَا) و در ب به التقای ساکنین در امر فک‌شده بیندیشید.", "answer": "<b>الف) «مَنَنَّا» (در اصل مَنَنْنَا) یا «يَمْنُنَّ» (در اصل يَمْنُنْنَ):</b> نون دوم ساکن در نون سوم متحرک به آسانی و بی‌نیاز از تغییر (ق۱) ادغام شده و بر ادغام دو نون اول مقدّم گردیده است.<br><b>ب) «اُمْدُدِ الْقَوْمَ» یا «اُشْدُدِ الْوَثَاقَ»:</b> هرچند دو دال ظاهراً متحرک‌اند، اما کسرۀ دال دوم صرفاً حرکت عارضی برای دفع التقای ساکنین است؛ پس در حکم ساکن بوده و مشمول ادغام واجب ق۲ نمی‌شود."}, {"id": "d22", "cat": "examp", "catLabel": "مثال‌آوری المپیادی", "level": "المپیادی", "title": "مثال‌آوری ۲: امتناع در برخورد دو متماثلِ دو کلمه و امتناع به سبب اشتباه", "prompt": "برای هر مورد یک مثال دقیق بیاورید:<br>الف) امتناع ادغام در برخورد دو متماثلِ دو کلمه با وجود سکون حرف اول.<br>ب) امتناع ادغام در یک کلمه به سبب خوف اشتباه و لبس (نکتۀ تکمیلی).<br>ج) امتناع ادغام در صیغۀ تعجب «أَفْعِلْ بِهِ» (نکتۀ تکمیلی).", "hint": "در الف به تبصرۀ حرف مدّ پایان کلمه (ق۱) توجه کنید؛ در ب به مجهول باب فاعلَ و تفاعلَ در اجوف واوی (قُوْوِلَ).", "answer": "<b>الف) «قَالُوا وَجَدْنَا» یا «يَدْعُو وُجُجاً»</b> (مدّی بودن حرف اول در پایان کلمه؛ و نیز «مَالِيَهْ هَلَكَ» به سبب هاء سکت).<br><b>ب) «قُوْوِلَ» و «تُقُوْوِلَ»</b> (مجهول قَاوَلَ و تَقَاوَلَ؛ اگر ادغام می‌شد با قُوِّلَ و تُقُوِّلَ از تفعیل و تفعّل اشتباه می‌شد).<br><b>ج) «أَعْزِزْ بِزَيْدٍ» و «أَحْبِبْ بِهِ»</b> (بر وزن أَفْعِلْ بِهِ تعجب، فکّ ادغام واجب است)."}, {"id": "d23", "cat": "examp", "catLabel": "مثال‌آوری المپیادی", "level": "نکته‌سنج", "title": "مثال‌آوری ۳: تقابل ادغام متماثلِ جایز (لفظی در برابر لفظی-کتبی)", "prompt": "برای هر دو مورد زیر یک شاهد قرآنی یا کاربردی دقیق بیاورید:<br>الف) ادغام متماثلِ <b>جوازیِ لفظی و کتبی</b>.<br>ب) ادغام متماثلِ <b>جوازیِ لفظی فقط</b>.", "hint": "در ق۵ و ق۶ (موارد پیوسته با ضمیر)، ادغام لفظی و کتبی است؛ اما در دو کلمۀ جدا در ق۶ فقط لفظی است.", "answer": "<b>الف) لفظی و کتبی جوازی:</b> «لِيَمُدَّ» / «مَنْ يَرْتَدَّ» (ق۵) یا «تَأْمُرُونِّي» (زمر/۶۴؛ ق۶ در دو کلمۀ متصل در خط).<br><b>ب) لفظی فقط جوازی:</b> ﴿جَعَلَ لَكُمْ﴾ (بقره/۲۲) یا ﴿يَعْلَمُ مَا﴾ (بقره/۲۵۵) یا ﴿مَنَاسِكَكُمْ﴾ (بقره/۲۰۰) — ق۶ متماثل کبیر در دو کلمه."}, {"id": "d24", "cat": "examp", "catLabel": "مثال‌آوری المپیادی", "level": "نکته‌سنج", "title": "مثال‌آوری ۴: تقابل ادغام متقارب (وجوبی دو کلمه / جوازی یک کلمه / جوازی دو کلمه)", "prompt": "با ذکر شاهد قرآنی برای هر یک از سه حالت زیر مثال بیاورید:<br>۱) ادغام متقارب وجوبی در دو کلمه &nbsp;|&nbsp; ۲) ادغام متقارب جوازی در یک کلمه &nbsp;|&nbsp; ۳) ادغام متقارب جوازی در دو کلمه.", "hint": "قواعد ۳ و ۴ (واجب)، تبصرۀ ق۶ در سه باب مزید (جایز یک کلمه) و قاعدۀ ۷ (جایز دو کلمه).", "answer": "<b>۱) متقارب وجوبی در دو کلمه:</b> ﴿وَالشَّمْسِ﴾ (ق۳) و ﴿مِنْ رَبِّهِمْ﴾ (ق۴).<br><b>۲) متقارب جوازی در یک کلمه:</b> ﴿يَخِصِّمُونَ﴾ (یس/۴۹؛ در اصل يَخْتَصِمُونَ)، ﴿اثَّاقَلْتُمْ﴾ (توبه/۳۸؛ تَثَاقَلْتُمْ)، ﴿فَهَلْ مِنْ مُدَّكِرٍ﴾ (قمر/۱۵؛ مُذْتَكِرٍ).<br><b>۳) متقارب جوازی در دو کلمه:</b> ﴿قُلْ رَبِّي﴾ (کهف/۲۲)، ﴿قَدْ تَبَيَّنَ﴾ (بقره/۲۵۶)، ﴿بَلْ رَفَعَهُ﴾ (نساء/۱۵۸) — قاعدۀ ۷."}, {"id": "d25", "cat": "examp", "catLabel": "مثال‌آوری المپیادی", "level": "نکته‌سنج", "title": "مثال‌آوری ۵: هم‌جنسی غیرمضاعف و کلمات دارای تشدیدِ غیرمضاعف", "prompt": "برای هر یک از موارد زیر دو مثال دقیق (با ذکر ریشه) بیاورید:<br>الف) کلمۀ ثلاثی با هم‌جنسی فاء و لام (غیرمضاعف).<br>ب) کلمۀ ثلاثی با هم‌جنسی فاء و عین (غیرمضاعف).<br>ج) کلمۀ دارای حرف مشدّد که ریشۀ آن مضاعف نیست.", "hint": "به درس ۲۱ «صرف الف» و تمرین ۱ کارگاه نهم مراجعه کنید.", "answer": "<b>الف) هم‌جنسی فاء و لام:</b> «قَلَقٌ» (ق ل ق)، «سَلِسَ / أَسْلَسُ» (س ل س)، «دَرَدَ» (د ر د).<br><b>ب) هم‌جنسی فاء و عین:</b> «دَدَنٌ» (د د ن)، «بَبْرٌ» (ب ب ر).<br><b>ج) مشدّدِ غیرمضاعف:</b> «قَدَّمَ» (ق د م)، «تَلَوُّنٌ» (ل و ن)، «سُبُّوحٌ» (س ب ح)، «سَيِّدٌ» (س و د)."}, {"id": "d26", "cat": "critique", "catLabel": "نقد علمی و خطایابی", "level": "المپیادی", "title": "نقد علمی ۱: آیا صیغۀ ۲ امر می‌تواند وجوه قاعدۀ ۵ را داشته باشد؟", "prompt": "این پرسش المپیادی را بسنجید: <i>«فعلی مثال بزنید که صیغۀ ۲ امر آن، هر سه وجه حرکتیِ ادغام جایز (ق۵) را داشته باشد»</i>. آیا این خواسته دارای مصداق است یا نه؟ (معلوم متعدّی را با مجهولِ لازم مقایسه کنید).", "hint": "صیغۀ ۲ امر معلوم متعدّی («لِيَمُدَّا») به سبب الف تثنیه واجب‌الادغام است؛ اما صیغۀ ۲ امر مجهولِ فعل لازم (مثل «لِيُمَرَّ بِهِمَا») چطور؟ و چند وجه حرکتی دارد؟", "answer": "<b>تحلیل دقیق دو مرحله‌ای:</b><br>۱) اگر منظور <b>معلومِ متعدّی یا مجهولِ متعدّی</b> باشد («لِيَمُدَّا / لِيُمَدَّا»)، به سبب الف تثنیه مشمول وجوب ادغام (ق۲) است نه ق۵.<br>۲) اما در <b>صیغۀ ۲ امر مجهولِ فعل لازم با حرف جر</b> (مانند «مَرَّ بِـ»: لِيُمَرَّ بِهِمَا / لِيُمَرِّ بِهِمَا / لِيُمْرَرْ بِهِمَا)، خودِ فعل در صیغۀ ۱ می‌ماند و صیغۀ ۲ در ضمیر «هِمَا» می‌آید؛ پس <b>قاعدۀ ۵ در آن جاری می‌شود!</b><br>۳) <b>نکتۀ پایانیِ ظریف:</b> با این حال، چون در تمام افعال مجهول عین‌الفعل مفتوح است (نه مضموم)، این صیغه تنها <b>۲ حرکت (فتحه و کسره) + ۱ وجه فکّ</b> دارد و <b>هر سه حرکت (ضمّه) را ندارد!</b> پس اگر مراد «۳ صورتِ ق۵ (فتح، کسر، فکّ)» باشد مصداق دارد، ولی اگر مراد «هر ۳ حرکت (از جمله ضمّه)» باشد فاقد مصداق است."}, {"id": "d27", "cat": "critique", "catLabel": "نقد علمی و خطایابی", "level": "نکته‌سنج", "title": "خطایابی ۲: جواز صرفی در برابر توقیفی بودن قرائت قرآن", "prompt": "طلبه‌ای با تکیه بر قاعدۀ ۵ استدلال کرده است: <i>«در آیۀ ﴿وَلَا تَمْنُنْ تَسْتَكْثِرُ﴾ (مدّثّر/۶)، چون «تَمْنُنْ» صیغۀ ۷ مضارع مجزوم و از باب نون است، قاری می‌تواند در نماز آن را به صورت «وَلَا تَمُنَّ» یا «وَلَا تَمُنُّ» قرائت کند!»</i> — این سخن را دقیقاً نقد و ارزیابی کنید.", "hint": "میان «صحّت صرفی در زبان عربی» و «جواز تغییر در تلاوت قرآن کریم» تفکیک بگذارید.", "answer": "<b>نقد علمی:</b> این سخن از جهت <b>قواعد صرفی عربی</b> درست است (در محاوره و انشاء عربی، تَمْنُنْ / تَمُنَّ / تَمُنِّ / تَمُنُّ هر چهار صورت صحیح‌اند)؛ اما از جهت <b>قرائت قرآن و فقه نماز نادرست است</b>! زیرا قرائت قرآن کریم <b>توقیفی</b> و تابع نقل متواتر و رسم‌الخط مصحف است و هیچ قاری مجاز نیست به استناد قواعد صرفی، وجهی را که در قرائت متواتر نیامده جایگزین لفظ قرآن کند (ر.ک: پژوهش درس ۲۳ صرف الف)."}, {"id": "d28", "cat": "critique", "catLabel": "نقد علمی و خطایابی", "level": "پایه", "title": "خطایابی ۳: پنج اشتباه رایج در تشخیص مضاعف و وزن‌یابی", "prompt": "دانش‌پژوهی در برگۀ آزمون خود چنین نوشته است: <i>«۱) مُعَلَّم مضاعف است چون تشدید دارد؛ ۲) قَلَق مضاعف است چون دو قاف دارد؛ ۳) اِفْتَتَنَ مضاعف است چون دو تاء کنار هم دارد؛ ۴) وزن شَقَّ برابر فَعَّ است؛ ۵) در سُرُرٌ ادغام واجب است پس باید سُرٌّ خوانده شود.»</i> — هر پنج خطا را مستدلّ اصلاح کنید.", "hint": "ریشۀ هر کلمه و قواعد دروس ۲۱ تا ۲۳ را یک‌به‌یک منطبق سازید.", "answer": "<b>۱) مُعَلَّم:</b> از ریشۀ (ع ل م) است و تشدیدش زائدِ باب تفعیل است ← غیرمضاعف (سالم).<br><b>۲) قَلَق:</b> دو قاف در جایگاه فاء و لام‌الفعل‌اند (نه عین و لام) ← مضاعفِ ادغام‌پذیر نیست.<br><b>۳) اِفْتَتَنَ:</b> از ریشۀ (ف ت ن) است؛ تاء اول زائدِ باب افتعال است ← غیرمضاعف (سالم).<br><b>۴) وزن شَقَّ:</b> هر دو قاف اصلی‌اند (شَقَقَ) ← طبق ق۱ وزن مشدّد، وزنش <b>فَعَلَ</b> است نه فَعَّ.<br><b>۵) سُرُرٌ:</b> اسم ثلاثی مجرّد متحرک‌العین است ← طبق مانع دوم امتناع، ادغام در آن <b>ممتنع</b> است."}], "research": [{"id": "res1", "tag": "قرآنی و بلاغی", "badge": "پژوهش ۱", "title": "راز بلاغی فکّ و ادغام در دو آیۀ ارتداد و حکم توقیفی قرائات", "verses": "﴿وَمَنْ يَرْتَدِدْ مِنْكُمْ عَنْ دِينِهِ فَيَمُتْ وَهُوَ كَافِرٌ فَأُولَئِكَ حَبِطَتْ أَعْمَالُهُمْ﴾ (بقره/۲۱۷)  |  ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا مَنْ يَرْتَدَّ مِنْكُمْ عَنْ دِينِهِ فَسَوْفَ يَأْتِي اللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُ﴾ (مائده/۵۴)", "body": ["در هر دو آیه، فعل مضارع مجزومِ «يَرْتَدِدْ / يَرْتَدَّ» (صیغۀ ۱ از باب افتعال، ریشۀ ر د د) مشمول قاعدۀ ۵ (ادغام جایز در صیغ خمسه) است. اما قرآن کریم با ظرافتی شگفت‌انگیز در سورۀ بقره قالبِ باز و فک‌شده (يَرْتَدِدْ) و در سورۀ مائده قالبِ فشرده و مدغم (يَرْتَدَّ) را برگزیده است.", "<b>تحلیل بلاغی (تناسب لفظ و معنا):</b> در آیۀ بقره، سخن از ارتدادِ فردی و <b>امتداد و استمرار آن در بستر زمان تا لحظۀ مرگ در حال کفر</b> است («فَيَمُتْ وَهُوَ كَافِرٌ»)؛ باز بودن و تفکیک دو دال در «يَرْتَدِدْ» با بسطِ زمانی، درنگ و بقای در ارتداد تناسب آوایی و معنایی دارد. در مقابل، در آیۀ مائده سخن از <b>وقوع یکپارچه و سرعت ترتّبِ جایگزینی الهی</b> است (به‌محض ارتداد گروهی، خداوند قومی محبوب می‌آورد)؛ از این‌رو قالب فشردۀ «يَرْتَدَّ» انتخاب شده است.", "<b>پاسخ پژوهش درس ۲۳ (حکم قرائت قرآن):</b> با آنکه در قواعد صرفی هر دو وجهِ فکّ و ادغام جایز است، قاری در تلاوت قرآن مجاز به جایگزینی وجه دیگر نیست؛ زیرا قرائت قرآن <b>توقیفی</b> و تابع نقل متواتر و رسم‌الخط مصحف است (هم‌چنان‌که در قرائت مشهور حفص از عاصم، در ﴿بَلْ رَانَ﴾ و ﴿مَنْ رَاقٍ﴾ به سبب سکت، ادغام انجام نمی‌شود)."], "questions": ["آیا تفاوت میان ﴿وَمَنْ يُشَاقِقِ الرَّسُولَ﴾ (نساء/۱۱۵) و ﴿وَمَنْ يُشَاقِّ اللَّهَ﴾ (انفال/۱۳) را نیز می‌توان با همین معیار بلاغی تحلیل کرد؟", "چرا رسم‌الخط مصحف در آیۀ مائده/۵۴ با یک دال و در بقره/۲۱۷ با دو دال ثبت شده است؟"], "sources": ["فخرالدین رازی، التفسیر الکبیر (مفاتیح الغیب)، ذیل آیۀ ۲۱۷ سورۀ بقره و آیۀ ۵۴ سورۀ مائده.", "محمّد طاهر بن عاشور، التحریر والتنویر، ج ۶، ذیل آیۀ ۵۴ سورۀ مائده؛ شهاب‌الدین آلوسی، روح المعانی، ذیل همین آیه.", "محمّدهادی معرفت، التمهید فی علوم القرآن، ج ۲ (مبحث توقیفی بودن قرائات)؛ بدرالدین زرکشی، البرهان فی علوم القرآن، نوع ۲۲."]}, {"id": "res2", "tag": "فقهی و تفسیری", "badge": "پژوهش ۲", "title": "کاربست دانش صرف در استنباط فقهی: کالبدشکافی آیۀ تداین", "verses": "﴿وَلَا يُضَارَّ كَاتِبٌ وَلَا شَهِيدٌ وَإِنْ تَفْعَلُوا فَإِنَّهُ فُسُوقٌ بِكُمْ﴾ (بقره/۲۸۲)", "body": ["یکی از درخشان‌ترین نمونه‌های اثرگذاری مستقیم یک قاعدۀ صرفی (ادغام) در استنباط حکم شرعی، فعلِ «يُضَارَّ» در آیۀ ۲۸۲ سورۀ بقره (آیۀ تداین و کتابت دیون) است. این فعل از ریشۀ (ض ر ر) در باب مفاعله و مجزوم به «لاء نهی» بوده که با ادغام جایز (قاعدۀ ۵) و حرکت عارضی فتحه به صورت «يُضَارَّ» درآمده است.", "<b>دو وجه صرفی پیش از ادغام و دو حکم فقهی متفاوت:</b><br>• <b>وجه اول (معلوم – لَا يُضَارِرْ):</b> در این صورت، «كَاتِبٌ» <b>فاعل</b> است و معنای فقهی آیه این است که <i>«نویسندۀ سند و شاهد نباید به طرفین معامله (بدهکار یا طلبکار) زیان برسانند»</i>؛ مثلاً با تحریف مفاد قرارداد، کم‌وزیاد کردن مبلغ یا خودداری نابجا از ادای شهادت.<br>• <b>وجه دوم (مجهول – لَا يُضَارَرْ):</b> در این صورت، «كَاتِبٌ» <b>نائب‌فاعل</b> است و معنای فقهی آیه این است که <i>«طرفین معامله نباید به نویسنده و شاهد زیانی برسانند»</i>؛ مثلاً با کشاندن آنان به دادگاه در وقت نامناسب، تحمیل هزینه یا ایذای آنان به سبب نوشتن حق.", "<b>اعجاز بلاغی و فقهی ادغام:</b> به برکت ادغام در لفظ «يُضَارَّ»، تفاوت حرکتی میان معلوم (کسرۀ راء اول) و مجهول (فتحۀ راء اول) در یک قالبِ واحد جمع شده و هر دو حکم فقهیِ متقابل (حرمت اضرار از سوی کاتب و شاهد و حرمت اضرار به کاتب و شاهد) هم‌زمان از یک آیه استفاده می‌شود!"], "questions": ["چرا در «يُضَارَّ» (چه معلوم و چه مجهول) حرکت ضمّه برای راءِ مشدّد جایز نیست؟", "با مراجعه به «المیزان» یا «کنز العرفان»، کدام‌یک از دو وجه (معلوم یا مجهول) نزد مفسّران و فقهای شیعه ترجیح داده شده است؟"], "sources": ["امین‌الاسلام شیخ طبرسی، مجمع البیان فی تفسیر القرآن، ج ۲، ذیل آیۀ ۲۸۲ سورۀ بقره.", "فاضل مقداد سیوری، کنز العرفان فی فقه القرآن، کتاب الدَّین، آیۀ ۲۸۲ بقره.", "مقدّس اردبیلی، زبدة البیان فی أحکام القرآن، کتاب الدَّین؛ علّامه سیّد محمّدحسین طباطبایی، المیزان فی تفسیر القرآن، ج ۲."]}, {"id": "res3", "tag": "بلاغی و لغوی", "badge": "پژوهش ۳", "title": "تناسب آوا و معنا در مضاعف رباعی (نظریۀ ابن‌جنّی)", "verses": "﴿مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ * الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ﴾ (ناس/۴–۵)  |  ﴿إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا﴾ (زلزله/۱)", "body": ["در پژوهش پایان درس ۲۱ کتاب «صرف الف»، دانش‌پژوه به کتاب مشهور «الخصائص» ابوالفتح عثمان بن جنّی (ج ۱، ص ۳۶) ارجاع داده شده است. ابن‌جنّی در باب بدیع <b>«إمساس الألفاظ أشباه المعانی»</b> (تناسب ساختار آوایی الفاظ با حقایق معنایی آن‌ها) نکته‌ای شگرف دربارۀ مضاعف رباعی (فَعْلَلَ) بیان می‌کند.", "<b>راز تکرار دو جفت حرف در مضاعف رباعی:</b> هرگاه معنای یک فعل شامل <b>تکرارِ پی‌درپی، لرزش مداوم یا رفت‌وبرگشتِ مستمر</b> باشد، زبان عربی آن را در قالب مضاعف رباعی می‌ریزد تا گوش شنونده با تکرار هجاها، تکرارِ خودِ رویداد را حس کند:<br>• در <b>«يُوَسْوِسُ»</b> (و س و س): القای آهسته، پنهانی و پی‌درپیِ شیطان در سینۀ انسان که با هر بار دفع، دوباره بازمی‌گردد.<br>• در <b>«زُلْزِلَتْ»</b> (ز ل ز ل): تکان‌های مکرّر و پیاپیِ زمین در زلزله.<br>• در <b>«فَكُبْكِبُوا»</b> (ك ب ك ب؛ شعراء/۹۴): سرنگون شدنِ پی‌درپی و غلتیدنِ مکرّر در دوزخ (بسیار رساتر از «كُبَّ» ثلاثی).<br>• در <b>«صَلْصَلَتْ» و «جَرْجَرَتْ»</b> (نهج‌البلاغه): انعکاسِ مکرّر صدا."], "questions": ["تفاوت معنایی میان فعل ثلاثی «كَبَّ» و مضاعف رباعی «كَبْكَبَ» در آیۀ ﴿فَكُبْكِبُوا فِيهَا﴾ چیست؟", "سه نمونه از مضاعف رباعی در نهج‌البلاغه بیابید و رابطۀ تکرار حروف با معنای هر یک را تبیین کنید."], "sources": ["ابوالفتح عثمان بن جنّی، الخصائص، ج ۱، ص ۳۶ و ج ۲، ص ۱۵۲–۱۶۸ (باب فی إمساس الألفاظ أشباه المعانی).", "علّامه سیّد محمّدحسین طباطبایی، المیزان فی تفسیر القرآن، ج ۲۰، ذیل سورۀ ناس و سورۀ زلزله.", "راغب اصفهانی، المفردات فی غریب القرآن، مدخل «وسس / وسوس» و «زلل / زلزل»."]}, {"id": "res4", "tag": "قرآنی و قرائات", "badge": "پژوهش ۴", "title": "تحلیل قرائات و ادغام کبیر در دو آیۀ «لَا تَأْمَنَّا» و «تَأْمُرُونِّي»", "verses": "﴿قَالُوا يَا أَبَانَا مَا لَكَ لَا تَأْمَنَّا عَلَى يُوسُفَ﴾ (یوسف/۱۱)  |  ﴿قُلْ أَفَغَيْرَ اللَّهِ تَأْمُرُونِّي أَعْبُدُ أَيُّهَا الْجَاهِلُونَ﴾ (زمر/۶۴)", "body": ["هر دو آیه از مشهورترین شواهد قرآنیِ <b>قاعدۀ ۶ «صرف الف»</b> (ادغام متماثل کبیر در دو کلمه) هستند؛ اما هر یک نکته‌ای ظریف در قرائت و اعراب دارند که طلاب نکته‌سنج باید بشناسند:", "<b>۱) تحلیل ﴿لَا تَأْمَنَّا﴾ (یوسف/۱۱):</b> اصل آن «تَأْمَنُنَا» (مضارع مرفوع + ضمیر منصوب نَا) است. با ادغام نونِ لام‌الفعل مضموم در نونِ «نَا»، ظاهراً ضمّۀ علامت رفع پنهان می‌شود و ممکن است با مجزوم یا منصوب اشتباه گردد! برای حفظ اشاره به ضمّۀ محذوف، قرّاء عشره آن را به دو روشِ <b>اِشمام</b> (غنچه کردن لب‌ها هنگام ادغام بدون صدا) یا <b>رَوم/اختلاس</b> (ادای بسیار کوتاه و سریع ضمّه با فکّ جزئی) قرائت می‌کنند.", "<b>۲) تحلیل ﴿تَأْمُرُونِّي﴾ (زمر/۶۴):</b> اصل آن «تَأْمُرُونَنِي» است (نون علامت رفع + نون وقایه + یاء متکلّم). در قرائت حفص از عاصم (و عده‌ای دیگر)، این دو نون به صورت <b>ادغام کبیر کتبی (تَأْمُرُونِّي)</b> خوانده می‌شود؛ در حالی که در قرائت ابن‌عامر با فکّ (تَأْمُرُونَنِي) و در قرائت نافع با حذف نون وقایه (تَأْمُرُونِي) روایت شده است. همچنین در ﴿أَتُحَاجُّونِّي﴾ (انعام/۸۰) در قرائت حفص با ادغام آمده، اما در ﴿أَتُحَاجُّونَنَا﴾ (بقره/۱۳۹) با فکّ قرائت شده است."], "questions": ["چرا در «لَا تَأْمَنَّا» استفاده از اِشمام یا رَوم به تشخیص مرفوع بودن فعل کمک می‌کند؟", "تفاوت «تَأْمُرُونِّي» (زمر/۶۴) با «أَتُحَاجُّونَنَا» (بقره/۱۳۹) در اعمال قاعدۀ ۶ چیست؟"], "sources": ["ابن‌جزری، النشر فی القراءات العشر، ج ۲، ذیل فرش حروف سورۀ یوسف (آیۀ ۱۱) و سورۀ زمر (آیۀ ۶۴).", "رضی‌الدین استرآبادی، شرح شافیۀ ابن‌الحاجب، ج ۳، مبحث الإدغام الکبیر.", "شیخ طوسی، التبیان فی تفسیر القرآن، ذیل آیۀ ۱۱ سورۀ یوسف و آیۀ ۶۴ سورۀ زمر."]}, {"id": "res5", "tag": "متون مرجع", "badge": "پژوهش ۵", "title": "هم‌نشینی با متون مرجع ۱: الحاق نون تأکید به فعل مضاعف", "verses": "«وَإِذَا اتَّصَلَ بِالْمُضَاعَفِ الْمَجْزُومِ أَوِ الْأَمْرِ نُونُ التَّأْكِيدِ، وَجَبَ الْإِدْغَامُ وَالْفَتْحُ، نَحْوَ: هَلْ تَمُدَّنَّ، وَامْدُدْ ← مُدَّنَّ؛ إِلَّا فِي الْمُثَنَّى وَجَمْعِ الْمُؤَنَّثِ، نَحْوَ: مُدَّانِّ وَامْدُدْنَانِّ.»", "body": ["<b>ترجمۀ دقیق عبارت مرجع:</b> «و هرگاه نون تأکید به فعل مضاعف مجزوم یا امر متصل شود، ادغام و فتحه واجب می‌گردد؛ مانند: هَلْ تَمُدَّنَّ، و اُمْدُدْ که به مُدَّنَّ تبدیل می‌شود؛ مگر در مثنّی و جمع مؤنّث، مانند: مُدَّانِّ و اُمْدُدْنَانِّ.»", "<b>کالبدشکافی دو ظرافت در این متن کلاسیک:</b><br>۱) <b>چرا جوازِ ق۵ به وجوبِ ق۲ تبدیل می‌شود؟</b> زیرا پیش از الحاق نون تأکید، دال دوم در «اُمْدُدْ» ساکن بود (به سبب بناء بر سکون یا جزم)؛ اما با پیوستن مستقیم نون تأکید به آخر صیغ خمسه، فعل بر <b>فتحۀ لازم</b> مبنی می‌شود («اُمْدُدَنْ + نَ»). از آنجا که هر دو دال اکنون متحرکِ لازم‌اند، شرط قاعدۀ ۲ (متماثل کبیر در یک کلمه) محقق شده و ادغام واجب و حرکت منحصر در فتحه می‌گردد (و با حرکت یافتن میم، همزۀ وصل نیز می‌افتد: مُدَّنَّ).<br>۲) <b>تفاوت دو استثنای آخر عبارت:</b> در مثنّی («مُدَّانِّ»)، علت استثناء این است که دال دوم به سبب <b>الف تثنیه</b> فتحه دارد (نه نون تأکید) و نون تأکید مکسور است، ولی ادغام همچنان <b>واجب</b> است. اما در جمع مؤنّث («اُمْدُدْنَانِّ»)، به سبب حضور <b>نون نسوه</b> (ضمیر رفع متحرک)، سکون دال دوم ضروری و <b>فکّ ادغام واجب</b> است و یک الفِ فاصل میان نون نسوه و نون تأکید مکسور قرار می‌گیرد تا سه نون کنار هم نیایند."], "questions": ["اگر نون تأکید خفیفه را به صیغه‌های ۸ (مُدَّا) و ۱۲ (اُمْدُدْنَ) ملحق کنیم چه حکمی دارد؟ (تذکّر: نون خفیفه پس از الف نمی‌آید).", "حکم ادغام در «هَلْ تَفِرَّنَّ» و «فِرَّنَّ» چیست و چرا در اینجا کسرۀ عین‌الفعل مانع فتحۀ لام‌الفعل نمی‌شود؟"], "sources": ["رضی‌الدین استرآبادی، شرح شافیۀ ابن‌الحاجب، ج ۳، باب الإدغام و باب نون التأکید.", "نظام‌الدین اعرج نیشابوری، شرح النظام علی الشافیة، مبحث الحاق نون التأکید بالمضاعف.", "ابوالفضل سیّد محمّدعلی تفتازانی، شرح التصریف العزی، فصل المضاعف."]}, {"id": "res6", "tag": "متون مرجع", "badge": "پژوهش ۶", "title": "هم‌نشینی با متون مرجع ۲: حذف و ابدال در مضاعف و اختلاف مبنا در «فِي يَوْمٍ»", "verses": "«وَشَذَّ حَذْفُ أَحَدِ الْمُتَجَانِسَيْنِ نَحْوَ: ظَلْتُ وَمِسْتُ وَأَحَسْتُ؛ وَقَلْبُ الثَّانِي يَاءً نَحْوَ: تَقَضَّى الْبَازِي وَتَظَنَّيْتُ وَقَصَّيْتُ أَظْفَارِي وَدَسَّاهَا.»", "body": ["<b>۱) گسترۀ «حذف» و «ابدال» در کتب مرجع صرفی:</b> در درس ۲۱ «صرف الف»، نمونۀ قرآنی حذف (فَظَلْتُمْ) و ابدال (دَسَّاهَا، دَلَّاهُمَا) معرفی شده است. در متون مرجع همچون <i>شرح الشافیة</i> و <i>شذا العرف</i>، دامنۀ این دو تغییر چنین تبیین شده است:<br>• <b>حذفِ یکی از دو حرف هم‌جنس:</b> علاوه بر ماضی ثلاثی مکسورالعین (ظَلْتُ/ظِلْتُ، مِسْتُ)، در برخی افعال مزید نیز مانند «أَحَسْتُ» (در اصل أَحْسَسْتُ در باب إفعال؛ روایت بحارالأنوار: إِذْ أَحَسْتِ بِذَلِكَ) و در امرِ جمع مؤنّث ﴿وَقَرْنَ فِي بُيُوتِكُنَّ﴾ (احزاب/۳۳؛ در اصل اِقْرِرْنَ از ق ر ر) به کار رفته است.<br>• <b>ابدال حرف دوم به یاء (تخفیفاً):</b> در مثل ﴿تُمْلَى عَلَيْهِ﴾ (فرقان/۵؛ در اصل تُمْلَلُ از م ل ل)، ﴿دَسَّاهَا﴾ (دَسَّسَهَا)، «تَظَنَّيْتُ» (تَظَنَّنْتُ)، و «تَقَضَّى الْبَازِي» (تَقَضَّضَ).", "<b>۲) تبیین اختلاف مبنای صرفی در «فِي يَوْمٍ» (معارج/۴):</b> در متون صرفی و تجویدی دربارۀ برخورد حرف مدّ پایان کلمه با هم‌جنسش (مانند قَالُوا وَجَدْنَا و فِي يَوْمٍ) دو نظر وجود دارد: مشهورِ قرّاء و برخی کتب صرفی (از جمله «صرف ساده»، ق۱۰/۳) هر دو را به دلیل حفظِ مدّ، <b>ممتنع</b> می‌دانند؛ اما برخی نحویان و صرفیان (از جمله مبنای برگزیده در «صرف الف»، درس ۲۳، ص ۱۷) «فِي» را به جهت کثرت استعمال استثناء کرده و در <b>«فِي يَوْمٍ»</b> قائل به جواز یا وجوب ادغام شده‌اند. آگاهی از این دو مبنا، مانع سردرگمی طلبه در تطبیق متون مختلف صرفی می‌شود."], "questions": ["تفاوت «مَسَّ» با «مَدَّ» در جواز حذفِ عین‌الفعل در صیغه‌های ۶ تا ۱۴ ماضی چیست؟ (چرا در مَدَدْتُ نمی‌گویند مَدْتُ؟)", "با توجه به دو مبنای ذکرشده دربارۀ «فِي يَوْمٍ»، در امتحان رسمی «صرف الف» کدام پاسخ ملاک است؟"], "sources": ["رضی‌الدین استرآبادی، شرح شافیۀ ابن‌الحاجب، ج ۳، ص ۲۳۸–۲۴۵ (مبحث فکّ و حذف و ابدال در مضاعف).", "احمد بن محمّد حملاوی، شذا العرف فی فنّ الصرف، خاتمة فی الإدغام.", "مصطفی غلایینی، جامع الدروس العربیة، ج ۱، مبحث الإدغام و مواضع امتناعه."]}]};
+
+const STORAGE_KEY = 'sarfB_kargah9_remz3_v1';
+const LETTERS = ['الف', 'ب', 'ج', 'د'];
+const TENSE_LABELS = {
+  mazi_m: "ماضی معلوم",
+  mazi_j: "ماضی مجهول",
+  moz_m: "مضارع غیرمجزوم معلوم",
+  moz_mjz: "مضارع مجزوم معلوم",
+  amr_m: "امر معلوم",
+  amr_j: "امر مجهول",
+  amr_tawkid: "امر معلوم با نون تأکید ثقیله"
+};
+
+let state = {
+  theme: 'hawza',
+  font: 'nazanin',
+  fontSize: 17,
+  lineHeight: 1.85,
+  examMode: 'learn',     // 'learn' | 'timed'
+  examSubmitted: false,
+  examAnswers: {},       // { mcqId: optionIndex }
+  descMastered: {},      // { descId: true }
+  descScratch: {},       // { descId: string }
+  resNotes: {},          // { resId: string }
+  bookmarks: {}          // { key: true }
+};
+
+let ui = {
+  ruleCat: 'all',
+  examCat: 'all',
+  examOnlyWrong: false,
+  descCat: 'all',
+  resTag: 'all',
+  labVerb: 'madda',
+  labTense: 'amr_m',
+  labSelectedSigha: 6,
+  timerSec: 25 * 60,
+  timerRunning: false,
+  timerId: null
+};
+
+// ============================================================================
+// PERSISTENCE & PERSIAN HELPERS
+// ============================================================================
+function toFa(v) {
+  return String(v).replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]).replace(/\./g, '٫');
+}
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      state = Object.assign(state, parsed);
+    }
+  } catch (e) {}
+}
+function saveState() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch (e) {}
+  updateKPIs();
+}
+
+// ============================================================================
+// APPEARANCE CONTROLS
+// ============================================================================
+function applyAppearance() {
+  document.documentElement.setAttribute('data-theme', state.theme);
+  document.documentElement.setAttribute('data-font', state.font);
+  document.documentElement.style.setProperty('--base-size', state.fontSize + 'px');
+  document.documentElement.style.setProperty('--base-lh', state.lineHeight);
+  document.getElementById('size-slider').value = state.fontSize;
+  document.getElementById('size-val').textContent = toFa(state.fontSize);
+  document.getElementById('lh-slider').value = state.lineHeight;
+  document.getElementById('lh-val').textContent = toFa(Number(state.lineHeight).toFixed(2));
+  document.querySelectorAll('.theme-opt[data-t]').forEach(b => b.classList.toggle('active', b.dataset.t === state.theme));
+  document.querySelectorAll('.theme-opt[data-f]').forEach(b => b.classList.toggle('active', b.dataset.f === state.font));
+}
+function setTheme(t) { state.theme = t; applyAppearance(); saveState(); }
+function setFont(f) { state.font = f; applyAppearance(); saveState(); }
+function setFontSize(v) { state.fontSize = Number(v); applyAppearance(); saveState(); }
+function setLineHeight(v) { state.lineHeight = Number(v); applyAppearance(); saveState(); }
+function resetAppearance() {
+  state.theme = 'hawza'; state.font = 'nazanin'; state.fontSize = 17; state.lineHeight = 1.85;
+  applyAppearance(); saveState();
+}
+function openDrawer() {
+  document.getElementById('drawer-backdrop').classList.add('open');
+  document.getElementById('settings-drawer').classList.add('open');
+}
+function closeDrawer() {
+  document.getElementById('drawer-backdrop').classList.remove('open');
+  document.getElementById('settings-drawer').classList.remove('open');
+}
+
+// ============================================================================
+// TAB SWITCHING & LIVE KPI DASHBOARD
+// ============================================================================
+function switchTab(tabId) {
+  document.querySelectorAll('.module-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+  const panel = document.getElementById('panel-' + tabId);
+  if (panel) panel.classList.add('active');
+  const btn = document.querySelector(`.nav-tab[data-tab="${tabId}"]`);
+  if (btn) btn.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateKPIs() {
+  const ansCount = Object.keys(state.examAnswers).length;
+  const totalMcq = DATA.mcqs.length;
+  document.getElementById('kpi-exam-txt').textContent = `${toFa(ansCount)} از ${toFa(totalMcq)}`;
+  document.getElementById('kpi-exam-bar').style.width = `${Math.round((ansCount / totalMcq) * 100)}%`;
+
+  const mastCount = Object.values(state.descMastered).filter(Boolean).length;
+  const totalDesc = DATA.desc.length;
+  document.getElementById('kpi-desc-txt').textContent = `${toFa(mastCount)} از ${toFa(totalDesc)}`;
+  document.getElementById('kpi-desc-bar').style.width = `${Math.round((mastCount / totalDesc) * 100)}%`;
+
+  const bmCount = Object.values(state.bookmarks).filter(Boolean).length;
+  const noteCount = Object.values(state.resNotes).filter(s => s && s.trim()).length;
+  document.getElementById('kpi-bm-txt').textContent = `${toFa(bmCount)} نشان | ${toFa(noteCount)} یادداشت`;
+  document.getElementById('kpi-bm-bar').style.width = `${Math.min(100, (bmCount + noteCount) * 8)}%`;
+}
+
+function toggleBookmark(key, rerenderFn) {
+  state.bookmarks[key] = !state.bookmarks[key];
+  if (!state.bookmarks[key]) delete state.bookmarks[key];
+  saveState();
+  if (rerenderFn) rerenderFn();
+}
+
+// ============================================================================
+// MODULE 1: INTERACTIVE 14-SIGHA VERB LAB & RULE EXPLORER
+// ============================================================================
+function initVerbLab() {
+  const vSel = document.getElementById('lab-verb');
+  vSel.innerHTML = Object.entries(DATA.verbLab).map(([k, v]) => `<option value="${k}">${v.label}</option>`).join('');
+  vSel.value = ui.labVerb;
+  populateTenseOptions();
+  renderVerbLab();
+}
+
+function populateTenseOptions() {
+  const tSel = document.getElementById('lab-tense');
+  const tenses = DATA.verbLab[ui.labVerb].tenses;
+  const keys = Object.keys(tenses);
+  if (!keys.includes(ui.labTense)) ui.labTense = keys[0];
+  tSel.innerHTML = keys.map(k => `<option value="${k}">${TENSE_LABELS[k] || k}</option>`).join('');
+  tSel.value = ui.labTense;
+}
+
+function onVerbChange() {
+  ui.labVerb = document.getElementById('lab-verb').value;
+  populateTenseOptions();
+  renderVerbLab();
+}
+
+function renderVerbLab() {
+  ui.labTense = document.getElementById('lab-tense').value;
+  const rows = DATA.verbLab[ui.labVerb].tenses[ui.labTense];
+  const grid = document.getElementById('sigha-grid');
+  grid.innerHTML = rows.map((r, i) => {
+    const [form, orig, st, reason] = r;
+    const sel = i === ui.labSelectedSigha ? 'selected' : '';
+    return `<div class="sigha-tile st-${st} ${sel}" onclick="selectSigha(${i})">
+      <div class="sigha-num">${DATA.sighaNames[i]}</div>
+      <div class="sigha-form">${form}</div>
+    </div>`;
+  }).join('');
+  renderSighaInspector();
+}
+
+function selectSigha(idx) {
+  ui.labSelectedSigha = idx;
+  renderVerbLab();
+}
+
+function renderSighaInspector() {
+  const v = DATA.verbLab[ui.labVerb];
+  const [form, orig, st, reason] = v.tenses[ui.labTense][ui.labSelectedSigha];
+  const pillCls = st === 'wajib' ? 'pill-wajib' : (st === 'jaiz' ? 'pill-jaiz' : 'pill-mumtani');
+  const stLbl   = st === 'wajib' ? 'ادغام واجب' : (st === 'jaiz' ? 'ادغام جایز (ق۵)' : 'ادغام ممتنع (وجوب فکّ)');
+  document.getElementById('sigha-inspector').innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px;">
+      <strong style="color:var(--primary);">کالبدشکافی ${DATA.sighaNames[ui.labSelectedSigha]} از «${v.root}» (${v.bab}) — ${TENSE_LABELS[ui.labTense]}</strong>
+      <span class="pill ${pillCls}">${stLbl}</span>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:18px;align-items:baseline;margin-bottom:5px;">
+      <div><span style="color:var(--ink-muted);">اصل پیش از تغییر:</span> <span class="ar" style="font-weight:700;color:var(--primary);">${orig}</span></div>
+      <div><span style="color:var(--ink-muted);">صورت(های) صحیح:</span> <span class="ar ar-target">${form}</span></div>
+    </div>
+    <div style="font-size:0.95em;"><b>ضابطه و تحلیل صرفی:</b> ${reason}</div>
+  `;
+}
+
+function setRuleCat(cat, btn) {
+  ui.ruleCat = cat;
+  document.querySelectorAll('#rule-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderRules();
+}
+
+function renderRules() {
+  const q = (document.getElementById('rule-search').value || '').trim();
+  const list = DATA.rules.filter(r => {
+    if (ui.ruleCat !== 'all' && r.cat !== ui.ruleCat) return false;
+    if (q) {
+      const hay = `${r.title} ${r.formula} ${r.desc} ${r.example}`;
+      return hay.includes(q);
+    }
+    return true;
+  });
+  const container = document.getElementById('rules-grid');
+  if (!list.length) {
+    container.innerHTML = `<div style="grid-column:1/-1;text-align:center;color:var(--ink-muted);padding:20px;">موردی مطابق جستجوی شما یافت نشد.</div>`;
+    return;
+  }
+  container.innerHTML = list.map(r => `
+    <article class="rule-card">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;">
+        <strong style="color:var(--primary);font-size:1.02em;">${r.title}</strong>
+        <span class="pill pill-${r.type}">${r.badge}</span>
+      </div>
+      <div class="rule-formula ar">${r.formula}</div>
+      <div style="font-size:0.94em;">${r.desc}</div>
+      <div class="rule-example"><b>شاهد و نمونه:</b> <span class="ar">${r.example}</span></div>
+    </article>
+  `).join('');
+}
+
+// ============================================================================
+// MODULE 2: OLYMPIAD MCQ EXAM ENGINE
+// ============================================================================
+function setExamMode(mode) {
+  state.examMode = mode;
+  document.getElementById('mode-learn').classList.toggle('active', mode === 'learn');
+  document.getElementById('mode-timed').classList.toggle('active', mode === 'timed');
+  document.getElementById('timer-box').style.display = mode === 'timed' ? 'inline-flex' : 'none';
+  if (mode === 'learn' && ui.timerRunning) toggleTimer();
+  saveState();
+  renderMCQs();
+}
+
+function toggleTimer() {
+  const btn = document.getElementById('timer-toggle-btn');
+  if (ui.timerRunning) {
+    clearInterval(ui.timerId);
+    ui.timerRunning = false;
+    btn.textContent = 'ادامه';
+  } else {
+    ui.timerRunning = true;
+    btn.textContent = 'توقف';
+    ui.timerId = setInterval(() => {
+      if (ui.timerSec <= 0) {
+        clearInterval(ui.timerId);
+        ui.timerRunning = false;
+        btn.textContent = 'پایان';
+        submitExam();
+        return;
+      }
+      ui.timerSec--;
+      renderTimer();
+    }, 1000);
+  }
+}
+
+function renderTimer() {
+  const m = String(Math.floor(ui.timerSec / 60)).padStart(2, '0');
+  const s = String(ui.timerSec % 60).padStart(2, '0');
+  document.getElementById('timer-display').textContent = toFa(`${m}:${s}`);
+}
+
+function setExamCat(cat, btn) {
+  ui.examCat = cat;
+  ui.examOnlyWrong = false;
+  document.querySelectorAll('#exam-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderMCQs();
+}
+
+function filterExamWrong() {
+  ui.examOnlyWrong = !ui.examOnlyWrong;
+  renderMCQs();
+}
+
+function selectMcqOption(mcqId, optIdx) {
+  if (state.examMode === 'timed' && state.examSubmitted) return;
+  state.examAnswers[mcqId] = optIdx;
+  saveState();
+  renderMCQs();
+  if (state.examSubmitted) renderReportCard();
+}
+
+function submitExam() {
+  state.examSubmitted = true;
+  if (ui.timerRunning) toggleTimer();
+  saveState();
+  renderReportCard();
+  renderMCQs();
+  document.getElementById('exam-report').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetExam() {
+  state.examAnswers = {};
+  state.examSubmitted = false;
+  ui.examOnlyWrong = false;
+  if (ui.timerRunning) toggleTimer();
+  ui.timerSec = 25 * 60;
+  renderTimer();
+  document.getElementById('timer-toggle-btn').textContent = 'شروع';
+  document.getElementById('exam-report').classList.remove('show');
+  saveState();
+  renderMCQs();
+}
+
+function renderReportCard() {
+  const card = document.getElementById('exam-report');
+  if (!state.examSubmitted) { card.classList.remove('show'); return; }
+  card.classList.add('show');
+
+  let correct = 0, wrong = 0, blank = 0;
+  const topicStats = {};
+  DATA.mcqs.forEach(m => {
+    if (!topicStats[m.catLabel]) topicStats[m.catLabel] = { total: 0, ok: 0 };
+    topicStats[m.catLabel].total++;
+    const a = state.examAnswers[m.id];
+    if (a === undefined) blank++;
+    else if (a === m.ans) { correct++; topicStats[m.catLabel].ok++; }
+    else wrong++;
+  });
+
+  const pct = Math.round((correct / DATA.mcqs.length) * 100);
+  const circ = 389.56;
+  document.getElementById('score-ring').style.strokeDashoffset = circ * (1 - pct / 100);
+  document.getElementById('report-pct').textContent = toFa(pct) + '٪';
+  let grade = 'نیازمند مرور مجدد';
+  if (pct >= 90) grade = 'ممتاز (تراز المپیاد)';
+  else if (pct >= 75) grade = 'خیلی خوب (نکته‌سنج)';
+  else if (pct >= 60) grade = 'خوب (قابل قبول)';
+  document.getElementById('report-grade').textContent = grade;
+
+  document.getElementById('report-summary').innerHTML = `
+    <span class="pill pill-wajib">پاسخ صحیح: ${toFa(correct)}</span>
+    <span class="pill pill-mumtani">پاسخ غلط: ${toFa(wrong)}</span>
+    <span class="pill pill-info">بی‌پاسخ: ${toFa(blank)}</span>
+    <span class="pill pill-extra">نمره از ۲۰: ${toFa(((correct / DATA.mcqs.length) * 20).toFixed(1))}</span>
+  `;
+
+  document.getElementById('report-topics').innerHTML = Object.entries(topicStats).map(([lbl, st]) => {
+    const tp = Math.round((st.ok / st.total) * 100);
+    return `<div class="topic-bar-row">
+      <div class="topic-bar-head"><span>${lbl}</span><span>${toFa(st.ok)} از ${toFa(st.total)} (${toFa(tp)}٪)</span></div>
+      <div class="topic-bar-track"><div class="topic-bar-fill" style="width:${tp}%"></div></div>
+    </div>`;
+  }).join('');
+}
+
+function renderMCQs() {
+  const list = DATA.mcqs.filter(m => {
+    if (ui.examOnlyWrong) {
+      return state.examAnswers[m.id] !== m.ans;
+    }
+    if (ui.examCat === 'bookmarked') return !!state.bookmarks['mcq_' + m.id];
+    if (ui.examCat !== 'all' && m.cat !== ui.examCat) return false;
+    return true;
+  });
+
+  const el = document.getElementById('mcq-list');
+  if (!list.length) {
+    el.innerHTML = `<div class="card" style="text-align:center;color:var(--ink-muted);">پرسشی در این فیلتر وجود ندارد.</div>`;
+    return;
+  }
+
+  el.innerHTML = list.map(m => {
+    const chosen = state.examAnswers[m.id];
+    const reveal = (state.examMode === 'learn' && chosen !== undefined) || state.examSubmitted;
+    const isBm = !!state.bookmarks['mcq_' + m.id];
+    const lvlCls = m.level === 'المپیادی' ? 'pill-extra' : (m.level === 'نکته‌سنج' ? 'pill-jaiz' : 'pill-info');
+
+    const optsHtml = m.opts.map((o, idx) => {
+      let cls = 'mcq-opt';
+      if (reveal) {
+        if (idx === m.ans) cls += ' correct';
+        else if (idx === chosen && chosen !== m.ans) cls += ' wrong';
+      } else if (idx === chosen) {
+        cls += ' selected';
+      }
+      return `<button class="${cls}" onclick="selectMcqOption(${m.id}, ${idx})">
+        <span class="opt-letter">${LETTERS[idx]}</span>
+        <span>${o}</span>
+      </button>`;
+    }).join('');
+
+    return `<article class="mcq-card">
+      <div class="mcq-top">
+        <div style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;">
+          <span class="pill pill-info">پرسش ${toFa(m.id)}</span>
+          <span class="pill ${lvlCls}">${m.level}</span>
+          <span style="font-size:0.84em;color:var(--ink-muted);">${m.catLabel}</span>
+        </div>
+        <button class="btn-icon ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('mcq_${m.id}', renderMCQs)">
+          ${isBm ? '★ نشان‌شده' : '☆ نشان کردن'}
+        </button>
+      </div>
+      <div class="mcq-q">${m.q}</div>
+      <div class="mcq-opts">${optsHtml}</div>
+      <div class="mcq-exp ${reveal ? 'show' : ''}">
+        <strong style="color:var(--primary);">❖ تحلیل صرفی و پاسخ دقیق (گزینۀ ${LETTERS[m.ans]}):</strong>
+        <div style="margin-top:4px;">${m.exp}</div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ============================================================================
+// MODULE 3: DESCRIPTIVE, ERROR-SPOTTING & EXEMPLIFICATION WORKSHOP
+// ============================================================================
+function setDescCat(cat, btn) {
+  ui.descCat = cat;
+  document.querySelectorAll('#desc-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderDesc();
+}
+
+function toggleDescBox(id, kind) {
+  const el = document.getElementById(`${kind}-${id}`);
+  if (el) el.classList.toggle('show');
+}
+
+function toggleAllDesc(open) {
+  document.querySelectorAll('#desc-list .ans-box').forEach(b => b.classList.toggle('show', open));
+}
+
+function toggleMastered(id) {
+  state.descMastered[id] = !state.descMastered[id];
+  if (!state.descMastered[id]) delete state.descMastered[id];
+  saveState();
+  renderDesc();
+}
+
+function saveScratch(id, val) {
+  state.descScratch[id] = val;
+  saveState();
+}
+
+function renderDesc() {
+  const list = DATA.desc.filter(d => {
+    if (ui.descCat === 'bookmarked') return !!state.bookmarks['desc_' + d.id];
+    if (ui.descCat !== 'all' && d.cat !== ui.descCat) return false;
+    return true;
+  });
+
+  const el = document.getElementById('desc-list');
+  if (!list.length) {
+    el.innerHTML = `<div class="card" style="text-align:center;color:var(--ink-muted);">تمرینی در این بخش یافت نشد.</div>`;
+    return;
+  }
+
+  el.innerHTML = list.map((d, i) => {
+    const isMast = !!state.descMastered[d.id];
+    const isBm   = !!state.bookmarks['desc_' + d.id];
+    const lvlCls = d.level === 'المپیادی' ? 'pill-extra' : (d.level === 'نکته‌سنج' ? 'pill-jaiz' : 'pill-info');
+    const savedText = (state.descScratch[d.id] || '').replace(/</g, '&lt;');
+
+    return `<article class="desc-card ${isMast ? 'mastered' : ''}">
+      <div class="mcq-top">
+        <div style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;">
+          <span class="pill pill-info">${d.catLabel}</span>
+          <span class="pill ${lvlCls}">${d.level}</span>
+          <strong style="color:var(--primary);">${d.title}</strong>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center;">
+          <button class="btn-icon ${isMast ? 'bookmarked' : ''}" style="${isMast ? 'background:var(--emerald-soft);border-color:var(--emerald);color:var(--emerald);' : ''}" onclick="toggleMastered('${d.id}')">
+            ${isMast ? '✓ تسلّط یافتم' : '○ ثبت تسلّط'}
+          </button>
+          <button class="btn-icon ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('desc_${d.id}', renderDesc)">
+            ${isBm ? '★ نشان‌شده' : '☆ نشان'}
+          </button>
+        </div>
+      </div>
+      <div style="margin-bottom:8px;">${d.prompt}</div>
+      <textarea class="scratchpad" placeholder="پاسخ تمرینی خود را پیش از مشاهدۀ کلید اینجا یادداشت کنید..." oninput="saveScratch('${d.id}', this.value)">${savedText}</textarea>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <button class="btn btn-sm" onclick="toggleDescBox('${d.id}', 'hint')">مشاهدۀ راهنما (سرنخ)</button>
+        <button class="btn btn-sm btn-primary" onclick="toggleDescBox('${d.id}', 'ans')">پاسخ و کالبدشکافی کامل</button>
+      </div>
+      <div id="hint-${d.id}" class="hint-box"><b>◈ راهنما:</b> ${d.hint}</div>
+      <div id="ans-${d.id}" class="ans-box">
+        <div style="font-weight:700;color:var(--emerald);margin-bottom:4px;">❖ پاسخ تشریحی و تحلیل صرفی:</div>
+        <div>${d.answer}</div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ============================================================================
+// MODULE 4: RESEARCH LIBRARY
+// ============================================================================
+function setResTag(tag, btn) {
+  ui.resTag = tag;
+  document.querySelectorAll('#res-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderResearch();
+}
+
+function saveResNote(id, val) {
+  state.resNotes[id] = val;
+  saveState();
+}
+
+function renderResearch() {
+  const q = (document.getElementById('res-search').value || '').trim();
+  const list = DATA.research.filter(r => {
+    if (ui.resTag === 'bookmarked' && !state.bookmarks['res_' + r.id]) return false;
+    else if (ui.resTag !== 'all' && ui.resTag !== 'bookmarked' && r.tag !== ui.resTag) return false;
+    if (q) {
+      const hay = `${r.title} ${r.verses} ${r.body.join(' ')} ${r.sources.join(' ')}`;
+      return hay.includes(q);
+    }
+    return true;
+  });
+
+  const el = document.getElementById('research-list');
+  if (!list.length) {
+    el.innerHTML = `<div class="card" style="text-align:center;color:var(--ink-muted);">پژوهشی مطابق جستجوی شما یافت نشد.</div>`;
+    return;
+  }
+
+  el.innerHTML = list.map(r => {
+    const isBm = !!state.bookmarks['res_' + r.id];
+    const savedNote = (state.resNotes[r.id] || '').replace(/</g, '&lt;');
+    return `<article class="res-card">
+      <div class="res-head">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+          <span class="pill" style="background:rgba(255,255,255,0.18);color:#F0D696;">${r.badge} • ${r.tag}</span>
+          <strong style="font-family:var(--font-title);font-size:1.04em;">${r.title}</strong>
+        </div>
+        <button class="hdr-btn" style="padding:4px 10px;font-size:0.84em;" onclick="toggleBookmark('res_${r.id}', renderResearch)">
+          ${isBm ? '★ نشان‌شده' : '☆ نشان کردن'}
+        </button>
+      </div>
+      <div class="res-body">
+        <div class="res-quote">${r.verses}</div>
+        ${r.body.map(p => `<p style="margin:0 0 10px;text-align:justify;">${p}</p>`).join('')}
+        <div style="background:var(--surface-alt);border-radius:8px;padding:11px 14px;margin-top:10px;">
+          <strong style="color:var(--primary);">◆ پرسش‌های تأمّلی برای بحث و مباحثه:</strong>
+          <ul style="margin:5px 0 0;padding-right:18px;">
+            ${r.questions.map(qq => `<li>${qq}</li>`).join('')}
+          </ul>
+        </div>
+        <div class="res-sources">
+          <strong style="color:var(--primary);">❖ مستندات و منابع ارجاع پژوهشی:</strong>
+          <ul>${r.sources.map(s => `<li>${s}</li>`).join('')}</ul>
+        </div>
+        <div style="margin-top:12px;">
+          <label style="font-weight:700;font-size:0.9em;color:var(--ink-muted);">یادداشت پژوهشی و خلاصۀ مطالعۀ شما (ذخیرۀ خودکار):</label>
+          <textarea class="scratchpad" placeholder="نکات استخراج‌شده از تفاسیر و کتب مرجع را اینجا ثبت کنید..." oninput="saveResNote('${r.id}', this.value)">${savedNote}</textarea>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ============================================================================
+// MODULE 5: SMART PRINT / PDF BUILDER & JSON BACKUP
+// ============================================================================
+function triggerSmartPrint() {
+  const incRules = document.getElementById('pr-rules').checked;
+  const incMcqs  = document.getElementById('pr-mcqs').checked;
+  const incDesc  = document.getElementById('pr-desc').checked;
+  const incRes   = document.getElementById('pr-res').checked;
+  const incNotes = document.getElementById('pr-notes').checked;
+  const mode     = document.querySelector('input[name="pr-mode"]:checked').value;
+  const size     = document.querySelector('input[name="pr-size"]:checked').value;
+
+  // Dynamic @page size
+  const pStyle = document.getElementById('dynamic-page-style');
+  pStyle.textContent = size === 'a4'
+    ? '@page { size: A4; margin: 14mm 15mm; }'
+    : '@page { size: 165mm 235mm; margin: 12mm 12mm 13mm 12mm; }';
+
+  const modeLabel = mode === 'full' ? 'نسخۀ جامع آموزشی (با پاسخ‌نامۀ تشریحی)'
+                  : (mode === 'exam' ? 'نسخۀ خام امتحانی (ویژۀ برگزاری آزمون)' : 'نسخۀ کلید اختصاصی استاد');
+
+  let html = `
+    <div class="p-banner">
+      <p>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ &nbsp;|&nbsp; نظام جامع آموزش حوزۀ علمیۀ خراسان — ادبیات عرب ۱ (صرف) بخش ب</p>
+      <h1>کارگاه نهم: فعل مضاعف، تقسیمات و احکام ادغام (بستۀ المپیادی و پژوهشی – رمزینۀ ۳)</h1>
+      <p>هم‌راستا با دروس ۲۱، ۲۲ و ۲۳ کتاب «صرف الف» &nbsp;|&nbsp; ${modeLabel}</p>
+    </div>
+  `;
+
+  if (incRules) {
+    html += `<div class="p-sec-head">بخش اول: مرور سریع و ساختارنمای قواعد (منطبق بر صرف الف)</div>
+      <table class="p-table">
+        <thead><tr><th style="width:22%;">عنوان و جایگاه</th><th style="width:36%;">ضابطه و الگو</th><th style="width:42%;">توضیح و شاهد کاربردی</th></tr></thead>
+        <tbody>
+          ${DATA.rules.map(r => `<tr><td><b>${r.title}</b><br><small>(${r.badge})</small></td><td><b>${r.formula}</b></td><td>${r.desc}<br><i>${r.example}</i></td></tr>`).join('')}
+        </tbody>
+      </table>`;
+  }
+
+  if (incMcqs) {
+    html += `<div class="p-sec-head">بخش دوم: آزمون چهارگزینه‌ای المپیادی (۲۵ پرسش)</div>`;
+    DATA.mcqs.forEach(m => {
+      if (mode === 'key') {
+        html += `<div class="p-item"><div class="p-q">پرسش ${toFa(m.id)} (${m.catLabel}) — پاسخ صحیح: گزینۀ ${LETTERS[m.ans]} (${m.opts[m.ans]})</div><div class="p-ans">${m.exp}</div></div>`;
+      } else {
+        html += `<div class="p-item">
+          <div class="p-q">${toFa(m.id)}. ${m.q}</div>
+          <div class="p-opts">${m.opts.map((o, i) => `<div>☐ ${LETTERS[i]}) ${o}</div>`).join('')}</div>
+          ${mode === 'full' ? `<div class="p-ans"><b>پاسخ (${LETTERS[m.ans]}):</b> ${m.exp}</div>` : ''}
+        </div>`;
+      }
+    });
+  }
+
+  if (incDesc) {
+    html += `<div class="p-sec-head">بخش سوم: کارگاه تشریحی، خطایابی و مثال‌آوری المپیادی (۲۸ تمرین)</div>`;
+    DATA.desc.forEach((d, idx) => {
+      if (mode === 'key') {
+        html += `<div class="p-item"><div class="p-q">${toFa(idx+1)}. ${d.title} (${d.catLabel})</div><div class="p-ans">${d.answer}</div></div>`;
+      } else {
+        html += `<div class="p-item">
+          <div class="p-q">${toFa(idx+1)}. ${d.title} <small>(${d.catLabel} – ${d.level})</small></div>
+          <div>${d.prompt}</div>
+          ${mode === 'full' ? `<div class="p-ans"><b>پاسخ تشریحی:</b> ${d.answer}</div>` : `<div class="p-lines"></div><div class="p-lines"></div>`}
+        </div>`;
+      }
+    });
+  }
+
+  if (incRes) {
+    html += `<div class="p-sec-head">بخش چهارم: کتابخانۀ پژوهش‌های قرآنی، فقهی و متون مرجع صرفی (۶ پژوهش)</div>`;
+    DATA.research.forEach(r => {
+      const note = state.resNotes[r.id];
+      html += `<div class="p-item">
+        <div class="p-q">${r.badge}: ${r.title} (${r.tag})</div>
+        <div class="p-quote">${r.verses}</div>
+        ${mode !== 'exam' ? r.body.map(p => `<p style="margin:3pt 0;">${p}</p>`).join('') : ''}
+        <div style="margin-top:4pt;"><b>پرسش‌های تأمّلی:</b> ${r.questions.map((qq, i) => `${toFa(i+1)}) ${qq}`).join(' &nbsp;|&nbsp; ')}</div>
+        <div class="p-ans"><b>منابع ارجاع:</b> ${r.sources.join(' ؛ ')}</div>
+        ${mode === 'exam' ? `<div class="p-lines"></div><div class="p-lines"></div><div class="p-lines"></div>` : ''}
+        ${incNotes && note && note.trim() ? `<div class="p-ans"><b>یادداشت شخصی:</b> ${note.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div>` : ''}
+      </div>`;
+    });
+  }
+
+  document.getElementById('print-root').innerHTML = html;
+  setTimeout(() => window.print(), 120);
+}
+
+function exportUserData() {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'پشتیبان_کارگاه_نهم_ادغام.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function importUserData(ev) {
+  const file = ev.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const imported = JSON.parse(e.target.result);
+      state = Object.assign(state, imported);
+      saveState();
+      applyAppearance();
+      setExamMode(state.examMode);
+      renderReportCard();
+      renderMCQs();
+      renderDesc();
+      renderResearch();
+      alert('فایل پشتیبان با موفقیت بازیابی شد.');
+    } catch (err) {
+      alert('خطا در خواندن فایل پشتیبان؛ لطفاً فایل معتبر JSON انتخاب کنید.');
+    }
+  };
+  reader.readAsText(file, 'utf-8');
+}
+
+function clearAllProgress() {
+  if (!confirm('آیا از پاک‌سازی کامل کارنامه، تمرین‌ها، نشان‌شده‌ها و یادداشت‌های شخصی اطمینان دارید؟')) return;
+  state.examAnswers = {};
+  state.examSubmitted = false;
+  state.descMastered = {};
+  state.descScratch = {};
+  state.resNotes = {};
+  state.bookmarks = {};
+  saveState();
+  renderReportCard();
+  renderMCQs();
+  renderDesc();
+  renderResearch();
+}
+
+// ============================================================================
+// BOOTSTRAP
+// ============================================================================
+document.addEventListener('DOMContentLoaded', () => {
+  loadState();
+  applyAppearance();
+  initVerbLab();
+  renderRules();
+  setExamMode(state.examMode);
+  renderTimer();
+  renderReportCard();
+  renderMCQs();
+  renderDesc();
+  renderResearch();
+  updateKPIs();
+});
+</script>
+</body>
+</html>
