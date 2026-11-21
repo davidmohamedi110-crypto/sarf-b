@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="hawza" data-font="nazanin">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>کارگاه بیست‌وپنجم صرف عملی: اسم مثنّی و جمع‌های سالم — بستۀ المپیادی و پژوهشی (رمزینۀ ۳)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style id="dynamic-page-style">
+@page { size: 165mm 235mm; margin: 13mm 13mm 14mm 13mm; }
+</style>
+<style>
+/* ==========================================================================
+   1. DESIGN TOKENS & 4 THEMES (HAWZA, SEPIA, LAPIS, NIGHT)
+   ========================================================================== */
+:root {
+  --bg: #F6F4EF;
+  --surface: #FFFFFF;
+  --surface-alt: #F2F7F8;
+  --surface-warm: #FAF6EE;
+  --surface-quote: #F3EAD9;
+  --primary: #164E59;
+  --primary-mid: #236B78;
+  --primary-soft: #E6F0F2;
+  --accent: #B38728;
+  --accent-soft: #EFE3C4;
+  --ink: #1C2729;
+  --ink-muted: #516468;
+  --border: #C4D4D8;
+  --border-strong: #164E59;
+  --crimson: #8C1D1D;
+  --crimson-soft: #FCECEC;
+  --emerald: #1B6B50;
+  --emerald-soft: #E6F4EE;
+  --amber: #9E6808;
+  --amber-soft: #FDF3DF;
+  --shadow: 0 4px 18px rgba(22, 78, 89, 0.08);
+  --shadow-lg: 0 12px 32px rgba(22, 78, 89, 0.14);
+  --radius: 14px;
+  --radius-sm: 9px;
+  --base-size: 17px;
+  --base-lh: 1.85;
+  --font-main: 'B Nazanin', 'Amiri', 'Vazirmatn', Tahoma, serif;
+  --font-title: 'B Titr', 'Vazirmatn', 'B Nazanin', serif;
+  --font-ar: 'Traditional Arabic', 'B Nazanin', 'Amiri', serif;
+}
+
+[data-theme="sepia"] {
+  --bg: #F3ECE0;
+  --surface: #FBF7F0;
+  --surface-alt: #F2E9DA;
+  --surface-warm: #EFE4D1;
+  --surface-quote: #E8D9BF;
+  --primary: #5B3E22;
+  --primary-mid: #785432;
+  --primary-soft: #ECE0CE;
+  --accent: #A67526;
+  --accent-soft: #EBD8B4;
+  --ink: #2C2118;
+  --ink-muted: #655240;
+  --border: #D5C3AA;
+  --border-strong: #5B3E22;
+  --crimson: #8F2222;
+  --crimson-soft: #F8E5E2;
+  --emerald: #266044;
+  --emerald-soft: #E4EFE8;
+  --amber: #8E5B08;
+  --amber-soft: #F7EAD0;
+}
+
+[data-theme="lapis"] {
+  --bg: #F1F4F9;
+  --surface: #FFFFFF;
+  --surface-alt: #EEF3FA;
+  --surface-warm: #F8F5EE;
+  --surface-quote: #EBF0F8;
+  --primary: #1B3B6F;
+  --primary-mid: #2C5492;
+  --primary-soft: #E5EDF8;
+  --accent: #B0862B;
+  --accent-soft: #EFE3C4;
+  --ink: #192436;
+  --ink-muted: #4F5F78;
+  --border: #C4D0E2;
+  --border-strong: #1B3B6F;
+  --crimson: #941E2B;
+  --crimson-soft: #FCEBED;
+  --emerald: #19694F;
+  --emerald-soft: #E5F3EE;
+  --amber: #99640A;
+  --amber-soft: #FCF2DE;
+}
+
+[data-theme="night"] {
+  --bg: #0F171C;
+  --surface: #17232A;
+  --surface-alt: #1E2E37;
+  --surface-warm: #212B2D;
+  --surface-quote: #1E2B32;
+  --primary: #5CBAC9;
+  --primary-mid: #4099A8;
+  --primary-soft: #1D353E;
+  --accent: #DFB457;
+  --accent-soft: #362E1C;
+  --ink: #E8F0F2;
+  --ink-muted: #9CB2B8;
+  --border: #2C414C;
+  --border-strong: #5CBAC9;
+  --crimson: #F28B8B;
+  --crimson-soft: #3B1E22;
+  --emerald: #67D3AB;
+  --emerald-soft: #18362C;
+  --amber: #F0BE63;
+  --amber-soft: #3A2E17;
+  --shadow: 0 6px 22px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 14px 36px rgba(0, 0, 0, 0.5);
+}
+
+[data-font="nazanin"] { --font-main: 'B Nazanin', 'Amiri', 'Vazirmatn', Tahoma, serif; }
+[data-font="mitra"]   { --font-main: 'B Mitra', 'Vazirmatn', 'Noto Naskh Arabic', Tahoma, sans-serif; }
+[data-font="vazir"]   { --font-main: 'Vazirmatn', 'B Mitra', 'Segoe UI', Tahoma, sans-serif; }
+[data-font="naskh"]   { --font-main: 'Traditional Arabic', 'Amiri', 'B Nazanin', serif; }
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: var(--base-size);
+  line-height: var(--base-lh);
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+/* ==========================================================================
+   2. HEADER, ISLAMIC BAND & STICKY NAVIGATION
+   ========================================================================== */
+.islamic-strip {
+  width: 100%;
+  height: 12px;
+  background: linear-gradient(90deg, var(--primary) 0%, var(--primary-mid) 50%, var(--primary) 100%);
+  border-bottom: 3px solid var(--accent);
+}
+.site-header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-mid) 100%);
+  color: #FFFFFF;
+  padding: 20px 18px 18px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 4px solid var(--accent);
+}
+[data-theme="night"] .site-header {
+  background: linear-gradient(135deg, #132C35 0%, #1B3D48 100%);
+}
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  background-image: radial-gradient(circle at 20px 20px, #DFB457 2px, transparent 2px);
+  background-size: 36px 36px;
+  pointer-events: none;
+}
+.header-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.brand-col { flex: 1 1 540px; }
+.brand-sup {
+  font-size: 0.86em;
+  color: #F0D696;
+  margin-bottom: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.brand-title {
+  font-family: var(--font-title);
+  font-size: 1.52em;
+  margin: 0 0 6px;
+  line-height: 1.45;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.brand-sub {
+  font-size: 0.92em;
+  color: rgba(255,255,255,0.9);
+  margin: 0;
+}
+.header-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.hdr-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.32);
+  background: rgba(255,255,255,0.13);
+  color: #FFFFFF;
+  font-family: var(--font-main);
+  font-size: 0.92em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+}
+.hdr-btn:hover { background: rgba(255,255,255,0.24); transform: translateY(-1px); }
+.hdr-btn.gold { background: var(--accent); border-color: #E8C97E; color: #FFFFFF; }
+.hdr-btn.gold:hover { filter: brightness(1.08); }
+
+.nav-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.nav-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  overflow-x: auto;
+  gap: 4px;
+  padding: 6px 12px;
+  scrollbar-width: thin;
+}
+.nav-tab {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--ink-muted);
+  font-family: var(--font-main);
+  font-size: 0.96em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.nav-tab:hover { background: var(--surface-alt); color: var(--primary); }
+.nav-tab.active {
+  background: var(--primary);
+  color: #FFFFFF;
+  box-shadow: 0 3px 10px rgba(22, 78, 89, 0.22);
+}
+[data-theme="night"] .nav-tab.active { color: #0F171C; }
+.nav-badge {
+  font-size: 0.78em;
+  padding: 1px 7px;
+  border-radius: 99px;
+  background: rgba(179, 135, 40, 0.16);
+  color: var(--accent);
+}
+.nav-tab.active .nav-badge { background: rgba(255,255,255,0.22); color: #FFFFFF; }
+[data-theme="night"] .nav-tab.active .nav-badge { color: #0F171C; background: rgba(0,0,0,0.2); }
+
+/* ==========================================================================
+   3. LAYOUT, CARDS, PILLS & BUTTONS
+   ========================================================================== */
+.main-wrap { max-width: 1120px; margin: 22px auto 48px; padding: 0 14px; }
+.module-panel { display: none; animation: fadeIn 0.24s ease; }
+.module-panel.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 18px;
+}
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid var(--primary-soft);
+}
+.section-title {
+  font-family: var(--font-title);
+  font-size: 1.16em;
+  color: var(--primary);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.orn { color: var(--accent); font-weight: 700; }
+.ar { font-family: var(--font-ar); font-size: 1.15em; line-height: 2.0; }
+.ar-target { color: var(--crimson); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 0.82em;
+  font-weight: 700;
+}
+.pill-wajib   { background: var(--emerald-soft); color: var(--emerald); border: 1px solid var(--emerald); }
+.pill-jaiz    { background: var(--amber-soft); color: var(--amber); border: 1px solid var(--amber); }
+.pill-mumtani { background: var(--crimson-soft); color: var(--crimson); border: 1px solid var(--crimson); }
+.pill-info    { background: var(--primary-soft); color: var(--primary); border: 1px solid var(--border); }
+.pill-extra   { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 15px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--ink);
+  font-family: var(--font-main);
+  font-size: 0.94em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.btn:hover { border-color: var(--primary); color: var(--primary); background: var(--primary-soft); }
+.btn-primary { background: var(--primary); border-color: var(--primary); color: #FFFFFF; }
+[data-theme="night"] .btn-primary { color: #0F171C; }
+.btn-primary:hover { filter: brightness(1.08); color: #FFFFFF; background: var(--primary); }
+[data-theme="night"] .btn-primary:hover { color: #0F171C; }
+.btn-gold { background: var(--accent); border-color: var(--accent); color: #FFFFFF; }
+.btn-gold:hover { filter: brightness(1.08); color: #FFFFFF; background: var(--accent); }
+.btn-sm { padding: 5px 11px; font-size: 0.86em; }
+.btn-icon {
+  padding: 6px 9px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-muted);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-main);
+  font-size: 0.84em;
+  transition: all 0.18s;
+}
+.btn-icon:hover { border-color: var(--accent); color: var(--accent); }
+.btn-icon.bookmarked { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 700; }
+
+.filter-bar { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 14px; align-items: center; }
+.filter-chip {
+  padding: 6px 13px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink-muted);
+  font-family: var(--font-main);
+  font-size: 0.88em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+.filter-chip:hover { border-color: var(--primary); color: var(--primary); }
+.filter-chip.active { background: var(--primary); border-color: var(--primary); color: #FFFFFF; }
+[data-theme="night"] .filter-chip.active { color: #0F171C; }
+
+/* ==========================================================================
+   4. MODULE 1: KPI, NOUN TRANSFORMATION LAB & RULE EXPLORER
+   ========================================================================== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-bottom: 18px;
+}
+.kpi-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-right: 5px solid var(--primary);
+  border-radius: var(--radius);
+  padding: 15px 16px;
+  box-shadow: var(--shadow);
+}
+.kpi-card.gold { border-right-color: var(--accent); }
+.kpi-card.emerald { border-right-color: var(--emerald); }
+.kpi-card.crimson { border-right-color: var(--crimson); }
+.kpi-label { font-size: 0.88em; color: var(--ink-muted); margin-bottom: 4px; }
+.kpi-val { font-family: var(--font-title); font-size: 1.42em; color: var(--primary); }
+.kpi-bar { height: 7px; background: var(--surface-alt); border-radius: 99px; overflow: hidden; margin-top: 8px; }
+.kpi-bar > span { display: block; height: 100%; background: linear-gradient(90deg, var(--primary), var(--accent)); border-radius: 99px; transition: width 0.35s ease; }
+
+/* Interactive Noun Lab */
+.noun-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.noun-tile {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-top: 4px solid var(--primary);
+  border-radius: 10px;
+  padding: 10px 11px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.noun-tile:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--primary); }
+.noun-tile.selected { outline: 2.5px solid var(--accent); background: var(--primary-soft); border-top-color: var(--accent); }
+.noun-cat-lbl { font-size: 0.78em; color: var(--ink-muted); margin-bottom: 3px; }
+.noun-word { font-family: var(--font-ar); font-size: 1.2em; font-weight: 700; color: var(--primary); line-height: 1.65; }
+
+.inspector-box {
+  background: var(--surface-warm);
+  border: 1.5px solid var(--accent);
+  border-right: 6px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+}
+.inspector-3col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+.insp-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+.insp-card.st-ok     { border-top: 4px solid var(--emerald); }
+.insp-card.st-change { border-top: 4px solid var(--amber); }
+.insp-card.st-no     { border-top: 4px solid var(--crimson); }
+.insp-form {
+  font-family: var(--font-ar);
+  font-size: 1.18em;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 6px 0;
+  padding: 5px 8px;
+  background: var(--surface-alt);
+  border-radius: 6px;
+  text-align: center;
+}
+.insp-card.st-no .insp-form { color: var(--crimson); background: var(--crimson-soft); font-family: var(--font-main); font-size: 0.96em; }
+
+.rules-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 14px; }
+.rule-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rule-formula {
+  background: var(--surface-alt);
+  border-right: 3px solid var(--accent);
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.94em;
+}
+.rule-example { background: var(--surface-warm); padding: 7px 10px; border-radius: 6px; font-size: 0.92em; color: var(--ink); }
+
+/* ==========================================================================
+   5. MODULE 2: OLYMPIAD MCQ EXAM ENGINE
+   ========================================================================== */
+.exam-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--surface-warm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 15px;
+  margin-bottom: 16px;
+}
+.mode-switch { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 3px; gap: 4px; }
+.mode-btn {
+  padding: 6px 13px; border: none; border-radius: 7px; background: transparent; color: var(--ink-muted);
+  font-family: var(--font-main); font-size: 0.9em; font-weight: 700; cursor: pointer;
+}
+.mode-btn.active { background: var(--primary); color: #FFFFFF; }
+[data-theme="night"] .mode-btn.active { color: #0F171C; }
+
+.timer-box {
+  display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 9px;
+  background: var(--surface); border: 1.5px solid var(--accent); font-weight: 700; color: var(--primary);
+}
+.mcq-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; margin-bottom: 14px; box-shadow: var(--shadow); }
+.mcq-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
+.mcq-q { font-weight: 700; font-size: 1.05em; color: var(--ink); margin: 0 0 13px; }
+.mcq-opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 9px; }
+.mcq-opt {
+  text-align: right; padding: 10px 13px; border-radius: var(--radius-sm); border: 1.5px solid var(--border);
+  background: var(--surface-alt); color: var(--ink); font-family: var(--font-main); font-size: 0.98em;
+  cursor: pointer; display: flex; align-items: center; gap: 9px; transition: all 0.16s ease;
+}
+.mcq-opt:hover { border-color: var(--primary); background: var(--primary-soft); }
+.mcq-opt.selected { border-color: var(--primary); background: var(--primary-soft); font-weight: 700; }
+.mcq-opt.correct { border-color: var(--emerald); background: var(--emerald-soft); color: var(--emerald); font-weight: 700; }
+.mcq-opt.wrong   { border-color: var(--crimson); background: var(--crimson-soft); color: var(--crimson); font-weight: 700; }
+.opt-letter {
+  width: 26px; height: 26px; flex: 0 0 26px; border-radius: 50%; background: var(--surface);
+  border: 1px solid var(--border); display: inline-flex; align-items: center; justify-content: center;
+  font-size: 0.85em; font-weight: 700; color: var(--primary);
+}
+.mcq-exp {
+  margin-top: 12px; padding: 12px 14px; border-radius: var(--radius-sm);
+  background: var(--surface-warm); border-right: 4px solid var(--accent); font-size: 0.95em; display: none;
+}
+.mcq-exp.show { display: block; }
+
+.report-card {
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-warm) 100%);
+  border: 2px solid var(--accent); border-radius: var(--radius); padding: 20px; margin-bottom: 18px; display: none;
+}
+.report-card.show { display: block; }
+.report-grid { display: grid; grid-template-columns: 180px 1fr; gap: 20px; align-items: center; }
+@media (max-width: 680px) { .report-grid { grid-template-columns: 1fr; text-align: center; } }
+.ring-wrap { position: relative; width: 150px; height: 150px; margin: 0 auto; }
+.ring-center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.topic-bar-row { margin-bottom: 9px; }
+.topic-bar-head { display: flex; justify-content: space-between; font-size: 0.9em; font-weight: 700; margin-bottom: 3px; }
+.topic-bar-track { height: 10px; background: var(--surface-alt); border-radius: 99px; overflow: hidden; border: 1px solid var(--border); }
+.topic-bar-fill { height: 100%; background: linear-gradient(90deg, var(--primary), var(--emerald)); border-radius: 99px; }
+
+/* ==========================================================================
+   6. MODULE 3 & 4: WORKSHOP & RESEARCH LIBRARY
+   ========================================================================== */
+.desc-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; margin-bottom: 14px; box-shadow: var(--shadow); }
+.desc-card.mastered { border-right: 5px solid var(--emerald); }
+.scratchpad {
+  width: 100%; min-height: 62px; margin: 10px 0; padding: 10px 12px; border-radius: var(--radius-sm);
+  border: 1px dashed var(--border); background: var(--surface-alt); color: var(--ink);
+  font-family: var(--font-main); font-size: 0.95em; resize: vertical;
+}
+.scratchpad:focus { outline: none; border-color: var(--primary); border-style: solid; background: var(--surface); }
+.hint-box { display: none; margin-top: 10px; padding: 10px 13px; border-radius: var(--radius-sm); background: var(--amber-soft); border-right: 4px solid var(--amber); font-size: 0.93em; }
+.hint-box.show { display: block; }
+.ans-box { display: none; margin-top: 10px; padding: 13px 15px; border-radius: var(--radius-sm); background: var(--emerald-soft); border-right: 4px solid var(--emerald); font-size: 0.96em; }
+.ans-box.show { display: block; }
+
+.search-input {
+  width: 100%; max-width: 380px; padding: 8px 14px; border-radius: 99px;
+  border: 1.5px solid var(--border); background: var(--surface); color: var(--ink);
+  font-family: var(--font-main); font-size: 0.95em;
+}
+.search-input:focus { outline: none; border-color: var(--primary); }
+.res-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; margin-bottom: 18px; box-shadow: var(--shadow); }
+.res-head { background: var(--primary); color: #FFFFFF; padding: 13px 18px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+[data-theme="night"] .res-head { background: #1B3B46; color: #E8F0F2; }
+.res-body { padding: 18px; }
+.res-quote {
+  background: var(--surface-quote); border-right: 5px solid var(--accent); padding: 12px 15px; border-radius: 8px;
+  margin-bottom: 14px; font-family: var(--font-ar); font-size: 1.14em; font-weight: 700; color: var(--primary); line-height: 2.05;
+}
+.res-sources { background: var(--surface-warm); border-right: 4px solid var(--primary-mid); padding: 11px 14px; border-radius: 8px; margin-top: 12px; font-size: 0.92em; }
+.res-sources ul { margin: 5px 0 0; padding-right: 18px; }
+
+/* ==========================================================================
+   7. SETTINGS DRAWER & SMART PRINT ENGINE
+   ========================================================================== */
+.drawer-backdrop { position: fixed; inset: 0; background: rgba(15, 23, 28, 0.45); z-index: 90; display: none; }
+.drawer-backdrop.open { display: block; }
+.settings-drawer {
+  position: fixed; top: 0; left: 0; width: min(350px, 92vw); height: 100vh; background: var(--surface);
+  border-right: 2px solid var(--accent); z-index: 100; padding: 20px 18px; overflow-y: auto;
+  box-shadow: var(--shadow-lg); transform: translateX(-105%); transition: transform 0.25s ease;
+}
+.settings-drawer.open { transform: translateX(0); }
+.setting-block { margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
+.setting-title { font-weight: 700; color: var(--primary); margin-bottom: 10px; font-size: 0.98em; }
+.theme-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.theme-opt {
+  padding: 9px 10px; border-radius: 9px; border: 1.5px solid var(--border); background: var(--surface-alt);
+  color: var(--ink); font-family: var(--font-main); font-size: 0.88em; font-weight: 700;
+  cursor: pointer; display: flex; align-items: center; gap: 7px;
+}
+.theme-opt.active { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
+.swatch { width: 16px; height: 16px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.2); flex: 0 0 16px; }
+
+.print-config-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; }
+.check-row { display: flex; align-items: center; gap: 9px; padding: 8px 10px; border-radius: 8px; background: var(--surface-alt); margin-bottom: 7px; cursor: pointer; font-weight: 600; }
+.check-row input { width: 17px; height: 17px; accent-color: var(--primary); cursor: pointer; }
+
+#print-root { display: none; }
+
+@media print {
+  body {
+    background: #FFFFFF !important; color: #111111 !important;
+    font-family: 'B Nazanin', 'Amiri', serif !important; font-size: 11pt !important; line-height: 1.55 !important;
+  }
+  .islamic-strip, .site-header, .nav-wrap, .main-wrap, .settings-drawer, .drawer-backdrop { display: none !important; }
+  #print-root { display: block !important; width: 100%; color: #111111; }
+  .p-banner {
+    border: 1.5pt solid #164E59; border-bottom: 3pt solid #B38728; background: #F4F8F9 !important;
+    padding: 8pt 12pt; text-align: center; margin-bottom: 10pt; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .p-banner h1 { font-family: 'B Titr', 'B Nazanin', serif; font-size: 13pt; color: #164E59; margin: 2pt 0; }
+  .p-banner p { font-size: 9.5pt; color: #444; margin: 0; }
+  .p-sec-head {
+    background: #164E59 !important; color: #FFFFFF !important; font-family: 'B Titr', 'B Nazanin', serif;
+    font-size: 10.5pt; padding: 4pt 10pt; margin: 12pt 0 7pt; border-bottom: 2pt solid #B38728;
+    break-after: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .p-item { border: 0.6pt solid #B8CCD0; border-radius: 4pt; padding: 6pt 9pt; margin-bottom: 7pt; break-inside: avoid; }
+  .p-q { font-weight: 700; margin-bottom: 4pt; color: #164E59; }
+  .p-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 3pt 10pt; font-size: 10.5pt; margin-bottom: 4pt; }
+  .p-ans {
+    background: #FAF6EE !important; border-right: 2.5pt solid #B38728; padding: 4pt 7pt; margin-top: 4pt;
+    font-size: 10pt; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .p-lines { border-bottom: 0.5pt dotted #888; height: 16pt; margin-top: 2pt; }
+  .p-quote {
+    background: #F3EAD9 !important; border-right: 3pt solid #B38728; padding: 5pt 8pt; margin: 4pt 0;
+    font-weight: 700; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .p-table { width: 100%; border-collapse: collapse; margin: 6pt 0 10pt; font-size: 10pt; }
+  .p-table th { background: #164E59 !important; color: #FFF !important; padding: 4pt; border: 0.5pt solid #164E59; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .p-table td { padding: 4pt 6pt; border: 0.5pt solid #B8CCD0; vertical-align: top; }
+}
+</style>
+</head>
+<body>
+
+<div class="islamic-strip"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand-col">
+      <div class="brand-sup">
+        <span>نظام جامع آموزش حوزۀ علمیۀ خراسان</span>
+        <span>❖</span>
+        <span>ادبیات عرب ۱ (صرف) – بخش ب: کارگاه صرف عملی</span>
+      </div>
+      <h1 class="brand-title">کارگاه بیست‌وپنجم: اسم مثنّی، جمع سالم مذکّر و جمع سالم مؤنّث</h1>
+      <p class="brand-sub">رمزینۀ سوم: سامانۀ تعاملی بستۀ المپیادی، کاوشگر تثنیه و جمع‌های سالم و کتابخانۀ پژوهش‌ها (هم‌راستا با مدخل و دروس ۶۳، ۶۴ و ۶۵ «صرف الف»)</p>
+    </div>
+    <div class="header-actions">
+      <button class="hdr-btn" onclick="openDrawer()">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c.26.6.85 1 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span>تنظیمات رنگ و قلم</span>
+      </button>
+      <button class="hdr-btn gold" onclick="switchTab('print')">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        <span>خروجی چاپی / PDF</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="nav-wrap" aria-label="بخش‌های سامانه">
+  <div class="nav-inner">
+    <button class="nav-tab active" data-tab="dashboard" onclick="switchTab('dashboard')"><span>◈ داشبورد و کاوشگر اسم</span></button>
+    <button class="nav-tab" data-tab="exam" onclick="switchTab('exam')"><span>◆ آزمون المپیادی</span><span class="nav-badge">۲۵</span></button>
+    <button class="nav-tab" data-tab="workshop" onclick="switchTab('workshop')"><span>❖ کارگاه تشریحی و خطایابی</span><span class="nav-badge">۲۴</span></button>
+    <button class="nav-tab" data-tab="research" onclick="switchTab('research')"><span>◈ کتابخانۀ پژوهش و متون مرجع</span><span class="nav-badge">۶</span></button>
+    <button class="nav-tab" data-tab="print" onclick="switchTab('print')"><span>◆ خروجی PDF و پشتیبان‌گیری</span></button>
+  </div>
+</nav>
+
+<main class="main-wrap">
+
+  <!-- ==================== MODULE 1: DASHBOARD & NOUN LAB ==================== -->
+  <section id="panel-dashboard" class="module-panel active">
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">پیشرفت آزمون المپیادی (چهارگزینه‌ای)</div>
+        <div class="kpi-val" id="kpi-exam-txt">۰ از ۲۵</div>
+        <div class="kpi-bar"><span id="kpi-exam-bar" style="width:0%"></span></div>
+      </div>
+      <div class="kpi-card emerald">
+        <div class="kpi-label">تسلّط بر کارگاه تشریحی و جدول تطبیقی</div>
+        <div class="kpi-val" id="kpi-desc-txt">۰ از ۲۴</div>
+        <div class="kpi-bar"><span id="kpi-desc-bar" style="width:0%"></span></div>
+      </div>
+      <div class="kpi-card gold">
+        <div class="kpi-label">نشان‌شده‌ها و یادداشت‌های پژوهشی</div>
+        <div class="kpi-val" id="kpi-bm-txt">۰ مورد</div>
+        <div class="kpi-bar"><span id="kpi-bm-bar" style="width:0%"></span></div>
+      </div>
+      <div class="kpi-card crimson">
+        <div class="kpi-label">پوشش دروس «صرف الف»</div>
+        <div class="kpi-val">دروس ۶۳ تا ۶۵</div>
+        <div style="font-size:0.84em;color:var(--ink-muted);margin-top:4px;">مثنّی + جمع سالم مذکّر + جمع سالم مؤنّث</div>
+      </div>
+    </div>
+
+    <!-- Interactive Dual & Sound Plurals Explorer (Tailored for Noun Morphology) -->
+    <div class="card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">❖</span> کاوشگر تعاملی تثنیه و جمع‌های سالم (۱۸ اسم معیار)</h2>
+        <div style="display:flex;gap:7px;flex-wrap:wrap;font-size:0.84em;">
+          <span class="pill pill-wajib">مجاز بی‌تغییر</span>
+          <span class="pill pill-jaiz">مجاز با تغییر / دووجهی</span>
+          <span class="pill pill-mumtani">غیرمجاز (مانع شرطی)</span>
+        </div>
+      </div>
+      <div class="filter-bar" id="noun-filters">
+        <button class="filter-chip active" data-cat="all" onclick="setNounCat('all', this)">همۀ اسماء (۱۸)</button>
+        <button class="filter-chip" data-cat="sahih" onclick="setNounCat('sahih', this)">صحیح و شبه صحیح</button>
+        <button class="filter-chip" data-cat="maqsur" onclick="setNounCat('maqsur', this)">مقصور</button>
+        <button class="filter-chip" data-cat="manqus" onclick="setNounCat('manqus', this)">منقوص</button>
+        <button class="filter-chip" data-cat="mamdud" onclick="setNounCat('mamdud', this)">ممدود</button>
+        <button class="filter-chip" data-cat="mahzuf" onclick="setNounCat('mahzuf', this)">محذوف‌اللام و اضافی</button>
+        <button class="filter-chip" data-cat="fala" onclick="setNounCat('fala', this)">فَعْلَة و صفاتِ دارای مانع</button>
+      </div>
+      <div id="noun-grid" class="noun-grid"></div>
+      <div id="noun-inspector" class="inspector-box"></div>
+    </div>
+
+    <!-- Interactive Rule Explorer -->
+    <div class="card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">◈</span> مرور سریع و دسته‌بندی‌شدۀ قواعد (دروس ۶۳ تا ۶۵ صرف الف)</h2>
+        <input type="text" id="rule-search" class="search-input" placeholder="جستجو در قواعد (مثلاً: مقصور، سِنُون، فَعْلَة، ممدود)..." oninput="renderRules()">
+      </div>
+      <div class="filter-bar" id="rule-filters">
+        <button class="filter-chip active" data-cat="all" onclick="setRuleCat('all', this)">همۀ قواعد (۱۳)</button>
+        <button class="filter-chip" data-cat="l63" onclick="setRuleCat('l63', this)">مدخل و درس ۶۳ (مثنّی)</button>
+        <button class="filter-chip" data-cat="l64" onclick="setRuleCat('l64', this)">درس ۶۴ (جمع سالم مذکّر)</button>
+        <button class="filter-chip" data-cat="l65" onclick="setRuleCat('l65', this)">درس ۶۵ (جمع سالم مؤنّث)</button>
+        <button class="filter-chip" data-cat="extra" onclick="setRuleCat('extra', this)">نکات تکمیلی المپیادی</button>
+      </div>
+      <div id="rules-grid" class="rules-grid"></div>
+    </div>
+  </section>
+
+  <!-- ==================== MODULE 2: OLYMPIAD MCQ EXAM ==================== -->
+  <section id="panel-exam" class="module-panel">
+    <div class="exam-toolbar">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;">
+        <div class="mode-switch">
+          <button class="mode-btn active" id="mode-learn" onclick="setExamMode('learn')">حالت آموزشی (تحلیل فوری)</button>
+          <button class="mode-btn" id="mode-timed" onclick="setExamMode('timed')">حالت آزمون زمان‌دار (۲۵ دقیقه)</button>
+        </div>
+        <div class="timer-box" id="timer-box" style="display:none;">
+          <span>زمان باقی‌مانده:</span>
+          <span id="timer-display" style="font-size:1.1em;min-width:52px;text-align:center;">۲۵:۰۰</span>
+          <button class="btn btn-sm" id="timer-toggle-btn" onclick="toggleTimer()">شروع</button>
+        </div>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <button class="btn btn-primary" onclick="submitExam()">ثبت نهایی و صدور کارنامه</button>
+        <button class="btn" onclick="resetExam()">شروع مجدد آزمون</button>
+      </div>
+    </div>
+
+    <div id="exam-report" class="report-card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">❖</span> کارنامۀ جامع تحلیلی آزمون المپیادی</h2>
+        <button class="btn btn-sm" onclick="filterExamWrong()">بررسی فقط پاسخ‌های غلط و بی‌پاسخ</button>
+      </div>
+      <div class="report-grid">
+        <div class="ring-wrap">
+          <svg width="150" height="150" viewBox="0 0 150 150">
+            <circle cx="75" cy="75" r="62" fill="none" stroke="var(--border)" stroke-width="12"/>
+            <circle id="score-ring" cx="75" cy="75" r="62" fill="none" stroke="var(--emerald)" stroke-width="12"
+                    stroke-linecap="round" stroke-dasharray="389.56" stroke-dashoffset="389.56"
+                    transform="rotate(-90 75 75)" style="transition:stroke-dashoffset 0.6s ease;"/>
+          </svg>
+          <div class="ring-center">
+            <div id="report-pct" style="font-family:var(--font-title);font-size:1.6em;color:var(--primary);">۰٪</div>
+            <div id="report-grade" style="font-size:0.84em;color:var(--ink-muted);font-weight:700;">—</div>
+          </div>
+        </div>
+        <div>
+          <div id="report-summary" style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:14px;"></div>
+          <div id="report-topics"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-bar" id="exam-filters">
+      <button class="filter-chip active" data-cat="all" onclick="setExamCat('all', this)">همۀ پرسش‌ها (۲۵)</button>
+      <button class="filter-chip" data-cat="dual" onclick="setExamCat('dual', this)">مثنّی و ملحقات (۶)</button>
+      <button class="filter-chip" data-cat="masc" onclick="setExamCat('masc', this)">جمع سالم مذکّر (۷)</button>
+      <button class="filter-chip" data-cat="fem" onclick="setExamCat('fem', this)">جمع سالم مؤنّث و فَعْلَة (۷)</button>
+      <button class="filter-chip" data-cat="mix" onclick="setExamCat('mix', this)">تحلیلی و ترکیبی (۵)</button>
+      <button class="filter-chip" data-cat="bookmarked" onclick="setExamCat('bookmarked', this)">نشان‌شده‌ها</button>
+    </div>
+
+    <div id="mcq-list"></div>
+  </section>
+
+  <!-- ==================== MODULE 3: DESCRIPTIVE WORKSHOP ==================== -->
+  <section id="panel-workshop" class="module-panel">
+    <div class="card" style="padding:14px 18px;">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;">
+        <div>
+          <h2 class="section-title"><span class="orn">❖</span> کارگاه تشریحی، جدول تطبیقی آزمون و خطایابی المپیادی</h2>
+          <p style="margin:4px 0 0;font-size:0.92em;color:var(--ink-muted);">پاسخ خود را در کادر تمرین بنویسید (ذخیرۀ خودکار)، سپس با راهنما و پاسخ تشریحی مقایسه کنید.</p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <button class="btn btn-sm" onclick="toggleAllDesc(true)">گشودن همۀ پاسخ‌ها</button>
+          <button class="btn btn-sm" onclick="toggleAllDesc(false)">بستن همۀ پاسخ‌ها</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-bar" id="desc-filters">
+      <button class="filter-chip active" data-cat="all" onclick="setDescCat('all', this)">همه (۲۴)</button>
+      <button class="filter-chip" data-cat="odd" onclick="setDescCat('odd', this)">تشخیص مورد متفاوت (۴)</button>
+      <button class="filter-chip" data-cat="dual_w" onclick="setDescCat('dual_w', this)">تثنیه و ملحقات (۴)</button>
+      <button class="filter-chip" data-cat="masc_w" onclick="setDescCat('masc_w', this)">جمع سالم مذکّر (۴)</button>
+      <button class="filter-chip" data-cat="fem_w" onclick="setDescCat('fem_w', this)">جمع سالم مؤنّث و فَعْلَة (۴)</button>
+      <button class="filter-chip" data-cat="matrix" onclick="setDescCat('matrix', this)">جدول تطبیقی آزمون (۴)</button>
+      <button class="filter-chip" data-cat="critique" onclick="setDescCat('critique', this)">مثال‌آوری و نقد علمی (۴)</button>
+      <button class="filter-chip" data-cat="bookmarked" onclick="setDescCat('bookmarked', this)">نشان‌شده‌ها</button>
+    </div>
+
+    <div id="desc-list"></div>
+  </section>
+
+  <!-- ==================== MODULE 4: RESEARCH LIBRARY ==================== -->
+  <section id="panel-research" class="module-panel">
+    <div class="card" style="padding:15px 18px;">
+      <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;">
+        <h2 class="section-title"><span class="orn">◈</span> کتابخانۀ پژوهش‌های قرآنی، فقهی، اصولی و متون مرجع</h2>
+        <input type="text" id="res-search" class="search-input" placeholder="جستجو در آیات، کتب مرجع و مباحث (مثلاً: ارث، تغلیب، عِلِّيُّون، رَوْضَة)..." oninput="renderResearch()">
+      </div>
+      <div class="filter-bar" style="margin:12px 0 0;" id="res-filters">
+        <button class="filter-chip active" data-tag="all" onclick="setResTag('all', this)">همۀ پژوهش‌ها (۶)</button>
+        <button class="filter-chip" data-tag="قرآنی و بلاغی" onclick="setResTag('قرآنی و بلاغی', this)">قرآنی و بلاغی</button>
+        <button class="filter-chip" data-tag="فقهی و تفسیری" onclick="setResTag('فقهی و تفسیری', this)">فقهی و تفسیری</button>
+        <button class="filter-chip" data-tag="فقهی و اصولی" onclick="setResTag('فقهی و اصولی', this)">فقهی و اصولی</button>
+        <button class="filter-chip" data-tag="قرآنی و لغوی" onclick="setResTag('قرآنی و لغوی', this)">قرآنی و لغوی</button>
+        <button class="filter-chip" data-tag="متون مرجع" onclick="setResTag('متون مرجع', this)">هم‌نشینی با متون مرجع</button>
+        <button class="filter-chip" data-tag="bookmarked" onclick="setResTag('bookmarked', this)">نشان‌شده‌ها</button>
+      </div>
+    </div>
+
+    <div id="research-list"></div>
+  </section>
+
+  <!-- ==================== MODULE 5: SMART PRINT / PDF & BACKUP ==================== -->
+  <section id="panel-print" class="module-panel">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="section-title"><span class="orn">◆</span> موتور هوشمند خروجی چاپی و ذخیرۀ فایل PDF استاندارد</h2>
+        <span class="pill pill-info">بدون نیاز به اینترنت • سازگار با چاپ دورو</span>
+      </div>
+      <p style="margin-top:0;color:var(--ink-muted);">بخش‌های دلخواه، نوع نسخه (جامع، خام امتحانی یا کلید استاد) و قطع کاغذ را انتخاب کرده و دکمۀ <b>«آماده‌سازی و چاپ / ذخیرۀ PDF»</b> را بزنید؛ سپس در پنجرۀ چاپ مرورگر گزینۀ <b>Save as PDF</b> را برگزینید.</p>
+
+      <div class="print-config-grid">
+        <div class="card" style="margin:0;box-shadow:none;background:var(--surface-warm);">
+          <div class="setting-title">۱. انتخاب بخش‌های موجود در خروجی</div>
+          <label class="check-row"><input type="checkbox" id="pr-rules" checked> جدول مرور سریع قواعد (دروس ۶۳ تا ۶۵)</label>
+          <label class="check-row"><input type="checkbox" id="pr-mcqs" checked> آزمون چهارگزینه‌ای المپیادی (۲۵ پرسش)</label>
+          <label class="check-row"><input type="checkbox" id="pr-desc" checked> کارگاه تشریحی، جدول تطبیقی و خطایابی (۲۴ تمرین)</label>
+          <label class="check-row"><input type="checkbox" id="pr-res" checked> کتابخانۀ پژوهش‌های قرآنی، فقهی و متون مرجع (۶ پژوهش)</label>
+          <label class="check-row"><input type="checkbox" id="pr-notes"> درج یادداشت‌های شخصی من در کنار پژوهش‌ها</label>
+        </div>
+
+        <div class="card" style="margin:0;box-shadow:none;background:var(--surface-warm);">
+          <div class="setting-title">۲. الگوی نمایش پاسخ‌نامه و قطع کاغذ</div>
+          <label class="check-row"><input type="radio" name="pr-mode" value="full" checked> نسخۀ جامع آموزشی (سؤالات + پاسخ‌نامۀ تشریحی کامل)</label>
+          <label class="check-row"><input type="radio" name="pr-mode" value="exam"> نسخۀ خام امتحانی (فقط سؤالات و جای نگارش بدون کلید)</label>
+          <label class="check-row"><input type="radio" name="pr-mode" value="key"> نسخۀ کلید اختصاصی استاد (فقط پاسخ‌نامه‌ها و مستندات)</label>
+          <div style="margin-top:12px;padding-top:10px;border-top:1px solid var(--border);">
+            <div class="setting-title" style="margin-bottom:6px;">قطع صفحۀ چاپ / PDF:</div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+              <label class="check-row" style="flex:1;margin:0;"><input type="radio" name="pr-size" value="vaziri" checked> وزیری (۱۶٫۵×۲۳٫۵)</label>
+              <label class="check-row" style="flex:1;margin:0;"><input type="radio" name="pr-size" value="a4"> A4 (۲۱×۲۹٫۷)</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;">
+        <button class="btn btn-gold" style="padding:11px 22px;font-size:1.02em;" onclick="triggerSmartPrint()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+          <span>آماده‌سازی و چاپ / ذخیرۀ PDF</span>
+        </button>
+        <button class="btn" onclick="exportUserData()">پشتیبان‌گیری از کارنامه و یادداشت‌ها (JSON)</button>
+        <label class="btn" style="cursor:pointer;">
+          <span>بازیابی فایل پشتیبان</span>
+          <input type="file" accept=".json" style="display:none;" onchange="importUserData(event)">
+        </label>
+        <button class="btn" style="color:var(--crimson);border-color:var(--crimson);" onclick="clearAllProgress()">پاک‌سازی کامل پیشرفت و یادداشت‌ها</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- SETTINGS DRAWER -->
+<div id="drawer-backdrop" class="drawer-backdrop" onclick="closeDrawer()"></div>
+<aside id="settings-drawer" class="settings-drawer" aria-label="تنظیمات شخصی‌سازی مطالعه">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--primary-soft);">
+    <h3 class="section-title" style="font-size:1.05em;"><span class="orn">❖</span> تنظیمات نمایش و مطالعه</h3>
+    <button class="btn btn-sm" onclick="closeDrawer()">بستن</button>
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">انتخاب تم رنگی:</div>
+    <div class="theme-grid">
+      <button class="theme-opt active" data-t="hawza" onclick="setTheme('hawza')"><span class="swatch" style="background:linear-gradient(135deg,#164E59 50%,#B38728 50%);"></span>حوزوی (فیروزه‌ای)</button>
+      <button class="theme-opt" data-t="sepia" onclick="setTheme('sepia')"><span class="swatch" style="background:linear-gradient(135deg,#F3ECE0 50%,#5B3E22 50%);"></span>کاغذیِ گرم (سپیا)</button>
+      <button class="theme-opt" data-t="lapis" onclick="setTheme('lapis')"><span class="swatch" style="background:linear-gradient(135deg,#1B3B6F 50%,#B0862B 50%);"></span>لاجوردی کلاسیک</button>
+      <button class="theme-opt" data-t="night" onclick="setTheme('night')"><span class="swatch" style="background:linear-gradient(135deg,#0F171C 50%,#5CBAC9 50%);"></span>حالت شبِ آرام</button>
+    </div>
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">انتخاب قلم (فونت) مطالعه:</div>
+    <div class="theme-grid">
+      <button class="theme-opt active" data-f="nazanin" onclick="setFont('nazanin')">نازنین حوزوی</button>
+      <button class="theme-opt" data-f="mitra" onclick="setFont('mitra')">میترا درسی</button>
+      <button class="theme-opt" data-f="vazir" onclick="setFont('vazir')">وزیرمتن نوین</button>
+      <button class="theme-opt" data-f="naskh" onclick="setFont('naskh')">نسخ قرآنی</button>
+    </div>
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">اندازۀ قلم: <span id="size-val">۱۷</span> پیکسل</div>
+    <input type="range" id="size-slider" min="14" max="22" step="1" value="17" style="width:100%;accent-color:var(--primary);" oninput="setFontSize(this.value)">
+  </div>
+
+  <div class="setting-block">
+    <div class="setting-title">فاصلۀ خطوط: <span id="lh-val">۱٫۸۵</span></div>
+    <input type="range" id="lh-slider" min="1.55" max="2.25" step="0.05" value="1.85" style="width:100%;accent-color:var(--primary);" oninput="setLineHeight(this.value)">
+  </div>
+
+  <button class="btn" style="width:100%;" onclick="resetAppearance()">بازگردانی به تنظیمات پیش‌فرض</button>
+</aside>
+
+<div id="print-root"></div>
+
+<script>
+const DATA = {"rules": [{"id": "r1", "cat": "l63", "badge": "مدخل", "type": "info", "title": "تقسیم اسم به متصرّف و غیرمتصرّف", "formula": "تصریفات چهارگانۀ اسم: ۱. تثنیه ← ۲. جمع ← ۳. تصغیر ← ۴. نسبت", "desc": "اسم متصرّف قابلیت تثنیه، جمع، تصغیر و منسوب شدن دارد (مانند رَجُل)؛ اما اسم غیرمتصرّف این قابلیت‌ها را ندارد (مانند «مَنْ» و «مَا» موصوله).", "example": "متصرّف: رَجُل (رَجُلَانِ، رِجَال، رُجَيْل، رَجُلِيّ) | غیرمتصرّف: مَنْ، مَا، حَيْثُ."}, {"id": "r2", "cat": "l63", "badge": "درس ۶۳", "type": "info", "title": "تعریف اسم مثنّی و دو دستۀ ملحقات آن", "formula": "مثنّی = مفرد + «ـانِ / ـَيْنِ» برای دو فرد همسان در لفظ و معنا", "desc": "اگر اسمی بر دو فردِ غیرهمسان در لفظ و معنا دلالت کند (تغلیب) یا «ـانِ / ـَيْنِ» جزء خود کلمه باشد (نه افزوده)، ملحق به مثنّی است و مثنّی حقیقی نیست.", "example": "مثنّی: رَجُلَيْنِ، اِمْرَأَتَانِ، جَنَّتَانِ | ملحقات: أَبَوَانِ (أب و أمّ)، قَمَرَانِ (شمس و قمر)، اِثْنَانِ و اِثْنَتَانِ."}, {"id": "r3", "cat": "l63", "badge": "درس ۶۳", "type": "wajib", "title": "تثنیۀ صحیح، شبه صحیح، منقوص و مقصور", "formula": "صحیح/شبه صحیح/منقوص: بی‌تغییر | مقصور: ۳ حرفی واوی ← واو؛ غیر آن ← یاء", "desc": "در منقوص و مقصور منوّن که لام‌الفعل به جهت اعلال حذف شده، هنگام تثنیه لام محذوف بازمی‌گردد. در مقصور، قلب به واو فقط در سه حرفیِ واوی است و در چهار حرفی به بالا (حتی اگر واوی باشد) به یاء تبدیل می‌شود.", "example": "دَاعٍ ← دَاعِيَانِ | عَصَا ← عَصَوَانِ | رِباً ← رِبَوَانِ | فَتَى ← فَتَيَانِ | مُصْطَفَى ← مُصْطَفَيَانِ."}, {"id": "r4", "cat": "l63", "badge": "درس ۶۳", "type": "jaiz", "title": "تثنیۀ اسم ممدود (سه حکم همزه)", "formula": "اصلی غیرمنقلب ← بقا | اصلی منقلب از واو/یاء ← دووجهی | زائد تأنیث ← قلب به واو", "desc": "این سه‌گانه عیناً در ساخت جمع سالم مذکّر (جز تأنیث) و جمع سالم مؤنّث نیز جاری است؛ بنابراین تشخیص اصالت یا قلب یا زائد بودن همزه، کلید هر سه درس است.", "example": "قَرَّاء ← قَرَّاءَانِ | دُعَاء ← دُعَاءَانِ / دُعَاوَانِ | إِهْدَاء ← إِهْدَاءَانِ / إِهْدَاوَانِ | صَفْرَاء ← صَفْرَاوَانِ."}, {"id": "r5", "cat": "l63", "badge": "درس ۶۳", "type": "mumtani", "title": "تثنیۀ ثلاثی محذوف‌اللام و مرکّب اضافی", "formula": "بی‌عوض ← بازگشت لام (جز يَد، فَم، دَم، غَد) | با عوض ← با عوض | اضافی ← حذف نون مضاف", "desc": "در محذوف‌اللامِ بدون عوض مانند «أَب و أَخ»، لام محذوف برمی‌گردد (أَبَوَانِ، أَخَوَانِ) اما چهار کلمۀ «يَد، فَم، دَم، غَد» مستثنی هستند. در دارای عوض (اِبْن، سَنَة) با همان عوض تثنیه می‌شوند.", "example": "يَدَانِ، فَمَانِ، دَمَانِ، غَدَانِ | اِبْنَانِ، سَنَتَانِ | بَيْتُ النُّبُوَّةِ ← بَيْتَا النُّبُوَّةِ؛ عَبْدَا اللَّهِ."}, {"id": "r6", "cat": "l64", "badge": "درس ۶۴", "type": "info", "title": "مفهوم جمع سالم و تفکیک از جمع ناسالم (مکسّر)", "formula": "جمع سالم: سلامت بناء مفرد | جمع مکسّر: تغییر لفظی (جِبَال) یا تقدیری (فُلْك)", "desc": "تغییراتی که هنگام ساخت جمع سالم در حرف آخرِ مقصور، منقوص و ممدود برای سهولت تلفظ رخ می‌دهد، تغییر در بناء مفرد شمرده نمی‌شود.", "example": "سالم: الْمُؤْمِنُونَ، الْمُؤْمِنَات | مکسّر لفظی: جَبَل ← جِبَال، كِتَاب ← كُتُب | مکسّر تقدیری: فُلْك ← فُلْك."}, {"id": "r7", "cat": "l64", "badge": "درس ۶۴", "type": "wajib", "title": "شرایط عَلَم و وصف در ساخت جمع سالم مذکّر", "formula": "عَلَم: مذکّر + عاقل + بی‌تاء + بی‌ترکیب | وصف: مذکّر + عاقل + مؤنّث با تاء (یا أَفْعَل تفضیل)", "desc": "عَلَم پس از تثنیه و جمع نکره می‌شود و با «ال» می‌آید (السَّعِيدُونَ). صفات فَعْلَان/فَعْلَى (سَكْرَان)، أَفْعَل/فَعْلَاء (أَبْيَض)، مشترکِ بی‌تاء (صَبُور، جَرِيح)، مختصّ مؤنّث (حَامِل، مُرْضِع) و غیرعاقل (صَاهِل) جمع سالم مذکّر نمی‌شوند.", "example": "مجاز: السَّعِيدُونَ، كَاتِبُونَ، عَلَوِيُّونَ، رُجَيْلُونَ، أَعْلَمُونَ | غیرمجاز: زَيْنَب، حَمْزَة، سِيبَوَيْهِ، أَخْضَر، صَبُور."}, {"id": "r8", "cat": "l64", "badge": "درس ۶۴", "type": "wajib", "title": "شیوۀ ساخت جمع سالم مذکّر در مقصور، منقوص، ممدود و اضافی", "formula": "مقصور: حذف الف + فتح ماقبل (ـَوْنَ/ـَيْنَ) | منقوص: حذف یاء + ضمّ/کسر ماقبل (ـُونَ/ـِينَ)", "desc": "در مقصور پس از اعلال قلبی و حذفی، فتحۀ ماقبل برای دلالت بر الف محذوف باقی می‌ماند؛ اما در منقوص حرکت ضمّه/کسره به ماقبل نقل شده و یاء حذف می‌گردد. در ممدود حکم مثنّی و در مرکّب اضافی جزء اول جمع بسته می‌شود.", "example": "الْمُقْتَدَى ← الْمُقْتَدَوْنَ / الْمُقْتَدَيْنَ | الدَّاعِي ← الدَّاعُونَ / الدَّاعِينَ | مَشَّاء ← مَشَّاؤُونَ/وُونَ | عَبْدُو اللَّهِ."}, {"id": "r9", "cat": "l64", "badge": "درس ۶۴", "type": "jaiz", "title": "ملحقات جمع سالم مذکّر و ضابطۀ باب «سِنُون»", "formula": "عِلِّيُّونَ، عَالَمُونَ، أَرَضُونَ، أَهْلُونَ، بَنُونَ، أُولُو، عِشْرُونَ–تِسْعُونَ، سِنُونَ و بابش", "desc": "منظور از باب «سِنُون» کلمات ثلاثی محذوف‌اللامی هستند که به جای لام محذوف تاء تأنیث آمده و جمع مکسّر برایشان به کار نرفته است؛ مانند عِضَة و ثُبَة.", "example": "﴿وَلَا بَنُونَ﴾ | ﴿مَا عِلِّيُّونَ﴾ | ﴿رَبِّ الْعَالَمِينَ﴾ | ﴿وَأَهْلُونَا﴾ | ﴿إِطْعَامُ سِتِّينَ مِسْكِيناً﴾."}, {"id": "r10", "cat": "l65", "badge": "درس ۶۵", "type": "mumtani", "title": "جمع سالم مؤنّث، ملحقات و دامِ «تاء اصلی»", "formula": "پسوند «ـات» باید زائد باشد | ملحقات: ۱. أُولَات (بی‌مفرد) ۲. عَرَفَات و أَذْرِعَات (عَلَم)", "desc": "تعبیر دقیق‌تر «جمع به الف و تاء زائد» است. کلماتی که تاء در آخر آن‌ها اصلی است (مانند أَبْيَات جمع بَيْت، أَصْوَات جمع صَوْت و أَمْوَات جمع مَيِّت)، بر وزن أَفْعَال بوده و جمع مکسّرند نه سالم مؤنّث.", "example": "ملحق: ﴿وَإِنْ كُنَّ أُولَاتِ حَمْلٍ﴾، ﴿مِنْ عَرَفَاتٍ﴾ | مکسّر (دام): ﴿يَغُضُّونَ أَصْوَاتَهُمْ﴾، أَبْيَات، أَمْوَات."}, {"id": "r11", "cat": "l65", "badge": "درس ۶۵", "type": "wajib", "title": "موارد پنج‌گانۀ ساخت جمع سالم مؤنّث و شیوۀ ساخت آن", "formula": "۱. عَلَم مؤنّث | ۲. تاءدار | ۳. الف تأنیث غیرعَلَم مذکّر | ۴. وصف غیرعاقل | ۵. جمع‌الجمع مکسّر", "desc": "وزن فَعْلَى (مؤنّث فَعْلَان: غَضْبَى، عَطْشَى) و فَعْلَاء (مؤنّث أَفْعَل: حَمْرَاء، خَضْرَاء) و عَلَم مذکّر (مُوسَى، زَكَرِيَّاء) جمع سالم مؤنّث نمی‌شوند. در ساخت آن، ابتدا تاء حذف شده و سپس قواعد مثنّی اجرا می‌شود.", "example": "مَرْيَمَات، طَلْحَات، صُغْرَيَات، صَحْرَاوَات، مَكْتُوبَات، بُيُوتَات | صَلَاة ← صَلَوَات؛ بِنَاءَة ← بِنَاءَات/وَات؛ سَنَوَات و لُغَات."}, {"id": "r12", "cat": "l65", "badge": "درس ۶۵", "type": "jaiz", "title": "احکام حرکت عین‌الفعل در اوزان «فَعْلَة / فِعْلَة / فُعْلَة»", "formula": "مضاعف/اجوف/مشبّهه ← سکون ثابت | غیر آن: فَعْلَة ← وجوب فتح | فِعْلَة/فُعْلَة ← ۳ وجه", "desc": "در موصوفِ صحیح‌العینِ غیرمضاعف، اگر فاء مفتوح باشد عین‌الفعل حتماً مفتوح می‌شود (حَسَرَات)؛ اما اگر فاء مکسور یا مضموم باشد سه وجه (سکون، فتح، اتباع) جایز است.", "example": "ساکن: جَدَّات، رَوْضَات، ضَخْمَات | وجوب فتح: حَسَرَات، تَمَرَات | ۳ وجه: حِنْطَات/حِنَطَات/حِنِطَات؛ حُجْرَات/حُجَرَات/حُجُرَات."}, {"id": "r13", "cat": "extra", "badge": "نکتۀ المپیادی", "type": "extra", "title": "نکات تکمیلی و دقایق فراتر از متن پایه", "formula": "همزۀ الحاقی (عِلْبَاءَانِ/وَانِ) | کِلْتَا و كِلَا | ارادۀ کثرت از مثنّی (لَبَّيْكَ) | ادات ذَوَا/ذَوُو", "desc": "در کتب مفصّل صرفی، «كِلَا و كِلْتَا» در صورت اضافه به ضمیر ملحق به مثنّی هستند؛ مرکّب مزجی و اسنادی با «ذَوَا / ذَوُو» تثنیه و جمع بسته می‌شوند؛ و در وزن فِعْلَة/فُعْلَة اگر لام‌الفعل یائی یا واوی باشد (مانند خُطْوَة و كُلْيَة) قید پرهیز از ثقلِ ضمّه پیش از یاء یا کسره پیش از واو مطرح می‌گردد.", "example": "كِلْتَا الْجَنَّتَيْنِ | ذَوَا مَعْدِيكَرِب | ذَوُو مَهْرَوَيْهِ | لَبَّيْكَ وَسَعْدَيْكَ (ارادۀ کثرت)."}], "nounLab": [{"id": "n1", "cat": "sahih", "catLabel": "صحیح و شبه صحیح", "word": "عَلَوِيّ", "kind": "وصف منسوب (شبه صحیح)", "dual": {"st": "ok", "form": "عَلَوِيَّانِ / عَلَوِيَّيْنِ", "rule": "شبه صحیح است؛ بدون تغییر علامت تثنیه می‌گیرد."}, "masc": {"st": "ok", "form": "عَلَوِيُّونَ / عَلَوِيِّينَ", "rule": "وصف مذکّر عاقل و مؤنّثش با تاء است (عَلَوِيَّة)؛ شبه صحیح بی‌تغییر جمع بسته می‌شود."}, "fem": {"st": "no", "form": "جمع بسته نمی‌شود (مذکّر عاقل)", "rule": "وصف مذکّر عاقل است؛ مؤنّث آن (عَلَوِيَّة ← عَلَوِيَّات) جمع سالم مؤنّث بسته می‌شود."}}, {"id": "n2", "cat": "sahih", "catLabel": "صحیح و شبه صحیح", "word": "بَيْت / أَصْوَات", "kind": "صحیح (تاء اصلی در جمع مکسّر)", "dual": {"st": "ok", "form": "بَيْتَانِ / بَيْتَيْنِ", "rule": "شبه صحیح است (تاء اصلی)؛ بی‌تغییر مثنّی می‌شود."}, "masc": {"st": "no", "form": "غیرمجاز (غیرعاقل)", "rule": "نه عَلَم عاقل است و نه وصف عاقل."}, "fem": {"st": "change", "form": "بُيُوتَات (از جمع مکسّر) — نه أَبْيَات!", "rule": "«أَبْيَات» و «أَصْوَات» جمع مکسّرند (تاء اصلی است)؛ اما «بُيُوت» به عنوان جمع مکسّری که مجدّداً مکسّر نمی‌شود، به صورت «بُيُوتَات» جمع سالم مؤنّث بسته می‌شود (مورد ۵ درس ۶۵)."}}, {"id": "n3", "cat": "maqsur", "catLabel": "اسم مقصور", "word": "عَصَا / رِباً", "kind": "مقصور ۳ حرفیِ واوی", "dual": {"st": "change", "form": "عَصَوَانِ / عَصَوَيْنِ  |  رِبَوَانِ / رِبَوَيْنِ", "rule": "چون ۳ حرفی و الف آن منقلب از واو است (ع ص و / ر ب و)، الف به واو برمی‌گردد (در رِباً لام محذوف بازمی‌گردد)."}, "masc": {"st": "no", "form": "غیرمجاز (غیرعاقل و غیرعَلَم)", "rule": "فاقد شرایط عَلَم و وصف مذکّر عاقل است."}, "fem": {"st": "change", "form": "عَصَوَات (مؤنّث سماعی) | صَلَاة ← صَلَوَات", "rule": "در مقصور ۳ حرفیِ واوی (مانند صَلَاة پس از حذف تاء)، الف به واو تبدیل می‌شود."}}, {"id": "n4", "cat": "maqsur", "catLabel": "اسم مقصور", "word": "فَتَى / هُدًى", "kind": "مقصور ۳ حرفیِ یائی", "dual": {"st": "change", "form": "فَتَيَانِ / فَتَيَيْنِ  |  هُدَيَانِ / هُدَيَيْنِ", "rule": "سه حرفی و الف آن منقلب از یاء است (ف ت ي / هـ د ي)؛ لذا الف به یاء تبدیل می‌شود (یوسف/۳۶: فَتَيَانِ)."}, "masc": {"st": "no", "form": "غیرمجاز (جامد غیرعَلَم)", "rule": "«فَتَى» اسم جامد غیرعَلَم و «هُدًى» مصدر است؛ جمع مکسّر فَتَى «فِتْيَة / فِتْيَان» است."}, "fem": {"st": "no", "form": "غیرمجاز", "rule": "فاقد تاء یا الف تأنیث است (مذکّر غیرعَلَم)."}}, {"id": "n5", "cat": "maqsur", "catLabel": "اسم مقصور", "word": "الْمُصْطَفَى", "kind": "مقصورِ بیش از ۳ حرف (وصف مفعولی)", "dual": {"st": "change", "form": "الْمُصْطَفَيَانِ / الْمُصْطَفَيَيْنِ", "rule": "بیش از ۳ حرف است (حتی با وجود واوی بودنِ ریشۀ ص ف و)؛ الف حتماً به یاء تبدیل می‌شود."}, "masc": {"st": "change", "form": "الْمُصْطَفَوْنَ / الْمُصْطَفَيْنَ", "rule": "وصف مذکّر عاقل است؛ الف حذف و فتحۀ ماقبل برای دلالت بر آن ثابت می‌ماند (ص/۴۷: لَمِنَ الْمُصْطَفَيْنَ)."}, "fem": {"st": "no", "form": "غیرمجاز (وصف مذکّر عاقل)", "rule": "مؤنّث آن (مُصْطَفَاة ← مُصْطَفَيَات) جمع سالم مؤنّث بسته می‌شود."}}, {"id": "n6", "cat": "maqsur", "catLabel": "اسم مقصور", "word": "كُبْرَى / صُغْرَى", "kind": "مقصورِ دارای الف تأنیث (مؤنّث أَفْعَل تفضیل)", "dual": {"st": "change", "form": "كُبْرَيَانِ / صُغْرَيَانِ", "rule": "بیش از ۳ حرف است ← تبدیل الف به یاء."}, "masc": {"st": "no", "form": "غیرمجاز (مؤنّث)", "rule": "مذکّر آن (أَكْبَر ← أَكْبَرُونَ) به استثنای أَفْعَل تفضیل جمع سالم مذکّر می‌شود."}, "fem": {"st": "change", "form": "كُبْرَيَات / صُغْرَيَات", "rule": "دارای الف تأنیثِ غیر فَعْلَى (مؤنّث فَعْلَان) است؛ الف به یاء تبدیل و «ـات» افزوده می‌شود (درس ۶۵)."}}, {"id": "n7", "cat": "manqus", "catLabel": "اسم منقوص", "word": "دَاعٍ (الدَّاعِي)", "kind": "منقوص منوّن / معرّف (اسم فاعل)", "dual": {"st": "change", "form": "دَاعِيَانِ / دَاعِيَيْنِ", "rule": "در منقوصِ منوّن، یاء محذوف هنگام تثنیه بازمی‌گردد و علامت تثنیه بی‌تغییر می‌پیوندد."}, "masc": {"st": "change", "form": "دَاعُونَ / دَاعِينَ", "rule": "پس از بازگشت یاء، به سبب اعلال سکونی و حذفی، یاء حذف شده و ماقبل واو مضموم (دَاعُونَ) و ماقبل یاء مکسور (دَاعِينَ) می‌گردد."}, "fem": {"st": "no", "form": "غیرمجاز (مذکّر عاقل)", "rule": "مؤنّث آن (دَاعِيَة ← دَاعِيَات) پس از حذف تاء بی‌تغییر جمع سالم مؤنّث می‌شود."}}, {"id": "n8", "cat": "manqus", "catLabel": "اسم منقوص", "word": "مُهْتَدٍ (الْمُهْتَدِي)", "kind": "منقوص ۶ حرفی (اسم فاعل افتعال)", "dual": {"st": "change", "form": "مُهْتَدِيَانِ / الْمُهْتَدِيَانِ", "rule": "برخلاف مقصور، تعداد حروف در منقوص تفاوتی ایجاد نمی‌کند؛ یاء باقی (یا بازگردانده) می‌شود."}, "masc": {"st": "change", "form": "مُهْتَدُونَ / مُهْتَدِينَ", "rule": "حذف یاء با ضمّ دال در رفع و کسر دال در نصب و جر (إسراء/۹۷: الْمُهْتَدُونَ)."}, "fem": {"st": "no", "form": "غیرمجاز (مذکّر عاقل)", "rule": "مؤنّث آن (مُهْتَدِيَة ← مُهْتَدِيَات) جمع سالم مؤنّث بسته می‌شود."}}, {"id": "n9", "cat": "mamdud", "catLabel": "اسم ممدود", "word": "قَرَّاء", "kind": "ممدود با همزۀ اصلی غیرمنقلب (ق ر أ)", "dual": {"st": "ok", "form": "قَرَّاءَانِ / قَرَّاءَيْنِ", "rule": "چون همزه اصلی و غیرمنقلب است، بدون تغییر باقی می‌ماند."}, "masc": {"st": "ok", "form": "قَرَّاؤُونَ / قَرَّائِينَ", "rule": "وصف مبالغه (مؤنّث با تاء) و همزۀ اصلی ← همزه بدون تغییر باقی می‌ماند."}, "fem": {"st": "ok", "form": "قِرَاءَة ← قِرَاءَات (در مصدر/مؤنّث)", "rule": "در قِرَاءَة و اِسْتِضَاءَة (همزۀ اصلی غیرمنقلب) همزه بدون تغییر باقی می‌ماند."}}, {"id": "n10", "cat": "mamdud", "catLabel": "اسم ممدود", "word": "دُعَاء / مَشَّاء", "kind": "ممدود با همزۀ اصلیِ منقلب (د ع و / م ش ي)", "dual": {"st": "change", "form": "دُعَاءَانِ / دُعَاوَانِ  |  مَشَّاءَانِ / مَشَّاوَانِ", "rule": "چون همزه از واو یا یاء منقلب شده، دو وجه (بقای همزه یا قلب به واو) جایز است."}, "masc": {"st": "change", "form": "مَشَّاؤُونَ / مَشَّاوُونَ (دُعَاء: غیرمجاز)", "rule": "برای وصف مبالغۀ «مَشَّاء» هر دو وجه جایز است (کافی: الْمَشَّاؤُونَ بِالنَّمِيمَةِ)؛ اما «دُعَاء» مصدر و غیرعاقل است."}, "fem": {"st": "change", "form": "بِنَاءَة ← بِنَاءَات / بِنَاوَات", "rule": "در مؤنّث ممدودِ منقلب (بِنَاءَة، إِرَاءَة) نیز هر دو وجهِ بقا و قلب به واو جایز است."}}, {"id": "n11", "cat": "mamdud", "catLabel": "اسم ممدود", "word": "صَحْرَاء", "kind": "ممدود با همزۀ زائد تأنیث (اسم جامد)", "dual": {"st": "change", "form": "صَحْرَاوَانِ / صَحْرَاوَيْنِ", "rule": "چون همزه زائد و برای تأنیث است، واجب‌القلب به واو است."}, "masc": {"st": "no", "form": "غیرمجاز (مؤنّث غیرعاقل)", "rule": "فاقد شرایط جمع سالم مذکّر است."}, "fem": {"st": "change", "form": "صَحْرَاوَات", "rule": "چون اسم (موصوف) است نه صفتِ وزن فَعْلَاء (مؤنّث أَفْعَل)، با قلب همزه به واو جمع سالم مؤنّث می‌شود."}}, {"id": "n12", "cat": "mahzuf", "catLabel": "محذوف‌اللام و اضافی", "word": "أَب / أَخ", "kind": "ثلاثی محذوف‌اللامِ بدون عوض", "dual": {"st": "change", "form": "أَبَوَانِ / أَبَوَيْنِ  |  أَخَوَانِ / أَخَوَيْنِ", "rule": "چون به جای لام محذوف حرفی نیامده، لام‌الفعل (واو) هنگام تثنیه برمی‌گردد. (أَبَوَانِ به معنای پدر و مادر ملحق تغلیبی است)."}, "masc": {"st": "no", "form": "غیرمجاز (جامد غیرعَلَم)", "rule": "جمع مکسّر دارند: آبَاء و إِخْوَة / إِخْوَان."}, "fem": {"st": "no", "form": "غیرمجاز (مذکّر حقیقی)", "rule": "فاقد موارد پنج‌گانۀ جمع سالم مؤنّث."}}, {"id": "n13", "cat": "mahzuf", "catLabel": "محذوف‌اللام و اضافی", "word": "فَم / دَم / يَد", "kind": "استثنای چهارگانۀ محذوف‌اللام (به انضمام غَد)", "dual": {"st": "ok", "form": "فَمَانِ / دَمَانِ / يَدَانِ / غَدَانِ", "rule": "طبق تبصرۀ درس ۶۳ «صرف الف»، در این چهار کلمه لام‌الفعل محذوف بازگردانده نمی‌شود (کافی: دَمَانِ فِي الْإِسْلَامِ حَلَالٌ)."}, "masc": {"st": "no", "form": "غیرمجاز (غیرعاقل)", "rule": "جمع مکسّر دارند: أَفْوَاه، دِمَاء، أَيْدٍ."}, "fem": {"st": "no", "form": "غیرمجاز", "rule": "فاقد تاء و الف تأنیث (مؤنّث معنوی غیرعَلَم مثل يَد جمع سالم مؤنّث نمی‌شود)."}}, {"id": "n14", "cat": "mahzuf", "catLabel": "محذوف‌اللام و اضافی", "word": "سَنَة / اِبْن", "kind": "ثلاثی محذوف‌اللامِ دارای عوض", "dual": {"st": "ok", "form": "سَنَتَانِ / اِبْنَانِ", "rule": "چون عوضِ لام محذوف آمده، با همان عوض تثنیه بسته می‌شوند (درس ۶۳)."}, "masc": {"st": "change", "form": "سِنُونَ / بَنُونَ (ملحق به جمع سالم مذکّر)", "rule": "«سِنُون» (و بابش مثل عِضَة و ثُبَة) و «بَنُون» جزو ملحقات جمع سالم مذکّرند (درس ۶۴)."}, "fem": {"st": "change", "form": "سَنَوَات (بازگشت لام) — در لُغَة: لُغَات", "rule": "در جمع سالم مؤنّثِ محذوف‌اللام، گاهی لام برمی‌گردد (سَنَوَات، عِضَوَات) و گاهی برنمی‌گردد (لُغَات، كُرَات)."}}, {"id": "n15", "cat": "mahzuf", "catLabel": "محذوف‌اللام و اضافی", "word": "عَبْدُ اللَّهِ", "kind": "عَلَمِ مرکّب اضافی (مضاف و مضاف‌الیه)", "dual": {"st": "change", "form": "عَبْدَا اللَّهِ / عَبْدَيِ اللَّهِ", "rule": "در مرکّب اضافی، جزء اول تثنیه شده و نون تثنیه به سبب اضافه حذف می‌گردد (درس ۶۳)."}, "masc": {"st": "change", "form": "عَبْدُو اللَّهِ / عَبْدِي اللَّهِ", "rule": "بر پایۀ نکتۀ ص ۲۶ «صرف الف»، در مرکّب اضافی جزء اول جمع بسته شده و نون آن حذف می‌شود (برخلاف مرکّب مزجی مانند سِيبَوَيْهِ)."}, "fem": {"st": "ok", "form": "در مؤنّث: كَاتِبَاتُ الدَّرْسِ", "rule": "در مرکّب اضافی مؤنّث (كَاتِبَةُ الدَّرْسِ) نیز جزء اول جمع سالم مؤنّث بسته می‌شود."}}, {"id": "n16", "cat": "fala", "catLabel": "اوزان «فَعْلَة» و موانع", "word": "أَعْلَم / أَبْيَض", "kind": "مقایسۀ أَفْعَل تفضیل با أَفْعَل صفت مشبّهه", "dual": {"st": "ok", "form": "أَعْلَمَانِ  |  أَبْيَضَانِ", "rule": "هر دو در تثنیه صحیح‌اند و بی‌تغییر مثنّی می‌شوند."}, "masc": {"st": "change", "form": "أَعْلَمُونَ (مجاز!)  |  أَبْيَض: غیرمجاز (×)", "rule": "أَفْعَل تفضیل با آنکه مؤنّثش فُعْلَى است استثناء شده و جمع سالم مذکّر می‌شود؛ اما أَبْيَض (مؤنّثش بَيْضَاء) ممنوع است (جمعش مکسّر: بِيض)."}, "fem": {"st": "no", "form": "مؤنّثِ أَعْلَم (عُلْيَا ← عُلْيَيَات) | بَيْضَاء: غیرمجاز", "rule": "بَيْضَاء (فَعْلَاء مؤنّث أَفْعَل) همانند مذکّرش جمع سالم مؤنّث نمی‌شود."}}, {"id": "n17", "cat": "fala", "catLabel": "اوزان «فَعْلَة» و موانع", "word": "حَسْرَة / حُجْرَة", "kind": "موصوفِ صحیح‌العینِ غیرمضاعف (فَعْلَة / فُعْلَة)", "dual": {"st": "ok", "form": "حَسْرَتَانِ / حُجْرَتَانِ", "rule": "صحیح است و بی‌تغییر مثنّی می‌شود."}, "masc": {"st": "no", "form": "غیرمجاز (مؤنّث غیرعاقل)", "rule": "فاقد شرایط جمع سالم مذکّر است."}, "fem": {"st": "change", "form": "حَسَرَات (وجوب فتح)  |  حُجْرَات / حُجَرَات / حُجُرَات (۳ وجه)", "rule": "در فَعْلَة (مفتوح‌الفاء) عین‌الفعل واجب‌الفتح است؛ اما در فِعْلَة و فُعْلَة سه وجه (سکون، فتح، اتباع) جایز است (درس ۶۵)."}}, {"id": "n18", "cat": "fala", "catLabel": "اوزان «فَعْلَة» و موانع", "word": "رَوْضَة / جَدَّة / ضَخْمَة", "kind": "موانع سه‌گانۀ تحرّک عین‌الفعل در «فَعْلَة»", "dual": {"st": "ok", "form": "رَوْضَتَانِ / جَدَّتَانِ / ضَخْمَتَانِ", "rule": "بی‌تغییر مثنّی می‌شوند."}, "masc": {"st": "no", "form": "غیرمجاز (مؤنّث)", "rule": "فاقد شرایط جمع سالم مذکّر است."}, "fem": {"st": "ok", "form": "رَوْضَات / جَدَّات / ضَخْمَات (بقای سکون!)", "rule": "به دلیل اجوف بودن (رَوْضَة)، مضاعف بودن (جَدَّة) و صفت مشبّهه بودن (ضَخْمَة)، عین‌الفعل تغییر نمی‌کند و ساکن باقی می‌ماند."}}], "mcqs": [{"id": 1, "cat": "dual", "catLabel": "مثنّی و ملحقات", "level": "المپیادی", "q": "کدام گزینه به ترتیب دربارۀ دو کلمۀ «مَرْوَان» و «قَمَرَانِ» (به معنای خورشید و ماه) صحیح است؟", "opts": ["نه مثنّی و نه ملحق به مثنّی، مثنّی", "ملحق به مثنّی، مثنّی", "نه مثنّی و نه ملحق به مثنّی، ملحق به مثنّی", "ملحق به مثنّی، ملحق به مثنّی"], "ans": 2, "exp": "«مَرْوَان» اسم عَلَم مفرد است و نه دلالت بر دو فرد دارد و نه اعراب مثنّی (نه مثنّی و نه ملحق). اما «قَمَرَانِ» (خورشید و ماه) بر دو فرد غیرهمسان در لفظ و معنا (تغلیب) دلالت می‌کند؛ لذا طبق درس ۶۳ «صرف الف» ملحق به مثنّی است."}, {"id": 2, "cat": "dual", "catLabel": "مثنّی و ملحقات", "level": "نکته‌سنج", "q": "بر اساس تصریح درس ۶۳ کتاب «صرف الف»، کدام گزینه دربارۀ تثنیۀ دو کلمۀ «فَم» و «دَم» به ترتیب صحیح است؟", "opts": ["فَمَوَانِ، دَمَوَانِ", "فَمَوَانِ، دَمَانِ", "فَمَانِ، دَمَوَانِ", "فَمَانِ، دَمَانِ"], "ans": 3, "exp": "طبق نکتۀ گام چهارم درس ۶۳ (ص ۱۸)، چهار کلمۀ «يَد، فَم، دَم و غَد» از قاعدۀ بازگشت لام‌الفعلِ ثلاثی محذوف‌اللامِ بی‌عوض مستثنی هستند و بدون بازگشت لام مثنّی می‌شوند: «يَدَانِ، فَمَانِ، دَمَانِ، غَدَانِ» (کافی: دَمَانِ فِي الْإِسْلَامِ حَلَالٌ)."}, {"id": 3, "cat": "dual", "catLabel": "مثنّی و ملحقات", "level": "المپیادی", "q": "کدام گزینه دربارۀ تثنیۀ مرفوع کلمۀ «رَيَّا» (سیراب، مؤنّث رَيَّان) صحیح است؟", "opts": ["رَيَّيَانِ", "رَيَّوَانِ", "رَيَّانِ", "گزینۀ الف و یا ب"], "ans": 0, "exp": "«رَيَّا» (ر + ی + ی + ا) اسم مقصورِ چهارحرفی (بیش از سه حرف) است؛ طبق قاعدۀ درس ۶۳ «صرف الف»، در هر اسم مقصوری که بیش از سه حرف باشد الف آن حتماً به یاء تبدیل می‌شود: «رَيَّيَانِ»."}, {"id": 4, "cat": "dual", "catLabel": "مثنّی و ملحقات", "level": "پایه", "q": "کدام گزینه دربارۀ تثنیۀ مرفوع کلمۀ «صَحْرَاء» صحیح است؟", "opts": ["صَحْرَاءَانِ", "صَحْرَاوَانِ", "صَحْرَايَانِ", "گزینۀ الف و یا ب"], "ans": 1, "exp": "در «صَحْرَاء» همزه زائد و برای تأنیث است (ریشۀ ص ح ر)؛ طبق درس ۶۳، همزۀ زائد تأنیث در تثنیه واجب‌القلب به واو است: «صَحْرَاوَانِ»."}, {"id": 5, "cat": "dual", "catLabel": "مثنّی و ملحقات", "level": "نکته‌سنج", "q": "تثنیۀ مرفوع چهار کلمۀ «دَاعٍ، رِباً، إِهْدَاء، أَخ» به ترتیب کدام گزینه است؟", "opts": ["دَاعَانِ – رِبَيَانِ – إِهْدَاءَانِ – أَخَانِ", "دَاعِيَانِ – رِبَوَانِ – إِهْدَاءَانِ / إِهْدَاوَانِ – أَخَوَانِ", "دَاعِيَانِ – رِبَيَانِ – إِهْدَاوَانِ – أَخَوَانِ", "دَاعُوَانِ – رِبَوَانِ – إِهْدَاءَانِ – أَخَانِ"], "ans": 1, "exp": "۱) دَاعٍ (منقوص منوّن ← بازگشت یاء: دَاعِيَانِ)؛ ۲) رِباً (مقصور ۳ حرفی واوی منوّن ← بازگشت واو: رِبَوَانِ)؛ ۳) إِهْدَاء (ممدود با همزۀ منقلب از یاء ← دووجهی: إِهْدَاءَانِ / إِهْدَاوَانِ)؛ ۴) أَخ (محذوف‌اللام بی‌عوض ← بازگشت واو: أَخَوَانِ)."}, {"id": 6, "cat": "dual", "catLabel": "مثنّی و ملحقات", "level": "نکته‌سنج", "q": "در کدام گزینه، هر دو عبارت شامل «ملحق به مثنّی» (بر پایۀ دو دستۀ ملحقات در درس ۶۳ «صرف الف») هستند؟", "opts": ["﴿رَجُلَيْنِ﴾ و ﴿اِمْرَأَتَانِ﴾", "﴿جَنَّتَيْنِ﴾ و ﴿فَتَيَانِ﴾", "﴿أَوَى إِلَيْهِ أَبَوَيْهِ﴾ و ﴿فَإِنْ كَانَتَا اثْنَتَيْنِ﴾", "﴿غُلَامَيْنِ يَتِيمَيْنِ﴾ و ﴿هَذَانِ خَصْمَانِ﴾"], "ans": 2, "exp": "«أَبَوَيْهِ» (پدر و مادر؛ تغلیب بر دو فرد ناهمسان) و «اثْنَتَيْنِ» (جزء کلمه بودنِ علامت تثنیه و نداشتن مفرد لفظی) هر دو از مصادیق صریح ملحقات مثنّی در درس ۶۳ «صرف الف» هستند."}, {"id": 7, "cat": "masc", "catLabel": "جمع سالم مذکّر", "level": "المپیادی", "q": "در کدام گروه از کلمات زیر، تمامی موارد آن شرایط جمع سالم مذکّر بستن (طبق درس ۶۴ «صرف الف») را دارند؟", "opts": ["عَلِيّ، مَنَّان، مِسْكِين", "شَرِير، مُوسَى، سِيبَوَيْهِ", "رُجَيْل، شُجَاع، مِخْيَط", "رَكُوب، زَكَرِيَّاء، أَشْعَرِيّ"], "ans": 0, "exp": "در (الف) هر سه واجد شرط‌اند: «عَلِيّ» (عَلَم یا وصف مذکّر عاقل)، «مَنَّان» (وصف مبالغۀ دارای مؤنّث با تاء) و «مِسْكِين» (وصف مذکّر عاقل دارای مؤنّث با تاء). اما در (ب) «سِيبَوَيْهِ» مرکّب مزجی، در (ج) «مِخْيَط» اسم آلت غیرعاقل، و در (د) «رَكُوب» وصف مشترک بی‌تاء است."}, {"id": 8, "cat": "masc", "catLabel": "جمع سالم مذکّر", "level": "المپیادی", "q": "در کدام گروه از کلمات زیر، هیچ‌یک از موارد آن جمع سالم مذکّر بسته نمی‌شوند؟", "opts": ["رُسُل، أَعَزّ، غُلَام", "صَبَا، كَرِيم، أَحْمَق", "عَدُوّ، رِضَا، صُلَحَاء", "نَرْجِس، مَسْجِد، قَتِيل"], "ans": 3, "exp": "در (د) هیچ‌کدام شرایط را ندارند: «نَرْجِس» (غیرعاقل)، «مَسْجِد» (اسم مکان غیرعاقل) و «قَتِيل» (وصف مشترک میان مذکّر و مؤنّث بدون تاء). اما در (الف) أَعَزّ (أَفْعَل تفضیل)، در (ب) كَرِيم (وصف مذکّر عاقل) و در (ج) عَدُوّ (در صورت مذکّر عاقل / رِضَا به عنوان عَلَم مذکّر) قابل جمع‌اند."}, {"id": 9, "cat": "masc", "catLabel": "جمع سالم مذکّر", "level": "المپیادی", "q": "گزینۀ صحیح دربارۀ جمع سالم مذکّر کلمۀ «الْمُصَلَّى» در جملۀ «أَقَمْتُ الصَّلَاةَ فِي الْمُصَلَّى» چیست؟", "opts": ["الْمُصَلَّيُونَ", "الْمُصَلَّوُونَ", "الْمُصَلَّوْنَ", "هیچ‌کدام (جمع سالم مذکّر بسته نمی‌شود)"], "ans": 3, "exp": "دقت در سیاق جمله! در «أَقَمْتُ الصَّلَاةَ فِي الْمُصَلَّى»، «الْمُصَلَّى» اسم مکان (محلّ نماز خواندن) و **غیرعاقل** است؛ لذا شرایط جمع سالم مذکّر را ندارد! (فقط اگر «الْمُصَلِّي» اسم فاعل به معنای نمازگزار بود می‌شد «الْمُصَلُّونَ»)."}, {"id": 10, "cat": "masc", "catLabel": "جمع سالم مذکّر", "level": "المپیادی", "q": "کدام گزینه دربارۀ جمع سالم مذکّر کلمۀ «فَرَّاء» (پوستین‌دوز، از ریشۀ ف ر و) صحیح است؟", "opts": ["فَرَّاؤُونَ", "فَرَّاوُونَ", "فَرَّايُونَ", "گزینۀ الف و یا ب"], "ans": 3, "exp": "«فَرَّاء» صفت منسوبِ خاص/مبالغه (فَعَّال) از ریشۀ (ف ر و) است؛ چون همزۀ ممدود آن منقلب از واو اصلی است، طبق درس ۶۴ هر دو وجهِ بقای همزه (فَرَّاؤُونَ) و قلب به واو (فَرَّاوُونَ) جایز است."}, {"id": 11, "cat": "masc", "catLabel": "جمع سالم مذکّر", "level": "نکته‌سنج", "q": "علّت تفاوت حرکت حرف ماقبل واو در دو جمعِ «الْمُصْطَفَوْنَ» (فتحه) و «الدَّاعُونَ» (ضمّه) چیست؟", "opts": ["اولی ممدود و دومی مقصور است", "در مقصور، پس از حذف الف، فتحۀ ماقبل برای دلالت بر الف محذوف باقی می‌ماند؛ اما در منقوص ضمّۀ یاء به ماقبل نقل شده و یاء حذف می‌شود", "در مقصور اعلال سکونی و در منقوص اعلال قلبی رخ می‌دهد", "تفاوتی در حرکت ماقبل نیست و هر دو به دلخواه مفتوح یا مضموم خوانده می‌شوند"], "ans": 1, "exp": "طبق گام چهارم و پرسش تحلیلی درس ۶۴ «صرف الف»: در مقصور (الْمُصْطَفَيُونَ ← الْمُصْطَفَاوْنَ ← الْمُصْطَفَوْنَ) فتحه باقی می‌ماند؛ اما در منقوص (الدَّاعِيُونَ ← الدَّاعُيْوْنَ ← الدَّاعُونَ) حرکت ضمّه به ماقبل منتقل می‌گردد."}, {"id": 12, "cat": "masc", "catLabel": "جمع سالم مذکّر", "level": "نکته‌سنج", "q": "کدام گزینه به درستی تعریف «باب سِنُون» (از ملحقات جمع سالم مذکّر در پاورقی ۱۴ درس ۶۴) و دو نمونۀ آن را بیان می‌کند؟", "opts": ["اسماء جمعی که مفردی از لفظ خود ندارند؛ مانند أُولُو و عِشْرُونَ", "کلمات ثلاثی محذوف‌اللام که عوض آن تاء تأنیث آمده و جمع مکسّر برایشان به کار نرفته است؛ مانند عِضَة و ثُبَة", "تمام اسماء ثلاثی محذوف‌اللامِ بی‌عوض؛ مانند أَب و أَخ", "اسماء مؤنّثی که با الف و تاء جمع بسته می‌شوند؛ مانند سَنَوَات و عِضَوَات"], "ans": 1, "exp": "طبق پاورقی ۱۴ درس ۶۴ «صرف الف» (ص ۲۶): منظور از باب «سِنُون»، کلمات ثلاثی محذوف‌اللامی هستند که عوض آن تاء تأنیث آمده و جمع مکسّر برایشان به کار نرفته است؛ مانند عِضَة (عِضُونَ) و ثُبَة (ثُبُونَ)."}, {"id": 13, "cat": "masc", "catLabel": "جمع سالم مذکّر", "level": "پایه", "q": "بر پایۀ درس ۶۴ «صرف الف»، علّت ممنوعیت جمع سالم مذکّر در سه صفتِ «أَبْيَض»، «صَبُور» و «مُرْضِع» به ترتیب کدام است؟", "opts": ["غیرعاقل – مرکّب – دارای تاء", "مؤنّث با الف ممدوده (فَعْلَاء) – مشترک میان مذکّر و مؤنّث بی‌تاء – مختصّ مؤنّث", "أَفْعَل تفضیل – صفت مشبّهه – اسم مفعول", "مؤنّث با الف مقصوره – غیرعاقل – عَلَم مؤنّث"], "ans": 1, "exp": "طبق نکات گام سوم درس ۶۴ (ص ۲۴–۲۵): «أَبْيَض» (مؤنّثش بَيْضَاء با الف ممدوده)، «صَبُور» (مشترک میان مذکّر و مؤنّث بدون تاء) و «مُرْضِع» (وصف مختصّ مؤنّث) جمع سالم مذکّر بسته نمی‌شوند."}, {"id": 14, "cat": "fem", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "المپیادی", "q": "مفرد کلمۀ «سَمَاوَات» (سَمَاء) کدام‌یک از شرایط پنج‌گانۀ قیاسیِ جمع سالم مؤنّث را داراست؟", "opts": ["اسم برای مذکّر غیرعاقل", "وصف برای مذکّر غیرعاقل", "مختوم به الف تأنیث ممدوده", "هیچ‌کدام (جمع آن سماعی است)"], "ans": 3, "exp": "در «سَمَاء» (ریشۀ س م و) همزه منقلب از واو اصلی است نه الف تأنیث! همچنین نه عَلَم مؤنّث است، نه تاءدار است و نه وصف غیرعاقل؛ پس جمع سالم مؤنّثِ «سَمَاوَات» بر خلاف قیاس و **سماعی** است."}, {"id": 15, "cat": "fem", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "نکته‌سنج", "q": "کدام‌یک از کلمات زیر بر پایۀ درس ۶۵ «صرف الف» جمع سالم مؤنّث بسته **نمی‌شود**؟", "opts": ["صَحْرَاء", "عَوْرَاء", "مَكْتُوب", "طَلْحَة"], "ans": 1, "exp": "«عَوْرَاء» (مؤنّث أَعْوَر بر وزن فَعْلَاء) طبق نکتۀ گام سوم درس ۶۵ جمع سالم مؤنّث بسته نمی‌شود (جمعش مکسّر است: عُور). اما صَحْرَاء (اسم ممدود ← صَحْرَاوَات)، مَكْتُوب (وصف مذکّر غیرعاقل ← مَكْتُوبَات) و طَلْحَة (دارای تاء تأنیث ← طَلْحَات) هر سه مجازند."}, {"id": 16, "cat": "fem", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "المپیادی", "q": "جمع سالم مؤنّث کلمۀ «دُعَاة» (جمع مکسّرِ دَاعِي، از ریشۀ د ع و) کدام گزینه است؟", "opts": ["دُعَيَات", "دُعَوَات", "دُعَات", "گزینۀ الف و یا ب"], "ans": 1, "exp": "در ساخت جمع سالم مؤنّث، ابتدا تاء تأنیث حذف می‌شود و «دُعَا» می‌ماند؛ این کلمه اسم مقصور سه‌حرفی و الف آن منقلب از واو (د ع و) است، پس الف به واو برمی‌گردد: «دُعَوَات»."}, {"id": 17, "cat": "fem", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "المپیادی", "q": "جمع سالم مؤنّث دو مصدرِ «إِرَاءَة» (باب إفعال از ریشۀ ر أ ي) و «اِسْتِضَاءَة» (باب استفعال از ریشۀ ض و أ) به ترتیب کدام گزینه است؟", "opts": ["إِرَاءَات / إِرَاوَات  —  اِسْتِضَاءَات (فقط یک وجه)", "إِرَاءَات (فقط یک وجه)  —  اِسْتِضَاءَات / اِسْتِضَاوَات", "إِرَاوَات (فقط یک وجه)  —  اِسْتِضَاوَات (فقط یک وجه)", "هر دو دارای دو وجه (همزه و واو) هستند"], "ans": 0, "exp": "نکته‌ای بسیار دقیق! در «إِرَاءَة» (از ر أ ي) همزۀ پایانی از یاء لام‌الفعل منقلب شده ← **دووجهی** (إِرَاءَات / إِرَاوَات). اما در «اِسْتِضَاءَة» (از ض و أ) همزۀ پایانی همان لام‌الفعلِ **اصلی و غیرمنقلب** است ← **فقط بقا** (اِسْتِضَاءَات)!"}, {"id": 18, "cat": "fem", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "نکته‌سنج", "q": "کدام گزینه دربارۀ جمع سالم مؤنّث دو کلمۀ «نَخْلَة» و «قُدْرَة» به ترتیب صحیح است؟", "opts": ["نَخْلَات، قُدْرَات", "نَخَلَات، قُدَرَات", "نَخْلَات، قُدُرَات", "نَخَلَات، قُدْرَات (با عدم جواز فتح در دومی)"], "ans": 1, "exp": "«نَخْلَة» (فَعْلَة، موصوف صحیح‌العین غیرمضاعف) ← عین‌الفعل **واجب‌الفتح** است: «نَخَلَات» (پس الف و ج باطل‌اند). «قُدْرَة» (فُعْلَة، موصوف صحیح غیرمضاعف) ← سه وجه جایز است: قُدْرَات، **قُدَرَات**، قُدُرَات؛ بنابراین گزینۀ (ب) کاملاً صحیح است."}, {"id": 19, "cat": "fem", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "نکته‌سنج", "q": "در کدام حالت، عین‌الفعلِ وزنِ «فَعْلَة / فِعْلَة / فُعْلَة» هنگام ساخت جمع سالم مؤنّث تغییر نمی‌کند و بر حالت خود باقی می‌ماند؟", "opts": ["موصوف مفتوح‌الفاءِ متحرک‌العین (مانند صَدَقَة / شَجَرَة)", "موصوف مفتوح‌الفاءِ ساکن‌العینِ مضاعف (مانند جَدَّة / عَمَّة)", "موصوف مکسورالفاءِ معتلّ‌العین (مانند دِيمَة / رَوْضَة) یا صفت مشبّهه (ضَخْمَة)", "همۀ موارد"], "ans": 3, "exp": "در تمام این موارد عین‌الفعل تغییر نمی‌کند: متحرک‌العین (صَدَقَة ← صَدَقَات) به دلیل عدم سکون؛ و مضاعف (جَدَّات)، اجوف/معتلّ‌العین (رَوْضَات، دِيمَات) و صفت مشبّهه (ضَخْمَات) طبق تصریح درس ۶۵ ساکن می‌مانند."}, {"id": 20, "cat": "fem", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "نکته‌سنج", "q": "کدام گزینه به ترتیب دربارۀ دو کلمۀ «عَرَفَات» و «أَصْوَات» (حجرات/۳) صحیح است؟", "opts": ["جمع سالم مؤنّث، جمع سالم مؤنّث", "ملحق به جمع سالم مؤنّث، جمع مکسّر (بر وزن أَفْعَال)", "جمع مکسّر، ملحق به جمع سالم مؤنّث", "ملحق به جمع سالم مؤنّث، ملحق به جمع سالم مؤنّث"], "ans": 1, "exp": "«عَرَفَات» در اصل جمع به الف و تاء بوده اما عَلَمِ مکان شده و معنای جمع ندارد ← ملحق به جمع سالم مؤنّث (درس ۶۵، ص ۳۰). اما در «أَصْوَات» (جمع صَوْت)، تاء اصلی است نه زائد ← جمع مکسّر بر وزن أَفْعَال."}, {"id": 21, "cat": "mix", "catLabel": "تحلیلی و ترکیبی", "level": "المپیادی", "q": "در کدام گزینه، برای «مُصْطَفَى» (وصف)، «غَضْبَان» (صفت مشبّهه) و «طَلْحَة» (عَلَم مذکّر)، امکان ساخت جمع سالم مذکّر و جمع سالم مؤنّث به درستی مشخص شده است؟", "opts": ["مُصْطَفَى: فقط جمع مذکّر | غَضْبَان: هیچ‌کدام | طَلْحَة: فقط جمع مؤنّث", "مُصْطَفَى: هر دو | غَضْبَان: فقط جمع مذکّر | طَلْحَة: فقط جمع مذکّر", "مُصْطَفَى: فقط جمع مذکّر | غَضْبَان: فقط جمع مؤنّث | طَلْحَة: هر دو", "مُصْطَفَى: هیچ‌کدام | غَضْبَان: هیچ‌کدام | طَلْحَة: فقط جمع مؤنّث"], "ans": 0, "exp": "۱) «مُصْطَفَى» وصف مذکّر عاقل است ← فقط جمع سالم مذکّر (مُصْطَفَوْنَ). ۲) «غَضْبَان» بر وزن فَعْلَان (مؤنّثش غَضْبَى) ← نه جمع سالم مذکّر و نه مؤنّث (جمع مکسّر: غِضَاب). ۳) «طَلْحَة» عَلَم مذکّرِ دارای تاء ← جمع مذکّر ممنوع است اما طبق مورد ۲ درس ۶۵، جمع سالم مؤنّث (طَلْحَات) بسته می‌شود!"}, {"id": 22, "cat": "mix", "catLabel": "تحلیلی و ترکیبی", "level": "المپیادی", "q": "کدام گزینه دربارۀ دو کلمۀ «عَرَفَات» و «بَنَات» (بر پایۀ نکات تکمیلی صرفی) صحیح است؟", "opts": ["نه جمع مؤنّث سالم و نه ملحق، جمع مؤنّث سالم", "ملحق به جمع مؤنّث سالم، جمع مؤنّث سالمِ قیاسیِ بی‌تغییر", "نه جمع مؤنّث سالم و نه ملحق، ملحق به جمع مؤنّث سالم", "ملحق به جمع مؤنّث سالم، ملحق / جمع سماعی (با تغییر بناء مفردِ بِنْت)"], "ans": 3, "exp": "«عَرَفَات» ملحق به جمع سالم مؤنّث است (عَلَم‌شده). در «بَنَات» (مفردش: بِنْت)، کسرۀ باء به فتحه و سکون نون به فتحه تغییر یافته و تاء اصلیِ عوض حذف شده است؛ لذا در کتب مفصّل صرفی به دلیل تغییر بناء مفرد، ملحق یا جمع سماعی به الف و تاء محسوب می‌شود."}, {"id": 23, "cat": "mix", "catLabel": "تحلیلی و ترکیبی", "level": "نکته‌سنج", "q": "در آیۀ ﴿شَغَلَتْنَا أَمْوَالُنَا وَأَهْلُونَا﴾ (فتح/۱۱) و ﴿الْمَالُ وَالْبَنُونَ زِينَةُ الْحَيَاةِ الدُّنْيَا وَالْبَاقِيَاتُ الصَّالِحَاتُ﴾ (کهف/۴۶)، کدام تحلیل دقیق است؟", "opts": ["أَهْلُونَ و الْبَنُونَ هر دو جمع سالم مذکّر حقیقی‌اند و الْبَاقِيَاتُ ملحق است", "أَهْلُونَ و الْبَنُونَ هر دو ملحق به جمع سالم مذکّرند، و الْبَاقِيَاتُ الصَّالِحَاتُ جمع سالم مؤنّث‌اند", "أَمْوَالُنَا جمع سالم مؤنّث و أَهْلُونَا ملحق به مثنّی است", "الْبَنُونَ جمع مکسّر و الْبَاقِيَاتُ ملحق به جمع سالم مؤنّث است"], "ans": 1, "exp": "«أَهْلُونَ» (اسم جامد غیرعَلَم) و «الْبَنُونَ» (تغییر بناء مفردِ اِبْن) هر دو از ملحقات جمع سالم مذکّر (درس ۶۴) هستند؛ و «الْبَاقِيَاتُ الصَّالِحَاتُ» (مفرد: بَاقِيَة، صَالِحَة) جمع سالم مؤنّث‌اند (درس ۶۵)."}, {"id": 24, "cat": "mix", "catLabel": "تحلیلی و ترکیبی", "level": "نکته‌سنج", "q": "تفاوت رفتار اسم مقصورِ بیش از ۳ حرف (مانند «مُقْتَدَى») و اسم منقوص (مانند «دَاعِي») هنگام تبدیل به **مثنّی** و **جمع سالم مذکّر** چیست؟", "opts": ["در مثنّی هر دو حرف آخر را حذف می‌کنند، اما در جمع مذکّر حفظ می‌کنند", "در مثنّی هر دو حرف آخر را حفظ (یا به یاء تبدیل) می‌کنند (مُقْتَدَيَانِ، دَاعِيَانِ)، اما در جمع سالم مذکّر هر دو حرف آخر را حذف می‌کنند (مُقْتَدَوْنَ، دَاعُونَ)", "مقصور در هر دو حذف و منقوص در هر دو حفظ می‌شود", "منقوص در مثنّی به واو تبدیل می‌شود"], "ans": 1, "exp": "یک اصل کلیدی برای مرور شب امتحان: در مثنّی و جمع سالم مؤنّث، حرف علّۀ آخر مقصور و منقوص حفظ/قلب می‌شود؛ اما در جمع سالم مذکّر به سبب التقای ساکنین و اعلال، حرف آخر هر دو حذف می‌گردد."}, {"id": 25, "cat": "mix", "catLabel": "تحلیلی و ترکیبی", "level": "پایه", "q": "در کدام گزینه، هر سه کلمه از جهت ساختارِ مثنّی یا جمع سالم، در حکم **مرکّب اضافی** بوده و جزء اول آن‌ها مثنّی یا جمع بسته شده است؟", "opts": ["بَيْتَا النُّبُوَّةِ – عَبْدُو اللَّهِ – كَاتِبَاتُ الدَّرْسِ", "اِثْنَانِ – عِلِّيُّونَ – عَرَفَات", "أَبَوَانِ – أَهْلُونَ – أُولَات", "مُؤْمِنَانِ – مُؤْمِنُونَ – مُؤْمِنَات"], "ans": 0, "exp": "در مرکّب اضافی، جزء اول (مضاف) مثنّی یا جمع بسته شده و نون مثنّی و جمع مذکّر به سبب اضافه حذف می‌شود: «بَيْتَا النُّبُوَّةِ» (درس ۶۳)، «عَبْدُو اللَّهِ» (درس ۶۴) و «كَاتِبَاتُ الدَّرْسِ» (درس ۶۵)."}], "desc": [{"id": "d1", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "نکته‌سنج", "title": "مجموعۀ ۱ (بازگشت لام‌الفعل محذوف در تثنیه)", "prompt": "در میان چهار کلمۀ <b>(أَب – أَخ – فَم – حَم)</b>، کدام کلمه از جهت بازگشت لام‌الفعل محذوف هنگام ساخت مثنّی با سه مورد دیگر متفاوت است؟", "hint": "چهار استثنای ثلاثی محذوف‌اللامِ بی‌عوض در درس ۶۳ را به یاد آورید.", "answer": "<b>مورد متفاوت: «فَم»</b>.<br><b>تحلیل:</b> در «أَب ← أَبَوَانِ»، «أَخ ← أَخَوَانِ» و «حَم ← حَمَوَانِ» لام‌الفعل محذوف بازمی‌گردد؛ اما «فَم» یکی از چهار استثنای درس ۶۳ (يَد، فَم، دَم، غَد) است و بدون بازگشت لام مثنّی می‌شود: <b>«فَمَانِ / فَمَيْنِ»</b>."}, {"id": "d2", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "نکته‌سنج", "title": "مجموعۀ ۲ (جواز ساخت جمع سالم مذکّر)", "prompt": "در میان چهار وصفِ <b>(كَاتِب – أَعْلَم – عَلَوِيّ – أَخْضَر)</b>، کدام مورد جمع سالم مذکّر بسته نمی‌شود؟ دلیل تفاوت آن با «أَعْلَم» چیست؟", "hint": "هر دو کلمۀ «أَعْلَم» و «أَخْضَر» بر وزن أَفْعَل‌اند؛ تفاوت نوع مشتق آن‌ها چیست؟", "answer": "<b>مورد متفاوت: «أَخْضَر»</b>.<br><b>تحلیل:</b> «كَاتِب» و «عَلَوِيّ» مؤنّثشان با تاء است، و «أَعْلَم» <b>أَفْعَل تفضیل</b> است که استثنائاً جمع سالم مذکّر می‌شود (أَعْلَمُونَ)؛ اما «أَخْضَر» صفت مشبّهه با مؤنّثِ فَعْلَاء (خَضْرَاء) است و جمع سالم مذکّر نمی‌شود (جمعش مکسّر: خُضْر)."}, {"id": "d3", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "پایه", "title": "مجموعۀ ۳ (تفکیک جمع سالم مؤنّث از جمع مکسّر)", "prompt": "در میان چهار کلمۀ <b>(أَصْوَات – صَلَوَات – حَسَرَات – بُيُوتَات)</b>، کدام مورد جمع سالم مؤنّث نیست؟ وزن و نوع جمع آن چیست؟", "hint": "به اصلی یا زائد بودن حرف «تاء» در مفرد هر چهار کلمه بنگرید.", "answer": "<b>مورد متفاوت: «أَصْوَات»</b>.<br><b>تحلیل:</b> مفرد «أَصْوَات»، کلمۀ «صَوْت» است که تاء در آن <b>اصلی</b> است؛ پس «أَصْوَات» بر وزن «أَفْعَال» و <b>جمع مکسّر</b> است، اما سه مورد دیگر دارای الف و تاء زائد و جمع سالم مؤنّث‌اند."}, {"id": "d4", "cat": "odd", "catLabel": "تشخیص مورد متفاوت", "level": "المپیادی", "title": "مجموعۀ ۴ (حکم همزۀ ممدود در تثنیه و جمع مؤنّث)", "prompt": "در میان چهار اسم ممدودِ <b>(سَمَاء – رِدَاء – دُعَاء – صَفْرَاء)</b>، کدام کلمه از جهت تعداد وجوهِ مجاز در تثنیه با سه مورد دیگر متفاوت است؟", "hint": "منشأ همزه (منقلب از واو/یاء در برابر زائد تأنیث) را در هر چهار کلمه بررسی کنید.", "answer": "<b>مورد متفاوت: «صَفْرَاء»</b>.<br><b>تحلیل:</b> در «سَمَاء» (س م و)، «رِدَاء» (ر د ي) و «دُعَاء» (د ع و)، همزه اصلی و منقلب از واو یا یاء است ← هر سه <b>دووجهی</b> هستند (همزه یا واو). اما در «صَفْرَاء» (ص ف ر) همزه <b>زائد برای تأنیث</b> است ← فقط یک وجه (واجب‌القلب به واو: <b>صَفْرَاوَانِ</b>)."}, {"id": "d5", "cat": "dual_w", "catLabel": "تثنیه و ملحقات", "level": "نکته‌سنج", "title": "تثنیۀ چهار اسم مقصور و ممدود از قرآن و ادعیه", "prompt": "مثنّای مرفوع و منصوب چهار کلمۀ زیر را بسازید و دلیل تغییر هر یک را بنویسید:<br>۱) <b>شَوَى</b> (معارج/۱۶؛ ریشۀ ش و ي) &nbsp;|&nbsp; ۲) <b>رِضاً</b> (ریشۀ ر ض و) &nbsp;|&nbsp; ۳) <b>مُرْتَجَى</b> &nbsp;|&nbsp; ۴) <b>زَهْرَاء</b>", "hint": "در مقصور، ۳ حرفی واوی به واو و باقی موارد به یاء تبدیل می‌شوند؛ در ممدودِ تأنیث، همزه به واو قلب می‌شود.", "answer": "• <b>شَوَى: شَوَيَانِ / شَوَيَيْنِ</b> (مقصور ۳ حرفیِ منقلب از یاء ← یاء).<br>• <b>رِضاً: رِضَوَانِ / رِضَوَيْنِ</b> (مقصور ۳ حرفیِ منقلب از واو، منوّن ← بازگشت واو).<br>• <b>مُرْتَجَى: مُرْتَجَيَانِ / مُرْتَجَيَيْنِ</b> (مقصورِ بیش از ۳ حرف ← یاء، گرچه ریشه‌اش واوی ر ج و است).<br>• <b>زَهْرَاء: زَهْرَاوَانِ / زَهْرَاوَيْنِ</b> (ممدود با همزۀ زائد تأنیث ← قلب به واو)."}, {"id": "d6", "cat": "dual_w", "catLabel": "تثنیه و ملحقات", "level": "نکته‌سنج", "title": "کالبدشکافی چهار شاهدِ ملحقات و ظرایف مثنّی", "prompt": "کلمات مشخص‌شده را از جهت مثنّی یا ملحق بودن و نوع کاربرد تحلیل کنید:<br>۱) ﴿<b>كِلْتَا</b> الْجَنَّتَيْنِ آتَتْ أُكُلَهَا﴾ (کهف/۳۳) &nbsp;|&nbsp; ۲) «وَلَا تَعْصُوا <b>الْوَالِدَيْنِ</b>» (کافی) &nbsp;|&nbsp; ۳) «أَبِي الْحَسَنِ وَأَبِي مُحَمَّدٍ <b>الْعَسْكَرِيَّيْنِ</b>» (بحار) &nbsp;|&nbsp; ۴) «<b>لَبَّيْكَ</b> وَ<b>سَعْدَيْكَ</b>» (بحار)", "hint": "تغلیب در دو فرد غیرهمسان و ارادۀ تکرار از قالب مثنّی را تشخیص دهید.", "answer": "<b>۱) كِلْتَا:</b> ملحق به مثنّی (چون به اسم ظاهر «الْجَنَّتَيْنِ» مضاف شده، اعرابش تقدیری روی الف است؛ در صورت اضافه به ضمیر مانند «كِلْتَاهُمَا» اعراب مثنّی می‌گیرد).<br><b>۲) الْوَالِدَيْنِ:</b> ملحق به مثنّی تغلیبی (والد + والدة).<br><b>۳) الْعَسْكَرِيَّيْنِ:</b> ملحق تغلیبی (امام هادی و امام عسکری علیهماالسلام).<br><b>۴) لَبَّيْكَ وَسَعْدَيْكَ:</b> مثنّی به قصد ارادۀ تکرار و کثرت (اجابت پی‌درپی پس از اجابت)."}, {"id": "d7", "cat": "dual_w", "catLabel": "تثنیه و ملحقات", "level": "المپیادی", "title": "تثنیۀ کلمات خاص: محذوف‌اللام، شبه‌ممدود و مرکّب", "prompt": "مثنّای مرفوع کلمات <b>«اِبْنَة، شَاة، مِائَة، دَاء، عَبْدُ اللَّهِ، أَمَة»</b> را بسازید و به وضعیت حرف محذوف یا همزۀ هر یک توجه کنید.", "hint": "در «دَاء» همزه اصلی است (شبه ممدود چون پیش از الف فقط یک حرف دارد)؛ در «أَمَة» (أ م و) و «اِبْنَة» (دارای عوض) وضعیت عوض را بسنجید.", "answer": "• <b>اِبْنَة: اِبْنَتَانِ</b> (محذوف‌اللامِ دارای عوض ← با عوض؛ قصص/۲۷: إِحْدَى ابْنَتَيَّ).<br>• <b>شَاة و مِائَة: شَاتَانِ، مِائَتَانِ</b> (کافی: مِنْ شَاتَيْنِ حَتَّى تَبْلُغَ مِائَتَيْنِ).<br>• <b>دَاء: دَاءَانِ</b> (همزۀ اصلی غیرمنقلب ← بقا).<br>• <b>عَبْدُ اللَّهِ: عَبْدَا اللَّهِ</b> (مرکّب اضافی ← تثنیۀ مضاف بی‌نون).<br>• <b>أَمَة: أَمَتَانِ</b> (با بقای تاء؛ در صورت ردّ لام، شاذ است)."}, {"id": "d8", "cat": "dual_w", "catLabel": "تثنیه و ملحقات", "level": "پایه", "title": "تفکیک «ظاهر تثنیه» از مثنّی حقیقی در متون روایی", "prompt": "چرا دو کلمۀ <b>«حُنَيْن»</b> (در «يَوْمَ حُنَيْنٍ») و <b>«الْبَحْرَيْنِ»</b> (نام سرزمین، نهج‌البلاغه، نامۀ ۴۲) و <b>«إِخْوَان»</b> در شمار مثنّی حقیقی قرار نمی‌گیرند؟", "hint": "ملاک دلالت بر دو فرد و زائد بودن علامت تثنیه را بررسی کنید.", "answer": "• <b>حُنَيْن:</b> اسم مصغّرِ مفرد (عَلَم یک سرزمین) است؛ نون آن اصلی است نه علامت تثنیه.<br>• <b>الْبَحْرَيْنِ:</b> هرچند در اصل مثنّی بوده اما عَلَم یک منطقه شده و در معنا مفرد است.<br>• <b>إِخْوَان:</b> بر وزن فِعْلَان و <b>جمع مکسّر</b> است؛ الف و نون آن علامت تثنیه نیست."}, {"id": "d9", "cat": "masc_w", "catLabel": "جمع سالم مذکّر", "level": "نکته‌سنج", "title": "مراحل اعلال و ساخت جمع سالم مذکّر در ۴ اسم نکته‌دار", "prompt": "جمع سالم مذکّرِ مرفوع و منصوبِ کلمات <b>«مُقْتَدٍ، رَاعٍ، حَوَارِيّ، مُحْيٍ (مُحْيِي)»</b> را بسازید و مراحل تغییرِ «مُقْتَدٍ» و «رَاعٍ» را گام‌به‌گام بنویسید.", "hint": "در مقصور منوّن (مُقْتَدٍ) و منقوص منوّن (رَاعٍ)، ابتدا حرف محذوف برمی‌گردد و سپس قواعد اعلال اجرا می‌شود.", "answer": "• <b>مُقْتَدٍ: مُقْتَدَوْنَ / مُقْتَدَيْنَ</b> (مُقْتَدَيُونَ ← مُقْتَدَاوْنَ ← مُقْتَدَوْنَ؛ بقای فتحه برای دلالت بر الف محذوف).<br>• <b>رَاعٍ: رَاعُونَ / رَاعِينَ</b> (رَاعِيُونَ ← رَاعُيْوْنَ ← رَاعُونَ؛ مؤمنون/۸: رَاعُونَ).<br>• <b>حَوَارِيّ: حَوَارِيُّونَ / حَوَارِيِّينَ</b> (شبه صحیح ← بی‌تغییر؛ آل‌عمران/۵۲).<br>• <b>مُحْيٍ (الْمُحْيِي): مُحْيُونَ / مُحْيِينَ</b> (منقوص ← حذف یاء دوم و کسر/ضمّ یاء اول؛ بحار: الْمُحْيِينَ ذِكْرَنَا)."}, {"id": "d10", "cat": "masc_w", "catLabel": "جمع سالم مذکّر", "level": "نکته‌سنج", "title": "بررسی جواز یا عدم جواز جمع سالم مذکّر در ۶ کلمۀ منتخب", "prompt": "برای هر یک از کلمات زیر بنویسید آیا جمع سالم مذکّر بسته می‌شود یا نه (با ذکر جمع یا علت عدم جواز):<br><b>۱) أَعْجَمِيّ &nbsp;|&nbsp; ۲) أَسِير &nbsp;|&nbsp; ۳) نَاعِق (وصف کلاغ) &nbsp;|&nbsp; ۴) صُوَيْحِب &nbsp;|&nbsp; ۵) حَمْزَة &nbsp;|&nbsp; ۶) عَبْدُ الْأَعْلَى</b>", "hint": "به شرایط وصف (عاقل، مؤنّث با تاء) و شرایط عَلَم (بی‌تاء، اضافی در صرف الف) دقت کنید.", "answer": "• <b>۱) أَعْجَمِيّ: مجاز ← أَعْجَمِيُّونَ</b> (وصف منسوب مذکّر عاقل؛ و با تخفیف در شعراء/۱۹۸: الْأَعْجَمِينَ).<br>• <b>۲) أَسِير: غیرمجاز</b> (وصف بر وزن فَعِيل به معنای مفعول، مشترک میان مذکّر و مؤنّث بی‌تاء).<br>• <b>۳) نَاعِق: غیرمجاز</b> (وصف مذکّر غیرعاقل).<br>• <b>۴) صُوَيْحِب: مجاز ← صُوَيْحِبُونَ</b> (وصف مصغّر مذکّر عاقل).<br>• <b>۵) حَمْزَة: غیرمجاز</b> (عَلَم مذکّر دارای تاء تأنیث).<br>• <b>۶) عَبْدُ الْأَعْلَى: مجاز (طبق صرف الف) ← عَبْدُو الْأَعْلَى / عَبْدِي الْأَعْلَى</b>."}, {"id": "d11", "cat": "masc_w", "catLabel": "جمع سالم مذکّر", "level": "المپیادی", "title": "تحلیل ملحقات و کلمات فریبنده (با ظاهر ـُونَ / ـِينَ)", "prompt": "نوع کلمات زیر را دقیقاً تفکیک کنید: <b>«أَفَانِين»</b> (نامۀ ۶۵)، <b>«سِتِّينَ»</b> (مجادله/۴)، <b>«ثُبُونَ»</b> (مفرد: ثُبَة)، <b>«فِلَسْطِين و زَيْتُون»</b>، <b>«بَنِيهِ»</b> (بقره/۱۳۲).", "hint": "کدام‌یک جمع مکسّر، کدام‌یک اسم مفرد و کدام‌یک ملحق به جمع سالم مذکّر است؟", "answer": "• <b>أَفَانِين:</b> جمع مکسّر (جمع‌الجمعِ فَنّ ← أَفْنَان ← أَفَانِين)؛ «ـين» علامت جمع مذکّر نیست.<br>• <b>سِتِّينَ:</b> ملحق به جمع سالم مذکّر (اعداد عقود).<br>• <b>ثُبُونَ:</b> ملحق به جمع سالم مذکّر (از باب سِنُون؛ ثلاثی محذوف‌اللام با عوض تاء و بی‌جمع مکسّر).<br>• <b>فِلَسْطِين و زَيْتُون:</b> اسم مفردند (نون آن‌ها اصلی است).<br>• <b>بَنِيهِ:</b> ملحق به جمع سالم مذکّر (مضاف به ضمیر، حذف نون اضافه)."}, {"id": "d12", "cat": "masc_w", "catLabel": "جمع سالم مذکّر", "level": "پایه", "title": "جمع سالم مذکّر در اسم ممدود و أَفْعَل تفضیل", "prompt": "جمع سالم مذکّر مرفوع و منصوب کلمات <b>«بَنَّاء (معمّار؛ ب ن ي)، خَطَّاء (خ ط أ)، أَكْبَر، الْأَعْلَى، سَقَّاء (س ق ي)»</b> را بنویسید.", "hint": "همزۀ اصلی ثابت می‌ماند، همزۀ منقلب دووجهی است و أَفْعَل تفضیل مجاز است.", "answer": "• <b>بَنَّاء:</b> بَنَّاؤُونَ / بَنَّاوُونَ (و بَنَّائِينَ / بَنَّاوِينَ) — همزۀ منقلب از یاء.<br>• <b>خَطَّاء:</b> خَطَّاؤُونَ / خَطَّائِينَ — همزۀ اصلی غیرمنقلب.<br>• <b>أَكْبَر:</b> أَكْبَرُونَ / أَكْبَرِينَ — أَفْعَل تفضیل (استثناء مجاز).<br>• <b>الْأَعْلَى:</b> الْأَعْلَوْنَ / الْأَعْلَيْنَ — أَفْعَل تفضیلِ مقصور.<br>• <b>سَقَّاء:</b> سَقَّاؤُونَ / سَقَّاوُونَ — همزۀ منقلب از یاء."}, {"id": "d13", "cat": "fem_w", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "نکته‌سنج", "title": "کالبدشکافی عین‌الفعل در شش شاهد قرآنی و روایی", "prompt": "مفرد هر جمع را نوشته و تبیین کنید چرا عین‌الفعل در آن تغییر کرده یا ساکن/ثابت مانده است:<br><b>۱) صَدُقَات</b> (نساء/۴) &nbsp;|&nbsp; <b>۲) قُرُبَات</b> (توبه/۹۹) &nbsp;|&nbsp; <b>۳) سَوْءَات</b> (طه/۱۲۱) &nbsp;|&nbsp; <b>۴) لَذَّات</b> (حکمت ۴۳۳) &nbsp;|&nbsp; <b>۵) كِسَرَات</b> (مناقب) &nbsp;|&nbsp; <b>۶) نِعَمَات</b> (مهج)", "hint": "به حرکت فاءالفعل، متحرک/ساکن بودن عین، و اجوف/مضاعف بودن ریشه توجه کنید.", "answer": "• <b>۱) صَدُقَات (مفرد: صَدُقَة):</b> عین‌الفعل در مفرد متحرک بوده ← بی‌تغییر.<br>• <b>۲) قُرُبَات (مفرد: قُرْبَة):</b> فُعْلۀ صحیح غیرمضاعف ← سه وجهی (در آیه وجه اتباع: قُرُبَات آمده).<br>• <b>۳) سَوْءَات (مفرد: سَوْءَة):</b> اجوف (معتلّ‌العین) ← وجوب سکون عین.<br>• <b>۴) لَذَّات (مفرد: لَذَّة):</b> مضاعف ← وجوب بقای تشدید/سکون.<br>• <b>۵) كِسَرَات (مفرد: كِسْرَة):</b> فِعْلۀ صحیح غیرمضاعف ← سه وجهی (در روایت وجه فتح آمده).<br>• <b>۶) نِعَمَات (مفرد: نِعْمَة):</b> فِعْلۀ صحیح غیرمضاعف ← سه وجهی (وجه فتح: نِعَمَات)."}, {"id": "d14", "cat": "fem_w", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "نکته‌سنج", "title": "جمع سالم مؤنّث در کلمات دارای تاءِ مقصور/ممدود و محذوف‌اللام", "prompt": "جمع سالم مؤنّث کلمات <b>«سَرَاة (س ر و)، مِمْحَاة (م ح و)، عَشَاءَة (ع ش و)، سَنَة، لُغَة، عِضَة»</b> را بنویسید.", "hint": "ابتدا تاء را حذف کنید؛ اگر مقصور ۳ حرفی واوی ماند به واو، بیش از ۳ حرف به یاء، و ممدود منقلب دووجهی می‌شود.", "answer": "• <b>سَرَاة ← سَرَوَات</b> (پس از حذف تاء: ۳ حرفی واوی).<br>• <b>مِمْحَاة ← مِمْحَيَات</b> (پس از حذف تاء: بیش از ۳ حرف ← یاء).<br>• <b>عَشَاءَة ← عَشَاءَات / عَشَاوَات</b> (همزۀ منقلب از واو ← دووجهی).<br>• <b>سَنَة ← سَنَوَات</b> و <b>عِضَة ← عِضَوَات</b> (محذوف‌اللامِ با بازگشت لام).<br>• <b>لُغَة ← لُغَات</b> (محذوف‌اللامِ بدون بازگشت لام)."}, {"id": "d15", "cat": "fem_w", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "نکته‌سنج", "title": "امکان‌سنجی جمع سالم مؤنّث در ۶ کلمۀ چالشی", "prompt": "کدام‌یک از کلمات زیر جمع سالم مؤنّث بسته می‌شوند؟ (پاسخ + علت):<br><b>۱) تَارَة &nbsp;|&nbsp; ۲) حَمْقَاء &nbsp;|&nbsp; ۳) ثَكْلَى &nbsp;|&nbsp; ۴) سُتْرَة &nbsp;|&nbsp; ۵) حَيَّة &nbsp;|&nbsp; ۶) مُعَاوِيَة</b>", "hint": "به دو وزن ممنوع (فَعْلَاء مؤنّث أَفْعَل و فَعْلَى مؤنّث فَعْلَان) و احکام فُعْلَة و مضاعف دقت کنید.", "answer": "• <b>۱) تَارَة ← تَارَات</b> (معتلّ‌العین متحرک ← بی‌تغییر).<br>• <b>۲) حَمْقَاء: غیرمجاز</b> (وزن فَعْلَاء مؤنّث أَحْمَق).<br>• <b>۳) ثَكْلَى: غیرمجاز</b> (وزن فَعْلَى مؤنّث ثَكْلَان).<br>• <b>۴) سُتْرَة ← سُتْرَات / سُتَرَات / سُتُرَات</b> (فُعْلۀ صحیح غیرمضاعف ← سه وجهی).<br>• <b>۵) حَيَّة ← حَيَّات</b> (مضاعف ← بقای سکون/تشدید).<br>• <b>۶) مُعَاوِيَة ← مُعَاوِيَات</b> (عَلَم مذکّر دارای تاء تأنیث ← مورد ۲ درس ۶۵)."}, {"id": "d16", "cat": "fem_w", "catLabel": "جمع سالم مؤنّث و «فَعْلَة»", "level": "پایه", "title": "جمع سالم مؤنّثِ اسم‌های دارای الف تأنیث و صفتِ فَعْلَة", "prompt": "جمع سالم مؤنّثِ <b>«الْيُمْنَى، الْيُسْرَى، زُلَيْخَا، طَلْقَة (صفت: گشاده)، حَسْرَة، طَيْرَة (سبک‌سری)»</b> را با حرکت‌گذاری دقیق بنویسید.", "hint": "صفت مشبّهه (طَلْقَة) و اجوف (طَيْرَة) ساکن می‌مانند، اما موصوفِ فَعْلۀ صحیح (حَسْرَة) واجب‌الفتح است.", "answer": "• <b>الْيُمْنَى / الْيُسْرَى: الْيُمْنَيَات، الْيُسْرَيَات</b> (مقصور بیش از ۳ حرفِ مؤنّث تفضیل ← یاء).<br>• <b>زُلَيْخَا: زُلَيْخَيَات</b> (عَلَم مؤنّث مقصورِ بیش از ۳ حرف ← یاء).<br>• <b>طَلْقَة: طَلْقَات</b> (صفت مشبّهه ← بقای سکون).<br>• <b>حَسْرَة: حَسَرَات</b> (موصوف فَعْلۀ صحیح غیرمضاعف ← وجوب فتح).<br>• <b>طَيْرَة: طَيْرَات</b> (اجوف یائی ← بقای سکون)."}, {"id": "d17", "cat": "matrix", "catLabel": "جدول تطبیقی آزمون", "level": "المپیادی", "title": "گروه ۱ از جدول آزمون: «غَضْبَان، طَلْحَة، إِجْمَال»", "prompt": "برای هر سه کلمۀ <b>«غَضْبَان (صفت مشبّهه)، طَلْحَة (عَلَم مذکّر)، إِجْمَال (مصدر)»</b>، صورتِ <b>مثنّی، جمع سالم مذکّر و جمع سالم مؤنّث</b> (در صورت وجود شرایط) را بنویسید.", "hint": "به شرط فَعْلَان/فَعْلَى در غَضْبَان و تاء تأنیث در طَلْحَة توجه کنید.", "answer": "• <b>غَضْبَان:</b> مثنّی: <b>غَضْبَانَانِ</b> | جمع مذکّر: <b>×</b> (مؤنّثش غَضْبَى) | جمع مؤنّث: <b>×</b>.<br>• <b>طَلْحَة:</b> مثنّی: <b>طَلْحَتَانِ</b> | جمع مذکّر: <b>×</b> (دارای تاء تأنیث) | جمع مؤنّث: <b>طَلْحَات</b> (مورد ۲ درس ۶۵).<br>• <b>إِجْمَال:</b> مثنّی: <b>إِجْمَالَانِ</b> | جمع مذکّر: <b>×</b> (غیرعاقل) | جمع مؤنّث: <b>إِجْمَالَات</b> (مصدرِ غیرثلاثی / موصوف غیرعاقلِ بی‌جمع مکسّر)."}, {"id": "d18", "cat": "matrix", "catLabel": "جدول تطبیقی آزمون", "level": "المپیادی", "title": "گروه ۲ از جدول آزمون: «آخَر (أَفْعَل تفضیل)، رَكُوب (مشترک)»", "prompt": "برای دو کلمۀ <b>«آخَر (مؤنّثش أُخْرَى)»</b> و <b>«رَكُوب (وصف بر وزن فَعُول به معنای مفعول)»</b>، صورتِ مثنّی، جمع سالم مذکّر و جمع سالم مؤنّث را تعیین کنید.", "hint": "«آخَر» در اصل «أَأْخَر» بر وزن أَفْعَل تفضیل است؛ «رَكُوب» وصف مشترک میان مذکّر و مؤنّث بدون تاء است.", "answer": "• <b>آخَر:</b> مثنّی: <b>آخَرَانِ</b> | جمع مذکّر: <b>آخَرُونَ</b> (أَفْعَل تفضیل ← استثنای مجاز درس ۶۴؛ مانند آیۀ وَآخَرُونَ اعْتَرَفُوا) | جمع مؤنّث: <b>×</b> (مؤنّثش أُخْرَى ← أُخْرَيَات).<br>• <b>رَكُوب:</b> مثنّی: <b>رَكُوبَانِ</b> | جمع مذکّر: <b>×</b> (مشترک بی‌تاء) | جمع مؤنّث: <b>×</b> (اگر وصف غیرعاقل باشد مانند دَابَّة رَكُوب، جمعش مکسّر است: رُكُب)."}, {"id": "d19", "cat": "matrix", "catLabel": "جدول تطبیقی آزمون", "level": "نکته‌سنج", "title": "گروه ۳ از جدول آزمون: «فِقْرَة، زِنَة»", "prompt": "برای دو کلمۀ <b>«فِقْرَة (موصوف مکسورالفاء)»</b> و <b>«زِنَة (ثلاثی محذوف‌الفاء از و ز ن)»</b>، مثنّی، جمع سالم مذکّر و جمع سالم مؤنّث را با حرکت‌گذاری کامل بنویسید.", "hint": "«فِقْرَة» بر وزن فِعْلۀ صحیح غیرمضاعف (سه‌وجهی) است؛ «زِنَة» در اصل «وِزْنَة» بوده که فاءالفعلش حذف شده و تاء عوض آمده است.", "answer": "• <b>فِقْرَة:</b> مثنّی: <b>فِقْرَتَانِ</b> | جمع مذکّر: <b>×</b> (مؤنّث غیرعاقل) | جمع مؤنّث: <b>فِقْرَات / فِقَرَات / فِقِرَات</b> (سه وجهی).<br>• <b>زِنَة:</b> مثنّی: <b>زِنَتَانِ</b> | جمع مذکّر: <b>×</b> | جمع مؤنّث: <b>زِنَات</b> (محذوف‌الفاء، فاء محذوف بازنمی‌گردد؛ مانند سِعَات و دَعَات)."}, {"id": "d20", "cat": "matrix", "catLabel": "جدول تطبیقی آزمون", "level": "المپیادی", "title": "گروه ۴ از جدول آزمون: «مُصْطَفَى، ابْنُ الرِّضَا»", "prompt": "برای <b>«مُصْطَفَى (وصف)»</b> و <b>«ابْنُ الرِّضَا (مرکّب اضافی)»</b>، صورتِ مثنّی، جمع سالم مذکّر و جمع سالم مؤنّث (بر پایۀ «صرف الف») را بنویسید.", "hint": "در مرکّب اضافی، جزء اول (اِبْن) مثنّی یا جمع بسته شده و نون اضافه حذف می‌شود (بَنُو الرِّضَا ملحق است!).", "answer": "• <b>مُصْطَفَى:</b> مثنّی: <b>مُصْطَفَيَانِ</b> | جمع مذکّر: <b>مُصْطَفَوْنَ</b> | جمع مؤنّث: <b>×</b> (وصف مذکّر عاقل).<br>• <b>ابْنُ الرِّضَا:</b> مثنّی: <b>اِبْنَا الرِّضَا / اِبْنَيِ الرِّضَا</b> | جمع مذکّر: <b>بَنُو الرِّضَا / بَنِي الرِّضَا</b> (با ملحقِ بَنُون و حذف نون اضافه؛ یا جمع مکسّر أَبْنَاءُ الرِّضَا) | جمع مؤنّث: <b>×</b> (مذکّر عاقل)."}, {"id": "d21", "cat": "critique", "catLabel": "مثال‌آوری و نقد علمی", "level": "نکته‌سنج", "title": "تحلیل دو پرسش کلیدی درس ۶۴ و ۶۵ (تفاوت مقصور/منقوص و رَوْضَة/حَسْرَة)", "prompt": "الف) چرا در «الْمُصْطَفَى ← الْمُصْطَفَوْنَ» ماقبل واو مفتوح می‌ماند اما در «الدَّاعِي ← الدَّاعُونَ» مضموم می‌شود؟<br>ب) چرا در «رَوْضَة ← رَوْضَات» (با وجود قرار داشتن بر وزن فَعْلَة) عین‌الفعل مفتوح نمی‌شود؟", "hint": "نقش فتحه در دلالت بر الف محذوف، و پرهیز از اعلال قلبی در اجوف (رَوَضَات ← رَاضَات!) را بررسی کنید.", "answer": "<b>الف)</b> در مقصور، الف محذوف پیش از واو جمع دارای فتحه در ماقبل بوده است؛ لذا فتحه حفظ می‌شود تا نشانه‌ای برای شناختنِ مقصور بودن مفرد باشد (الْمُصْطَفَوْنَ). اما در منقوص (الدَّاعِيُونَ)، ضمّۀ روی یاء سنگین است و به ماقبل نقل شده و یاء به سبب التقای ساکنین حذف می‌شود (الدَّاعُونَ).<br><b>ب)</b> در «رَوْضَة» (اجوف واوی)، اگر واو مفتوح می‌شد (رَوَضَات)، واو متحرکِ ماقبل مفتوح ایجاد شده و مستعدّ قلب به الف می‌گردید (رَاضَات!) که هم ساخت مفرد را دگرگون می‌کرد و هم موجب اشتباه می‌شد؛ لذا سکون آن واجب است."}, {"id": "d22", "cat": "critique", "catLabel": "مثال‌آوری و نقد علمی", "level": "المپیادی", "title": "مثال‌آوری چهارگانۀ هدفمند", "prompt": "برای هر یک از موارد زیر یک مثال دقیق (همراه با صورت مثنّی یا جمع آن) بیاورید:<br>۱) عَلَم مذکّر که جمع سالم مؤنّث می‌شود ولی جمع سالم مذکّر نمی‌شود.<br>۲) وصفی که نه جمع سالم مذکّر می‌شود و نه مؤنّثش جمع سالم مؤنّث می‌شود.<br>۳) اسم ثلاثی محذوف‌اللام که در جمع مؤنّث لامش برمی‌گردد و نمونه‌ای که برنمی‌گردد.<br>۴) اسم ممدودی که در هر سه حالت (مثنّی، جمع مذکّر و جمع مؤنّث) دووجهی است.", "hint": "۱) عَلَم تاءدار؛ ۲) أَفْعَل/فَعْلَاء یا فَعْلَان/فَعْلَى؛ ۳) سَنَة و لُغَة؛ ۴) مَشَّاء / بَنَّاء (مذکّر و مؤنّث آن).", "answer": "<b>۱)</b> طَلْحَة ← طَلْحَات (جمع مذکّر ممنوع).<br><b>۲)</b> أَحْمَر / حَمْرَاء یا عَطْشَان / عَطْشَى (جمع هر دو مکسّر است).<br><b>۳)</b> بازگشت لام: سَنَة ← سَنَوَات (و عِضَة ← عِضَوَات) | عدم بازگشت: لُغَة ← لُغَات (و كُرَة ← كُرَات).<br><b>۴)</b> بَنَّاء / بَنَّاءَة (یا مَشَّاء / مَشَّاءَة): بَنَّاءَانِ/وَانِ، بَنَّاؤُونَ/وُونَ، بَنَّاءَات/وَات."}, {"id": "d23", "cat": "critique", "catLabel": "مثال‌آوری و نقد علمی", "level": "نکته‌سنج", "title": "نقد علمی ۱: دو سهو رایج در جمع سالم مؤنّثِ «حَمْرَاء» و «أَمْوَات»", "prompt": "دانش‌پژوهی نوشته است: <i>«۱) چون حَمْرَاء دارای الف تأنیث ممدوده است، جمع سالم مؤنّث آن حَمْرَاوَات می‌شود؛ ۲) چون أَمْوَات و أَبْيَات به الف و تاء ختم شده‌اند، هر دو جمع سالم مؤنّث‌اند!»</i> — هر دو ادعا را مستند به درس ۶۵ «صرف الف» نقد کنید.", "hint": "نکتۀ ص ۳۱ دربارۀ وزن فَعْلَاء (مؤنّث أَفْعَل) و نکتۀ ۲ ص ۳۰ دربارۀ تاء اصلی را بیاورید.", "answer": "<b>۱) نقد حَمْرَاء:</b> طبق نکتۀ گام سوم درس ۶۵ (ص ۳۱)، وزن «فَعْلَاء» که مؤنّث «أَفْعَل» است (حَمْرَاء، خَضْرَاء، بَيْضَاء) با وجود الف تأنیث، جمع سالم مؤنّث <b>نمی‌شود</b> و جمعش مکسّر است (حُمْر). مثال صحیح برای همزۀ تأنیثِ جمع‌پذیر «صَحْرَاء ← صَحْرَاوَات» است.<br><b>۲) نقد أَمْوَات و أَبْيَات:</b> مفرد آن‌ها «مَيِّت / مَيْت» و «بَيْت» است که حرف «تاء» در آن‌ها <b>اصلی</b> است نه زائد؛ پس هر دو بر وزن أَفْعَال و <b>جمع مکسّرند</b>."}, {"id": "d24", "cat": "critique", "catLabel": "مثال‌آوری و نقد علمی", "level": "المپیادی", "title": "نقد علمی ۲: پنج خطای پرتکرار طلاب در آزمون مثنّی و جمع‌های سالم", "prompt": "در برگۀ یک طلبه این پنج پاسخ دیده شده است؛ خطای هر یک را دقیقاً اصلاح کنید:<br>۱) مُصْطَفَى (مثنّی) ← مُصْطَفَوَانِ &nbsp;|&nbsp; ۲) عَبْدُ اللَّهِ (جمع مذکّر) ← عَبْدُونَ اللَّهِ &nbsp;|&nbsp; ۳) غَضْبَان (جمع مذکّر) ← غَضْبَانُونَ &nbsp;|&nbsp; ۴) دَم (مثنّی) ← دَمَوَانِ &nbsp;|&nbsp; ۵) حُجْرَة (جمع مؤنّث) ← فقط حُجَرَات.", "hint": "قاعدۀ بیش از ۳ حرف مقصور، حذف نون اضافه، شرط فَعْلَان، استثنای چهارگانه و سه‌وجهی بودن فُعْلَة.", "answer": "<b>۱) مُصْطَفَى:</b> بیش از ۳ حرف است ← <b>مُصْطَفَيَانِ</b> (نه با واو).<br><b>۲) عَبْدُ اللَّهِ:</b> نون جمع هنگام اضافه حذف می‌شود ← <b>عَبْدُو اللَّهِ</b>.<br><b>۳) غَضْبَان:</b> مؤنّثش غَضْبَى است ← جمع سالم مذکّر بسته <b>نمی‌شود</b>.<br><b>۴) دَم:</b> از چهار استثنای درس ۶۳ است ← <b>دَمَانِ</b> (لام برنمی‌گردد).<br><b>۵) حُجْرَة:</b> بر وزن فُعْلۀ صحیح غیرمضاعف است و هر <b>سه وجه</b> (حُجْرَات، حُجَرَات، حُجُرَات) جایز است نه فقط فتح."}], "research": [{"id": "res1", "tag": "قرآنی و بلاغی", "badge": "پژوهش ۱", "title": "راز بلاغی تغلیب در «طَائِعِينَ» و ارادۀ تکرار و کثرت از مثنّی", "verses": "﴿ائْتِيَا طَوْعاً أَوْ كَرْهاً قَالَتَا أَتَيْنَا طَائِعِينَ﴾ (فصّلت/۱۱)  |  ﴿ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنْقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئاً﴾ (ملک/۴)", "body": ["<b>۱) چرا «طَائِعِينَ» به جای «طَائِعَتَيْنِ»؟</b> مخاطب در آیۀ ۱۱ سورۀ فصّلت، آسمان و زمین‌اند (مؤنّث و غیرعاقل و دو تا)؛ اما در جوابِ آن‌ها به جای مثنّای مؤنّث (طَائِعَتَيْنِ)، صیغۀ جمع سالم مذکّر عاقل (<b>طَائِعِينَ</b>) آمده است. مفسّران و ادیبان دو راز بلاغی برای این انتخاب ذکر کرده‌اند: نخست <b>آرایۀ تشخیص (جان‌بخشی و تنزیل به منزلۀ عاقل)</b>؛ زیرا آسمان و زمین با خداوند سخن گفتند و اطاعتِ آگاهانه اظهار کردند، پس از آنان به صیغۀ عقلاء تعبیر شد. دوم <b>لحاظ آسمان‌ها و زمین و همۀ موجوداتِ درون آن‌ها</b>، که از باب تغلیب، صیغۀ جمع مذکّر عاقل بر کلّ آن‌ها اطلاق گردیده است.", "<b>۲) ارادۀ تکرار و کثرت از قالب مثنّی:</b> در ﴿ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ﴾ (ملک/۴) و نیز در تلبیۀ حج «لَبَّيْكَ وَسَعْدَيْكَ وَحَنَانَيْكَ»، مراد از مثنّی صرفاً عدد دو نیست؛ بلکه در بلاغت عربی گاهی تثنیه برای بیان <b>تکرارِ پی‌درپی و کثرتِ نامحدود</b> (بارها و بارها بنگر تا ناتوانی چشم خود را در یافتن خللی در آفرینش دریابی) به کار می‌رود."], "questions": ["چگونه می‌توان تفاوت میان «قَالَتَا» (فعل مثنّای مؤنّث) و «طَائِعِينَ» (جمع سالم مذکّر عاقل) در یک آیۀ واحد را تبیین کرد؟", "نمونۀ دیگری از قرآن بیابید که در آن برای موجودات غیرعاقل به جهت نسبت دادنِ فعلِ عقلاء، جمع سالم مذکّر به کار رفته باشد (راهنما: یوسف/۴ ﴿رَأَيْتُهُمْ لِي سَاجِدِينَ﴾)."], "sources": ["محمود بن عمر زمخشری، الکشّاف عن حقائق غوامض التنزیل، ذیل آیۀ ۱۱ سورۀ فصّلت و آیۀ ۴ سورۀ ملک.", "امین‌الاسلام شیخ طبرسی، مجمع البیان فی تفسیر القرآن، ذیل فصّلت/۱۱ و ملک/۴.", "علّامه سیّد محمّدحسین طباطبایی، المیزان فی تفسیر القرآن، ج ۱۷ و ج ۱۹، ذیل دو آیۀ مذکور."]}, {"id": "res2", "tag": "فقهی و تفسیری", "badge": "پژوهش ۲", "title": "کاربست ملحق مثنّی («اثْنَتَيْنِ») در استنباط فقهی آیات ارث", "verses": "﴿فَإِنْ كُنَّ نِسَاءً فَوْقَ اثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ﴾ (نساء/۱۱)  |  ﴿فَإِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثَانِ مِمَّا تَرَكَ﴾ (نساء/۱۷۶)", "body": ["در آیۀ ۱۷۶ سورۀ نساء (که به عنوان شاهد ملحق مثنّی در تمرین درس ۶۳ «صرف الف» آمده)، سهمِ <b>دو خواهر</b> (اثْنَتَيْنِ) به صراحت «دو سوم» (الثُّلُثَانِ) بیان شده است. اما در آیۀ ۱۱ سورۀ نساء دربارۀ سهم دختران آمده: «فَوْقَ اثْنَتَيْنِ» (بیش از دو دختر = دو سوم) و سهمِ یک دختر «نصف» ذکر شده، ولی به ظاهر نامی از سهمِ دقیق <b>دو دختر</b> برده نشده است!", "<b>تحلیل فقهی و استنباط فقهای امامیه:</b> در اینجا مسئله‌ای معروف میان فقها شکل گرفته که آیا سهم دو دختر همان دو سوم است (قول مشهور و اجماعی امامیه) یا نصف؟ فقهای شیعه علاوه بر روایات قطعی اهل‌بیت (ع)، دو استدلال قرآنیِ مبتنی بر مقایسۀ همین دو آیه اقامه کرده‌اند: ۱) <b>قیاس اولویت (فحوای خطاب):</b> وقتی در آیۀ ۱۷۶ دو خواهر (که از طبقۀ دوم ارث‌اند) دو سوم می‌برند، دو دختر (که از طبقۀ اول و نزدیک‌تر به میّت‌اند) به طریق اولی کمتر از دو سوم نخواهند برد؛ ۲) <b>بلاغت لفظی «فَوْقَ اثْنَتَيْنِ»:</b> در آغاز آیه، سهم یک دختر (وَاحِدَة) نصف بیان شده و در تقابل آن «دو دختر و بیشتر» دو سوم می‌برند و قید «فَوْقَ» برای دفع توهّمِ افزایش سهم با افزایش تعداد دختران (بیش از دو سوم نشدن) آمده است."], "questions": ["از نظر صرفی، چرا «اثْنَتَيْنِ» ملحق به مثنّی و «الثُّلُثَانِ» مثنّی حقیقی به شمار می‌آیند؟", "با مراجعه به «کنز العرفان»، نقش روایات اهل‌بیت (ع) در حلّ اجمال ظاهریِ «فَوْقَ اثْنَتَيْنِ» چیست؟"], "sources": ["فاضل مقداد سیوری، کنز العرفان فی فقه القرآن، کتاب المواریث، ذیل آیات ۱۱ و ۱۷۶ سورۀ نساء.", "مقدّس اردبیلی، زبدة البیان فی أحکام القرآن، کتاب المواریث.", "امین‌الاسلام شیخ طبرسی، مجمع البیان فی تفسیر القرآن، ج ۳، ذیل آیات ۱۱ و ۱۷۶ نساء."]}, {"id": "res3", "tag": "فقهی و اصولی", "badge": "پژوهش ۳", "title": "قاعدۀ «تغلیب در جمع سالم مذکّر» و اثر آن در خطابات شرعی", "verses": "﴿يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ﴾ (بقره/۱۸۳)  |  ﴿إِنَّ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ...﴾ (احزاب/۳۵)", "body": ["یکی از پیوندهای عمیقِ علم صرف با اصول فقه، مسئلۀ <b>تغلیب مذکّر بر مؤنّث در جمع سالم مذکّر</b> است. با آنکه در درس ۶۴ آموختیم جمع سالم مذکّر (الْمُؤْمِنُونَ، الْمُسْلِمُونَ) برای وصف مذکّر عاقل وضع شده، در استعمال فصیح عربی و خطاب‌های قرآن کریم هرگاه گروهی مرکّب از مردان و زنان باشند، به حکم <b>تغلیب</b> با جمع سالم مذکّر خطاب می‌شوند.", "<b>نکتۀ دقیق اصولی (تفاوت تغلیب با تفکیک در احزاب/۳۵):</b> اصولیان در مبحث «الفاظ و عموم» بحث می‌کنند که آیا خطاب‌هایی مانند ﴿قَدْ أَفْلَحَ الْمُؤْمِنُونَ﴾ یا ﴿إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ﴾ بالاصالة شامل زنان نیز هست یا نیاز به قرینه دارد؟ مشهور آن است که در خطابات عامۀ دینی، به جهت قرینۀ اشتراک در تکلیف و عرف تغلیب، زنان نیز مشمول حکم‌اند. در عین حال، در سورۀ احزاب آیۀ ۳۵، خداوند ده صفت را هم به صورت جمع سالم مذکّر و هم جمع سالم مؤنّث در کنار هم ذکر فرموده (الْمُسْلِمِينَ وَالْمُسْلِمَاتِ...) تا ضمن تکریم صریح بانوان (در پاسخ به پرسش برخی زنان صدر اسلام)، تساوی کامل آنان در پاداش معنوی تثبیت گردد."], "questions": ["در آیۀ ۳۵ سورۀ احزاب چند جفت جمع سالم مذکّر و جمع سالم مؤنّث به کار رفته است؟ آن‌ها را استخراج کنید.", "تفاوت «تغلیب» در مثنّی (مانند أَبَوَانِ و قَمَرَانِ) با «تغلیب» در جمع سالم مذکّر (مانند الْمُؤْمِنُونَ) چیست؟"], "sources": ["آخوند خراسانی، کفایة الأصول، مقصد عام و خاص (مبحث شمول خطابات مذکّر نسبت به إناث).", "علّامه سیّد محمّدحسین طباطبایی، المیزان فی تفسیر القرآن، ج ۱۶، ذیل آیۀ ۳۵ سورۀ احزاب.", "شیخ طبرسی، مجمع البیان، ذیل آیۀ ۳۵ احزاب (شأن نزول آیه)."]}, {"id": "res4", "tag": "قرآنی و لغوی", "badge": "پژوهش ۴", "title": "کاوش معنایی و تفسیریِ ملحقاتِ قرآنیِ جمع‌های سالم", "verses": "﴿كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ * وَمَا أَدْرَاكَ مَا عِلِّيُّونَ﴾ (مطفّفین/۱۸–۱۹)  |  ﴿الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ﴾ (فاتحه/۲)", "body": ["بسیاری از واژگان محوری قرآن در شمار «ملحقات جمع سالم مذکّر و مؤنّث» قرار دارند که شناخت دقیق مفرد یا علت ملحق بودنشان، افق معنایی آیات را روشن‌تر می‌کند:", "<b>۱) «عِلِّيُّونَ» (مطفّفین/۱۸–۱۹):</b> از ریشۀ «ع ل و» (بلندی و رفعت) گرفته شده و عَلَمِ برترین جایگاه نامۀ نیکان (یا بالاترین درجات بهشت) است. به دلیل عَلَم بودن برای مکان (غیرعاقل) و نداشتن مفردِ واقعی، ملحق به جمع سالم مذکّر است و آوردن آن در قالب جمع، بیانگر <b>بلندی‌های تو در تو و رفعتِ بی‌نهایت</b> آن مقام است.<br><b>۲) «الْعَالَمِينَ» (فاتحه/۲):</b> مفردش «عَالَم» (به فتح لام) اسم جمع و شامل عاقل و غیرعاقل است؛ بنابراین شرط عَلَم یا وصف مذکّر عاقل را ندارد و ملحق است.<br><b>۳) «أُولُو» و «أُولَات» (آل‌عمران/۷، طلاق/۶):</b> اسم جمع به معنای «صاحبان» که مفردی از لفظ خود ندارند (مفرد معنایی: ذُو و ذَات)؛ لذا اولی ملحق به جمع مذکّر و دومی ملحق به جمع مؤنّث است."], "questions": ["چرا در سورۀ فاتحه به جای «الْعَوَالِم» (جمع مکسّر)، ملحقِ «الْعَالَمِينَ» به کار رفته است؟", "علّت ملحق شمرده شدنِ «عَرَفَات» (بقره/۱۹۸) و «أَهْلُونَ» (فتح/۱۱) را با هم مقایسه کنید."], "sources": ["راغب اصفهانی، المفردات فی غریب القرآن، مدخل‌های «علو»، «علم» و «عرف».", "شیخ طوسی، التبیان فی تفسیر القرآن، ذیل فاتحه/۲ و مطفّفین/۱۸–۱۹.", "ابوالبقاء عکبری، التبیان فی إعراب القرآن، ذیل مطفّفین/۱۸ و طلاق/۶."]}, {"id": "res5", "tag": "متون مرجع", "badge": "پژوهش ۵", "title": "هم‌نشینی با متون مرجع ۱: راز تحرّک و سکون عین‌الفعل در «فَعْلَة»", "verses": "«إِذَا جُمِعَ نَحْوُ تَمْرَةٍ بِالْأَلِفِ وَالتَّاءِ فُتِحَتْ عَيْنُهُ؛ وَنَحْوُ كِسْرَةٍ وَحُجْرَةٍ فِيهِ الْإِتْبَاعُ وَالْفَتْحُ وَالْإِسْكَانُ، إِلَّا فِي نَحْوِ جَوْزَةٍ وَبَيْضَةٍ وَضَخْمَةٍ فَالسُّكُونُ لَا غَيْرُ.»", "body": ["<b>ترجمۀ عبارت مرجع:</b> «هرگاه مانندِ تَمْرَة با الف و تاء جمع بسته شود، عین‌الفعل آن مفتوح می‌گردد؛ و در مانندِ كِسْرَة و حُجْرَة، اتباع و فتح و اسکان جایز است؛ مگر در مانندِ جَوْزَة، بَيْضَة و ضَخْمَة که فقط سکون جایز است و بس.»", "<b>تحلیل علل صرفیِ این قاعده در شرح شافیه و شرح نظام:</b><br>۱) <b>چرا در «تَمْرَة ← تَمَرَات» عین‌الفعل مفتوح می‌شود؟</b> برای ایجاد تناسب و سبک شدن تلفظ (اتباعِ فتحۀ فاءالفعل به عین‌الفعل در اسم ثلاثی ساکن‌العین).<br>۲) <b>چرا در اجوف (جَوْزَة، بَيْضَة، رَوْضَة) فتح ممتنع است؟</b> زیرا با فتحۀ عین، واو یا یاء متحرکِ ماقبل مفتوح پدید می‌آید که موجب اعلال قلبی به الف (جَازَات، رَاضَات!) و دگرگونی کامل کلمه می‌شود.<br>۳) <b>چرا در مضاعف (جَدَّة، عَمَّة) ساکن می‌ماند؟</b> زیرا عین‌الفعل در لام‌الفعل ادغام شده و فکّ آن موجب سنگینی است.<br>۴) <b>چرا صفت (ضَخْمَة، عَبْلَة) ساکن می‌ماند؟</b> برای <b>تفکیک لفظی میان اسمِ موصوف و صفت</b> و نیز چون صفت در اصل شباهت به فعل دارد و کمتر پذیرای تغییر در بناء است."], "questions": ["در وزن «فِعْلَة» و «فُعْلَة» اگر لام‌الفعل یائی یا واوی باشد (مانند «خُطْوَة» و «رِشْوَة»)، کدام‌یک از سه وجه به جهت پرهیز از ثقلِ خروج از ضمّه به یاء یا از کسره به واو نامطلوب است؟", "به کدام لغتِ شاذّ عربی در «جَوْزَة و بَيْضَة» (لغت هُذَیل) عین‌الفعل مفتوح شده است؟"], "sources": ["رضی‌الدین استرآبادی، شرح شافیۀ ابن‌الحاجب، ج ۲، باب جمع المؤنّث السالم (ص ۱۹۶–۲۰۴).", "نظام‌الدین اعرج نیشابوری، شرح النظام علی الشافیة، مبحث جمع بالألف والتاء.", "ابن‌عقیل، شرح ابن عقیل علی ألفیة ابن مالک، باب جمع المؤنّث السالم."]}, {"id": "res6", "tag": "متون مرجع", "badge": "پژوهش ۶", "title": "هم‌نشینی با متون مرجع ۲: اختلاف مبنا در محذوف‌اللام، همزۀ الحاقی و جمع به جای تثنیه", "verses": "﴿إِنْ تَتُوبَا إِلَى اللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا﴾ (تحریم/۴)  |  «فَحَبَسَا نِسَاءَهُمَا فِي بُيُوتِهِمَا» (نهج‌البلاغه، خطبۀ ۱۷۲)", "body": ["<b>۱) ظرافتِ کاربرد «جمع به جای تثنیه» در مضاف به مثنّی:</b> در زبان فصیح عربی هرگاه دو چیزِ متّصل به دو فرد (مانند دو قلب از دو نفر در ﴿صَغَتْ قُلُوبُكُمَا﴾، یا دو خانه از دو نفر در خطبۀ ۱۷۲) به ضمیر تثنیه اضافه شوند، ادیبان به دلیل <b>کراهتِ جمع شدنِ دو تثنیه کنار هم</b> (قَلْبَاكُمَا / بَيْتَيْهِمَا)، فصیح‌تر می‌دانند که مضاف را به صورت جمع (قُلُوبُكُمَا، بُيُوتِهِمَا) بیاورند (و گاه نیز مفرد می‌آورند).", "<b>۲) تبیین دو نکتۀ تکمیلی در متون مفصّل صرفی:</b><br>• <b>تثنیۀ «دَم» و «فَم»:</b> مشهور و مختار در «صرف الف» (ص ۱۸) عدم بازگشت لام است (دَمَانِ، فَمَانِ)؛ اما در برخی اشعار کهن و کتب مرجع، بازگشت لام به ندرت گزارش شده است (دَمَيَانِ، فَمَوَانِ).<br>• <b>همزۀ الحاقی در اسم ممدود:</b> در کتب مفصّل‌تر (همچون «صرف ساده» و «شذا العرف»)، قسم چهارمی برای همزۀ ممدود به نام «همزۀ الحاق» (مانند عِلْبَاء: پیِ گردن، و سِيمَاء) ذکر می‌شود که حکم آن همانند همزۀ منقلب، <b>دووجهی</b> (بقا یا قلب به واو: عِلْبَاءَانِ / عِلْبَاوَانِ؛ سِيمَاؤُونَ / سِيمَاوُونَ) است."], "questions": ["با توجه به نکتۀ کراهتِ اضافۀ تثنیه به تثنیه، عبارت «إِلَى حِلْيَتَيْهِمَا وَتَاجَيْهِمَا» (در روایات بحار) چگونه توجیه می‌شود؟", "در امتحان رسمی «صرف الف»، دربارۀ تثنیۀ «دَم» و «فَم» کدام پاسخ قطعی و ملاک نمره است؟"], "sources": ["احمد بن محمّد حملاوی، شذا العرف فی فنّ الصرف، باب المثنّی و باب الجمع السالم.", "مصطفی غلایینی، جامع الدروس العربیة، ج ۲، مبحث المثنّی و جمع المذکّر والمؤنّث السالمین.", "رضی‌الدین استرآبادی، شرح شافیۀ ابن‌الحاجب، ج ۲، مبحث تثنیة الممدود والمحذوف اللام."]}]};
+
+const STORAGE_KEY = 'sarfB_kargah25_remz3_v1';
+const LETTERS = ['الف', 'ب', 'ج', 'د'];
+
+let state = {
+  theme: 'hawza',
+  font: 'nazanin',
+  fontSize: 17,
+  lineHeight: 1.85,
+  examMode: 'learn',
+  examSubmitted: false,
+  examAnswers: {},
+  descMastered: {},
+  descScratch: {},
+  resNotes: {},
+  bookmarks: {}
+};
+
+let ui = {
+  nounCat: 'all',
+  selectedNounId: 'n5',
+  ruleCat: 'all',
+  examCat: 'all',
+  examOnlyWrong: false,
+  descCat: 'all',
+  resTag: 'all',
+  timerSec: 25 * 60,
+  timerRunning: false,
+  timerId: null
+};
+
+function toFa(v) {
+  return String(v).replace(/\d/g, d => '۰۱۲۳۴۵۶۷۸۹'[d]).replace(/\./g, '٫');
+}
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) state = Object.assign(state, JSON.parse(raw));
+  } catch (e) {}
+}
+function saveState() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch (e) {}
+  updateKPIs();
+}
+
+function applyAppearance() {
+  document.documentElement.setAttribute('data-theme', state.theme);
+  document.documentElement.setAttribute('data-font', state.font);
+  document.documentElement.style.setProperty('--base-size', state.fontSize + 'px');
+  document.documentElement.style.setProperty('--base-lh', state.lineHeight);
+  document.getElementById('size-slider').value = state.fontSize;
+  document.getElementById('size-val').textContent = toFa(state.fontSize);
+  document.getElementById('lh-slider').value = state.lineHeight;
+  document.getElementById('lh-val').textContent = toFa(Number(state.lineHeight).toFixed(2));
+  document.querySelectorAll('.theme-opt[data-t]').forEach(b => b.classList.toggle('active', b.dataset.t === state.theme));
+  document.querySelectorAll('.theme-opt[data-f]').forEach(b => b.classList.toggle('active', b.dataset.f === state.font));
+}
+function setTheme(t) { state.theme = t; applyAppearance(); saveState(); }
+function setFont(f) { state.font = f; applyAppearance(); saveState(); }
+function setFontSize(v) { state.fontSize = Number(v); applyAppearance(); saveState(); }
+function setLineHeight(v) { state.lineHeight = Number(v); applyAppearance(); saveState(); }
+function resetAppearance() {
+  state.theme = 'hawza'; state.font = 'nazanin'; state.fontSize = 17; state.lineHeight = 1.85;
+  applyAppearance(); saveState();
+}
+function openDrawer() {
+  document.getElementById('drawer-backdrop').classList.add('open');
+  document.getElementById('settings-drawer').classList.add('open');
+}
+function closeDrawer() {
+  document.getElementById('drawer-backdrop').classList.remove('open');
+  document.getElementById('settings-drawer').classList.remove('open');
+}
+
+function switchTab(tabId) {
+  document.querySelectorAll('.module-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+  const panel = document.getElementById('panel-' + tabId);
+  if (panel) panel.classList.add('active');
+  const btn = document.querySelector(`.nav-tab[data-tab="${tabId}"]`);
+  if (btn) btn.classList.add('active');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateKPIs() {
+  const ansCount = Object.keys(state.examAnswers).length;
+  const totalMcq = DATA.mcqs.length;
+  document.getElementById('kpi-exam-txt').textContent = `${toFa(ansCount)} از ${toFa(totalMcq)}`;
+  document.getElementById('kpi-exam-bar').style.width = `${Math.round((ansCount / totalMcq) * 100)}%`;
+
+  const mastCount = Object.values(state.descMastered).filter(Boolean).length;
+  const totalDesc = DATA.desc.length;
+  document.getElementById('kpi-desc-txt').textContent = `${toFa(mastCount)} از ${toFa(totalDesc)}`;
+  document.getElementById('kpi-desc-bar').style.width = `${Math.round((mastCount / totalDesc) * 100)}%`;
+
+  const bmCount = Object.values(state.bookmarks).filter(Boolean).length;
+  const noteCount = Object.values(state.resNotes).filter(s => s && s.trim()).length;
+  document.getElementById('kpi-bm-txt').textContent = `${toFa(bmCount)} نشان | ${toFa(noteCount)} یادداشت`;
+  document.getElementById('kpi-bm-bar').style.width = `${Math.min(100, (bmCount + noteCount) * 8)}%`;
+}
+
+function toggleBookmark(key, rerenderFn) {
+  state.bookmarks[key] = !state.bookmarks[key];
+  if (!state.bookmarks[key]) delete state.bookmarks[key];
+  saveState();
+  if (rerenderFn) rerenderFn();
+}
+
+// ============================================================================
+// MODULE 1: INTERACTIVE NOUN TRANSFORMATION LAB & RULE EXPLORER
+// ============================================================================
+function setNounCat(cat, btn) {
+  ui.nounCat = cat;
+  document.querySelectorAll('#noun-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  const visible = DATA.nounLab.filter(n => cat === 'all' || n.cat === cat);
+  if (visible.length && !visible.some(n => n.id === ui.selectedNounId)) {
+    ui.selectedNounId = visible[0].id;
+  }
+  renderNounLab();
+}
+
+function selectNoun(id) {
+  ui.selectedNounId = id;
+  renderNounLab();
+}
+
+function renderNounLab() {
+  const list = DATA.nounLab.filter(n => ui.nounCat === 'all' || n.cat === ui.nounCat);
+  document.getElementById('noun-grid').innerHTML = list.map(n => `
+    <div class="noun-tile ${n.id === ui.selectedNounId ? 'selected' : ''}" onclick="selectNoun('${n.id}')">
+      <div class="noun-cat-lbl">${n.catLabel}</div>
+      <div class="noun-word">${n.word}</div>
+    </div>
+  `).join('');
+
+  const cur = DATA.nounLab.find(n => n.id === ui.selectedNounId) || DATA.nounLab[0];
+  function statusBadge(st) {
+    if (st === 'ok') return '<span class="pill pill-wajib">مجاز بی‌تغییر</span>';
+    if (st === 'change') return '<span class="pill pill-jaiz">مجاز با تغییر / ویژه</span>';
+    return '<span class="pill pill-mumtani">غیرمجاز</span>';
+  }
+  document.getElementById('noun-inspector').innerHTML = `
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;">
+      <div>
+        <strong style="color:var(--primary);font-size:1.08em;">کالبدشکافی صرفی: <span class="ar ar-target">${cur.word}</span></strong>
+        <span style="margin-right:10px;color:var(--ink-muted);font-size:0.92em;">(${cur.kind})</span>
+      </div>
+      <span class="pill pill-info">${cur.catLabel}</span>
+    </div>
+    <div class="inspector-3col">
+      <div class="insp-card st-${cur.dual.st}">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <strong style="color:var(--primary);">۱. اسم مثنّی (درس ۶۳)</strong>
+          ${statusBadge(cur.dual.st)}
+        </div>
+        <div class="insp-form">${cur.dual.form}</div>
+        <div style="font-size:0.9em;">${cur.dual.rule}</div>
+      </div>
+      <div class="insp-card st-${cur.masc.st}">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <strong style="color:var(--primary);">۲. جمع سالم مذکّر (درس ۶۴)</strong>
+          ${statusBadge(cur.masc.st)}
+        </div>
+        <div class="insp-form">${cur.masc.form}</div>
+        <div style="font-size:0.9em;">${cur.masc.rule}</div>
+      </div>
+      <div class="insp-card st-${cur.fem.st}">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <strong style="color:var(--primary);">۳. جمع سالم مؤنّث (درس ۶۵)</strong>
+          ${statusBadge(cur.fem.st)}
+        </div>
+        <div class="insp-form">${cur.fem.form}</div>
+        <div style="font-size:0.9em;">${cur.fem.rule}</div>
+      </div>
+    </div>
+  `;
+}
+
+function setRuleCat(cat, btn) {
+  ui.ruleCat = cat;
+  document.querySelectorAll('#rule-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderRules();
+}
+
+function renderRules() {
+  const q = (document.getElementById('rule-search').value || '').trim();
+  const list = DATA.rules.filter(r => {
+    if (ui.ruleCat !== 'all' && r.cat !== ui.ruleCat) return false;
+    if (q) return `${r.title} ${r.formula} ${r.desc} ${r.example}`.includes(q);
+    return true;
+  });
+  const container = document.getElementById('rules-grid');
+  if (!list.length) {
+    container.innerHTML = `<div style="grid-column:1/-1;text-align:center;color:var(--ink-muted);padding:20px;">موردی مطابق جستجوی شما یافت نشد.</div>`;
+    return;
+  }
+  container.innerHTML = list.map(r => `
+    <article class="rule-card">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;">
+        <strong style="color:var(--primary);font-size:1.02em;">${r.title}</strong>
+        <span class="pill pill-${r.type}">${r.badge}</span>
+      </div>
+      <div class="rule-formula ar">${r.formula}</div>
+      <div style="font-size:0.94em;">${r.desc}</div>
+      <div class="rule-example"><b>شاهد و نمونه:</b> <span class="ar">${r.example}</span></div>
+    </article>
+  `).join('');
+}
+
+// ============================================================================
+// MODULE 2: OLYMPIAD MCQ EXAM ENGINE
+// ============================================================================
+function setExamMode(mode) {
+  state.examMode = mode;
+  document.getElementById('mode-learn').classList.toggle('active', mode === 'learn');
+  document.getElementById('mode-timed').classList.toggle('active', mode === 'timed');
+  document.getElementById('timer-box').style.display = mode === 'timed' ? 'inline-flex' : 'none';
+  if (mode === 'learn' && ui.timerRunning) toggleTimer();
+  saveState();
+  renderMCQs();
+}
+
+function toggleTimer() {
+  const btn = document.getElementById('timer-toggle-btn');
+  if (ui.timerRunning) {
+    clearInterval(ui.timerId); ui.timerRunning = false; btn.textContent = 'ادامه';
+  } else {
+    ui.timerRunning = true; btn.textContent = 'توقف';
+    ui.timerId = setInterval(() => {
+      if (ui.timerSec <= 0) {
+        clearInterval(ui.timerId); ui.timerRunning = false; btn.textContent = 'پایان'; submitExam(); return;
+      }
+      ui.timerSec--; renderTimer();
+    }, 1000);
+  }
+}
+
+function renderTimer() {
+  const m = String(Math.floor(ui.timerSec / 60)).padStart(2, '0');
+  const s = String(ui.timerSec % 60).padStart(2, '0');
+  document.getElementById('timer-display').textContent = toFa(`${m}:${s}`);
+}
+
+function setExamCat(cat, btn) {
+  ui.examCat = cat; ui.examOnlyWrong = false;
+  document.querySelectorAll('#exam-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderMCQs();
+}
+
+function filterExamWrong() { ui.examOnlyWrong = !ui.examOnlyWrong; renderMCQs(); }
+
+function selectMcqOption(mcqId, optIdx) {
+  if (state.examMode === 'timed' && state.examSubmitted) return;
+  state.examAnswers[mcqId] = optIdx;
+  saveState();
+  renderMCQs();
+  if (state.examSubmitted) renderReportCard();
+}
+
+function submitExam() {
+  state.examSubmitted = true;
+  if (ui.timerRunning) toggleTimer();
+  saveState();
+  renderReportCard();
+  renderMCQs();
+  document.getElementById('exam-report').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function resetExam() {
+  state.examAnswers = {}; state.examSubmitted = false; ui.examOnlyWrong = false;
+  if (ui.timerRunning) toggleTimer();
+  ui.timerSec = 25 * 60; renderTimer();
+  document.getElementById('timer-toggle-btn').textContent = 'شروع';
+  document.getElementById('exam-report').classList.remove('show');
+  saveState();
+  renderMCQs();
+}
+
+function renderReportCard() {
+  const card = document.getElementById('exam-report');
+  if (!state.examSubmitted) { card.classList.remove('show'); return; }
+  card.classList.add('show');
+
+  let correct = 0, wrong = 0, blank = 0;
+  const topicStats = {};
+  DATA.mcqs.forEach(m => {
+    if (!topicStats[m.catLabel]) topicStats[m.catLabel] = { total: 0, ok: 0 };
+    topicStats[m.catLabel].total++;
+    const a = state.examAnswers[m.id];
+    if (a === undefined) blank++;
+    else if (a === m.ans) { correct++; topicStats[m.catLabel].ok++; }
+    else wrong++;
+  });
+
+  const pct = Math.round((correct / DATA.mcqs.length) * 100);
+  document.getElementById('score-ring').style.strokeDashoffset = 389.56 * (1 - pct / 100);
+  document.getElementById('report-pct').textContent = toFa(pct) + '٪';
+  let grade = 'نیازمند مرور مجدد';
+  if (pct >= 90) grade = 'ممتاز (تراز المپیاد)';
+  else if (pct >= 75) grade = 'خیلی خوب (نکته‌سنج)';
+  else if (pct >= 60) grade = 'خوب (قابل قبول)';
+  document.getElementById('report-grade').textContent = grade;
+
+  document.getElementById('report-summary').innerHTML = `
+    <span class="pill pill-wajib">پاسخ صحیح: ${toFa(correct)}</span>
+    <span class="pill pill-mumtani">پاسخ غلط: ${toFa(wrong)}</span>
+    <span class="pill pill-info">بی‌پاسخ: ${toFa(blank)}</span>
+    <span class="pill pill-extra">نمره از ۲۰: ${toFa(((correct / DATA.mcqs.length) * 20).toFixed(1))}</span>
+  `;
+
+  document.getElementById('report-topics').innerHTML = Object.entries(topicStats).map(([lbl, st]) => {
+    const tp = Math.round((st.ok / st.total) * 100);
+    return `<div class="topic-bar-row">
+      <div class="topic-bar-head"><span>${lbl}</span><span>${toFa(st.ok)} از ${toFa(st.total)} (${toFa(tp)}٪)</span></div>
+      <div class="topic-bar-track"><div class="topic-bar-fill" style="width:${tp}%"></div></div>
+    </div>`;
+  }).join('');
+}
+
+function renderMCQs() {
+  const list = DATA.mcqs.filter(m => {
+    if (ui.examOnlyWrong) return state.examAnswers[m.id] !== m.ans;
+    if (ui.examCat === 'bookmarked') return !!state.bookmarks['mcq_' + m.id];
+    if (ui.examCat !== 'all' && m.cat !== ui.examCat) return false;
+    return true;
+  });
+
+  const el = document.getElementById('mcq-list');
+  if (!list.length) {
+    el.innerHTML = `<div class="card" style="text-align:center;color:var(--ink-muted);">پرسشی در این فیلتر وجود ندارد.</div>`;
+    return;
+  }
+
+  el.innerHTML = list.map(m => {
+    const chosen = state.examAnswers[m.id];
+    const reveal = (state.examMode === 'learn' && chosen !== undefined) || state.examSubmitted;
+    const isBm = !!state.bookmarks['mcq_' + m.id];
+    const lvlCls = m.level === 'المپیادی' ? 'pill-extra' : (m.level === 'نکته‌سنج' ? 'pill-jaiz' : 'pill-info');
+
+    const optsHtml = m.opts.map((o, idx) => {
+      let cls = 'mcq-opt';
+      if (reveal) {
+        if (idx === m.ans) cls += ' correct';
+        else if (idx === chosen && chosen !== m.ans) cls += ' wrong';
+      } else if (idx === chosen) cls += ' selected';
+      return `<button class="${cls}" onclick="selectMcqOption(${m.id}, ${idx})">
+        <span class="opt-letter">${LETTERS[idx]}</span><span>${o}</span>
+      </button>`;
+    }).join('');
+
+    return `<article class="mcq-card">
+      <div class="mcq-top">
+        <div style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;">
+          <span class="pill pill-info">پرسش ${toFa(m.id)}</span>
+          <span class="pill ${lvlCls}">${m.level}</span>
+          <span style="font-size:0.84em;color:var(--ink-muted);">${m.catLabel}</span>
+        </div>
+        <button class="btn-icon ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('mcq_${m.id}', renderMCQs)">
+          ${isBm ? '★ نشان‌شده' : '☆ نشان کردن'}
+        </button>
+      </div>
+      <div class="mcq-q">${m.q}</div>
+      <div class="mcq-opts">${optsHtml}</div>
+      <div class="mcq-exp ${reveal ? 'show' : ''}">
+        <strong style="color:var(--primary);">❖ تحلیل صرفی و پاسخ دقیق (گزینۀ ${LETTERS[m.ans]}):</strong>
+        <div style="margin-top:4px;">${m.exp}</div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ============================================================================
+// MODULE 3: DESCRIPTIVE WORKSHOP
+// ============================================================================
+function setDescCat(cat, btn) {
+  ui.descCat = cat;
+  document.querySelectorAll('#desc-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderDesc();
+}
+function toggleDescBox(id, kind) {
+  const el = document.getElementById(`${kind}-${id}`);
+  if (el) el.classList.toggle('show');
+}
+function toggleAllDesc(open) {
+  document.querySelectorAll('#desc-list .ans-box').forEach(b => b.classList.toggle('show', open));
+}
+function toggleMastered(id) {
+  state.descMastered[id] = !state.descMastered[id];
+  if (!state.descMastered[id]) delete state.descMastered[id];
+  saveState();
+  renderDesc();
+}
+function saveScratch(id, val) { state.descScratch[id] = val; saveState(); }
+
+function renderDesc() {
+  const list = DATA.desc.filter(d => {
+    if (ui.descCat === 'bookmarked') return !!state.bookmarks['desc_' + d.id];
+    if (ui.descCat !== 'all' && d.cat !== ui.descCat) return false;
+    return true;
+  });
+
+  const el = document.getElementById('desc-list');
+  if (!list.length) {
+    el.innerHTML = `<div class="card" style="text-align:center;color:var(--ink-muted);">تمرینی در این بخش یافت نشد.</div>`;
+    return;
+  }
+
+  el.innerHTML = list.map(d => {
+    const isMast = !!state.descMastered[d.id];
+    const isBm   = !!state.bookmarks['desc_' + d.id];
+    const lvlCls = d.level === 'المپیادی' ? 'pill-extra' : (d.level === 'نکته‌سنج' ? 'pill-jaiz' : 'pill-info');
+    const savedText = (state.descScratch[d.id] || '').replace(/</g, '&lt;');
+
+    return `<article class="desc-card ${isMast ? 'mastered' : ''}">
+      <div class="mcq-top">
+        <div style="display:flex;gap:7px;flex-wrap:wrap;align-items:center;">
+          <span class="pill pill-info">${d.catLabel}</span>
+          <span class="pill ${lvlCls}">${d.level}</span>
+          <strong style="color:var(--primary);">${d.title}</strong>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center;">
+          <button class="btn-icon ${isMast ? 'bookmarked' : ''}" style="${isMast ? 'background:var(--emerald-soft);border-color:var(--emerald);color:var(--emerald);' : ''}" onclick="toggleMastered('${d.id}')">
+            ${isMast ? '✓ تسلّط یافتم' : '○ ثبت تسلّط'}
+          </button>
+          <button class="btn-icon ${isBm ? 'bookmarked' : ''}" onclick="toggleBookmark('desc_${d.id}', renderDesc)">
+            ${isBm ? '★ نشان‌شده' : '☆ نشان'}
+          </button>
+        </div>
+      </div>
+      <div style="margin-bottom:8px;">${d.prompt}</div>
+      <textarea class="scratchpad" placeholder="پاسخ تمرینی خود را پیش از مشاهدۀ کلید اینجا یادداشت کنید..." oninput="saveScratch('${d.id}', this.value)">${savedText}</textarea>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;">
+        <button class="btn btn-sm" onclick="toggleDescBox('${d.id}', 'hint')">مشاهدۀ راهنما (سرنخ)</button>
+        <button class="btn btn-sm btn-primary" onclick="toggleDescBox('${d.id}', 'ans')">پاسخ و کالبدشکافی کامل</button>
+      </div>
+      <div id="hint-${d.id}" class="hint-box"><b>◈ راهنما:</b> ${d.hint}</div>
+      <div id="ans-${d.id}" class="ans-box">
+        <div style="font-weight:700;color:var(--emerald);margin-bottom:4px;">❖ پاسخ تشریحی و تحلیل صرفی:</div>
+        <div>${d.answer}</div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ============================================================================
+// MODULE 4: RESEARCH LIBRARY
+// ============================================================================
+function setResTag(tag, btn) {
+  ui.resTag = tag;
+  document.querySelectorAll('#res-filters .filter-chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  renderResearch();
+}
+function saveResNote(id, val) { state.resNotes[id] = val; saveState(); }
+
+function renderResearch() {
+  const q = (document.getElementById('res-search').value || '').trim();
+  const list = DATA.research.filter(r => {
+    if (ui.resTag === 'bookmarked' && !state.bookmarks['res_' + r.id]) return false;
+    else if (ui.resTag !== 'all' && ui.resTag !== 'bookmarked' && r.tag !== ui.resTag) return false;
+    if (q) return `${r.title} ${r.verses} ${r.body.join(' ')} ${r.sources.join(' ')}`.includes(q);
+    return true;
+  });
+
+  const el = document.getElementById('research-list');
+  if (!list.length) {
+    el.innerHTML = `<div class="card" style="text-align:center;color:var(--ink-muted);">پژوهشی مطابق جستجوی شما یافت نشد.</div>`;
+    return;
+  }
+
+  el.innerHTML = list.map(r => {
+    const isBm = !!state.bookmarks['res_' + r.id];
+    const savedNote = (state.resNotes[r.id] || '').replace(/</g, '&lt;');
+    return `<article class="res-card">
+      <div class="res-head">
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+          <span class="pill" style="background:rgba(255,255,255,0.18);color:#F0D696;">${r.badge} • ${r.tag}</span>
+          <strong style="font-family:var(--font-title);font-size:1.04em;">${r.title}</strong>
+        </div>
+        <button class="hdr-btn" style="padding:4px 10px;font-size:0.84em;" onclick="toggleBookmark('res_${r.id}', renderResearch)">
+          ${isBm ? '★ نشان‌شده' : '☆ نشان کردن'}
+        </button>
+      </div>
+      <div class="res-body">
+        <div class="res-quote">${r.verses}</div>
+        ${r.body.map(p => `<p style="margin:0 0 10px;text-align:justify;">${p}</p>`).join('')}
+        <div style="background:var(--surface-alt);border-radius:8px;padding:11px 14px;margin-top:10px;">
+          <strong style="color:var(--primary);">◆ پرسش‌های تأمّلی برای بحث و مباحثه:</strong>
+          <ul style="margin:5px 0 0;padding-right:18px;">${r.questions.map(qq => `<li>${qq}</li>`).join('')}</ul>
+        </div>
+        <div class="res-sources">
+          <strong style="color:var(--primary);">❖ مستندات و منابع ارجاع پژوهشی:</strong>
+          <ul>${r.sources.map(s => `<li>${s}</li>`).join('')}</ul>
+        </div>
+        <div style="margin-top:12px;">
+          <label style="font-weight:700;font-size:0.9em;color:var(--ink-muted);">یادداشت پژوهشی و خلاصۀ مطالعۀ شما (ذخیرۀ خودکار):</label>
+          <textarea class="scratchpad" placeholder="نکات استخراج‌شده از تفاسیر و کتب مرجع را اینجا ثبت کنید..." oninput="saveResNote('${r.id}', this.value)">${savedNote}</textarea>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ============================================================================
+// MODULE 5: SMART PRINT / PDF BUILDER & JSON BACKUP
+// ============================================================================
+function triggerSmartPrint() {
+  const incRules = document.getElementById('pr-rules').checked;
+  const incMcqs  = document.getElementById('pr-mcqs').checked;
+  const incDesc  = document.getElementById('pr-desc').checked;
+  const incRes   = document.getElementById('pr-res').checked;
+  const incNotes = document.getElementById('pr-notes').checked;
+  const mode     = document.querySelector('input[name="pr-mode"]:checked').value;
+  const size     = document.querySelector('input[name="pr-size"]:checked').value;
+
+  document.getElementById('dynamic-page-style').textContent = size === 'a4'
+    ? '@page { size: A4; margin: 14mm 15mm; }'
+    : '@page { size: 165mm 235mm; margin: 12mm 12mm 13mm 12mm; }';
+
+  const modeLabel = mode === 'full' ? 'نسخۀ جامع آموزشی (با پاسخ‌نامۀ تشریحی)'
+                  : (mode === 'exam' ? 'نسخۀ خام امتحانی (ویژۀ برگزاری آزمون)' : 'نسخۀ کلید اختصاصی استاد');
+
+  let html = `
+    <div class="p-banner">
+      <p>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ &nbsp;|&nbsp; نظام جامع آموزش حوزۀ علمیۀ خراسان — ادبیات عرب ۱ (صرف) بخش ب</p>
+      <h1>کارگاه بیست‌وپنجم: اسم مثنّی، جمع سالم مذکّر و مؤنّث (بستۀ المپیادی و پژوهشی – رمزینۀ ۳)</h1>
+      <p>هم‌راستا با مدخل و دروس ۶۳، ۶۴ و ۶۵ کتاب «صرف الف» &nbsp;|&nbsp; ${modeLabel}</p>
+    </div>
+  `;
+
+  if (incRules) {
+    html += `<div class="p-sec-head">بخش اول: مرور سریع و ساختارنمای قواعد (منطبق بر صرف الف)</div>
+      <table class="p-table">
+        <thead><tr><th style="width:22%;">عنوان و درس</th><th style="width:36%;">ضابطه و الگو</th><th style="width:42%;">توضیح و شاهد کاربردی</th></tr></thead>
+        <tbody>
+          ${DATA.rules.map(r => `<tr><td><b>${r.title}</b><br><small>(${r.badge})</small></td><td><b>${r.formula}</b></td><td>${r.desc}<br><i>${r.example}</i></td></tr>`).join('')}
+        </tbody>
+      </table>`;
+  }
+
+  if (incMcqs) {
+    html += `<div class="p-sec-head">بخش دوم: آزمون چهارگزینه‌ای المپیادی (۲۵ پرسش)</div>`;
+    DATA.mcqs.forEach(m => {
+      if (mode === 'key') {
+        html += `<div class="p-item"><div class="p-q">پرسش ${toFa(m.id)} (${m.catLabel}) — پاسخ صحیح: گزینۀ ${LETTERS[m.ans]} (${m.opts[m.ans]})</div><div class="p-ans">${m.exp}</div></div>`;
+      } else {
+        html += `<div class="p-item">
+          <div class="p-q">${toFa(m.id)}. ${m.q}</div>
+          <div class="p-opts">${m.opts.map((o, i) => `<div>☐ ${LETTERS[i]}) ${o}</div>`).join('')}</div>
+          ${mode === 'full' ? `<div class="p-ans"><b>پاسخ (${LETTERS[m.ans]}):</b> ${m.exp}</div>` : ''}
+        </div>`;
+      }
+    });
+  }
+
+  if (incDesc) {
+    html += `<div class="p-sec-head">بخش سوم: کارگاه تشریحی، جدول تطبیقی و خطایابی المپیادی (۲۴ تمرین)</div>`;
+    DATA.desc.forEach((d, idx) => {
+      if (mode === 'key') {
+        html += `<div class="p-item"><div class="p-q">${toFa(idx+1)}. ${d.title} (${d.catLabel})</div><div class="p-ans">${d.answer}</div></div>`;
+      } else {
+        html += `<div class="p-item">
+          <div class="p-q">${toFa(idx+1)}. ${d.title} <small>(${d.catLabel} – ${d.level})</small></div>
+          <div>${d.prompt}</div>
+          ${mode === 'full' ? `<div class="p-ans"><b>پاسخ تشریحی:</b> ${d.answer}</div>` : `<div class="p-lines"></div><div class="p-lines"></div>`}
+        </div>`;
+      }
+    });
+  }
+
+  if (incRes) {
+    html += `<div class="p-sec-head">بخش چهارم: کتابخانۀ پژوهش‌های قرآنی، فقهی و متون مرجع صرفی (۶ پژوهش)</div>`;
+    DATA.research.forEach(r => {
+      const note = state.resNotes[r.id];
+      html += `<div class="p-item">
+        <div class="p-q">${r.badge}: ${r.title} (${r.tag})</div>
+        <div class="p-quote">${r.verses}</div>
+        ${mode !== 'exam' ? r.body.map(p => `<p style="margin:3pt 0;">${p}</p>`).join('') : ''}
+        <div style="margin-top:4pt;"><b>پرسش‌های تأمّلی:</b> ${r.questions.map((qq, i) => `${toFa(i+1)}) ${qq}`).join(' &nbsp;|&nbsp; ')}</div>
+        <div class="p-ans"><b>منابع ارجاع:</b> ${r.sources.join(' ؛ ')}</div>
+        ${mode === 'exam' ? `<div class="p-lines"></div><div class="p-lines"></div><div class="p-lines"></div>` : ''}
+        ${incNotes && note && note.trim() ? `<div class="p-ans"><b>یادداشت شخصی:</b> ${note.replace(/</g,'&lt;').replace(/\n/g,'<br>')}</div>` : ''}
+      </div>`;
+    });
+  }
+
+  document.getElementById('print-root').innerHTML = html;
+  setTimeout(() => window.print(), 120);
+}
+
+function exportUserData() {
+  const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'پشتیبان_کارگاه_۲۵_مثنی_و_جمع_سالم.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function importUserData(ev) {
+  const file = ev.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      state = Object.assign(state, JSON.parse(e.target.result));
+      saveState(); applyAppearance(); setExamMode(state.examMode);
+      renderReportCard(); renderMCQs(); renderDesc(); renderResearch();
+      alert('فایل پشتیبان با موفقیت بازیابی شد.');
+    } catch (err) {
+      alert('خطا در خواندن فایل پشتیبان؛ لطفاً فایل معتبر JSON انتخاب کنید.');
+    }
+  };
+  reader.readAsText(file, 'utf-8');
+}
+
+function clearAllProgress() {
+  if (!confirm('آیا از پاک‌سازی کامل کارنامه، تمرین‌ها، نشان‌شده‌ها و یادداشت‌های شخصی اطمینان دارید؟')) return;
+  state.examAnswers = {}; state.examSubmitted = false;
+  state.descMastered = {}; state.descScratch = {};
+  state.resNotes = {}; state.bookmarks = {};
+  saveState(); renderReportCard(); renderMCQs(); renderDesc(); renderResearch();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadState();
+  applyAppearance();
+  renderNounLab();
+  renderRules();
+  setExamMode(state.examMode);
+  renderTimer();
+  renderReportCard();
+  renderMCQs();
+  renderDesc();
+  renderResearch();
+  updateKPIs();
+});
+</script>
+</body>
+</html>
